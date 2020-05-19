@@ -21,6 +21,13 @@
                 "required": false, 
                 "type": "safe html", 
                 "vary": false
+            }, 
+            "0999-446f-a3dc": {
+                "id": "0999-446f-a3dc", 
+                "name": "related_links", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
             }
         }, 
         "name": "index"
