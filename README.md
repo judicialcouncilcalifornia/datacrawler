@@ -44,6 +44,14 @@ To detach from the login:
 Ctrl+P, then Ctrl+Q
 ```
 
+## The Process
+1. Create a project, eg. trialcourt-slo
+2. In the project, create a spider, eg. www.slo.courts.ca.gov
+3. In the spider, create Starting Pages
+4. Create sample pages to train the spider on what to extract
+5. Label the sample pages with the appropriate type.
+6. When adding properties, reuse the existing field type.
+
 ## Configuring the spider
 
 Use regex to limit the URL that will be crawled. For example, ```.*\/sh\/.*``` will only index urls with `/sh/`.
