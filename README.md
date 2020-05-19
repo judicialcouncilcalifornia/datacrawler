@@ -54,6 +54,9 @@ Ctrl+P, then Ctrl+Q
 
 ![Portia Screenshot](https://raw.githubusercontent.com/JudicialCouncilOfCalifornia/datacrawler/master/images/datacrawler-portia.png)
 
+### Sample Result
+https://github.com/JudicialCouncilOfCalifornia/datacrawler/blob/master/projects/trial-court-slo/results/all.json
+
 ## Configuring the spider
 
 Use regex to limit the URL that will be crawled. For example, ```.*\/sh\/.*``` will only index urls with `/sh/`.
