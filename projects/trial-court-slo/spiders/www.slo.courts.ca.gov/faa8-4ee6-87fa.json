@@ -96,6 +96,31 @@
                     "selector": "#contentWrap > div:nth-child(4) > .contentMain > .row > .col-xs-12 > .contentCenter > .row > .col-xs-12 > .row > .col-xs-12", 
                     "tagid": null, 
                     "xpath": "//*[@id=\"contentWrap\"]/div[4]/*[contains(concat(\" \", @class, \" \"), \" contentMain \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#contentWrap > div:nth-child(1) > a"
+                    ], 
+                    "container_id": "a9f7-4c96-ae37", 
+                    "data": {
+                        "918a-439f-96ea": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "2de0-4374-a420", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "23a3-4217-9934", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": "#contentWrap > div:nth-child(1) > a", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"contentWrap\"]/div[1]/a"
                 }
             ]
         }

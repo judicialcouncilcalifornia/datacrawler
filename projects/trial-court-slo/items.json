@@ -61,6 +61,13 @@
                 "required": false, 
                 "type": "url", 
                 "vary": false
+            }, 
+            "2e1f-4924-87c0": {
+                "id": "2e1f-4924-87c0", 
+                "name": "breadcrumbs", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
             }
         }, 
         "name": "child"
@@ -87,34 +94,15 @@
                 "required": false, 
                 "type": "safe html", 
                 "vary": false
-            }
-        }, 
-        "name": "subchild"
-    }, 
-    "8e7b-47aa-a9ba": {
-        "fields": {
-            "99f9-4431-bd12": {
-                "id": "99f9-4431-bd12", 
-                "name": "title", 
-                "required": false, 
-                "type": "text", 
-                "vary": false
             }, 
-            "c12a-4b1a-b45d": {
-                "id": "c12a-4b1a-b45d", 
-                "name": "parent", 
+            "2de0-4374-a420": {
+                "id": "2de0-4374-a420", 
+                "name": "breadcrumbs", 
                 "required": false, 
                 "type": "url", 
                 "vary": false
-            }, 
-            "a7c9-4275-ad77": {
-                "id": "a7c9-4275-ad77", 
-                "name": "body", 
-                "required": false, 
-                "type": "safe html", 
-                "vary": false
             }
         }, 
-        "name": "Superior Court of California - County of San Lui"
+        "name": "subchild"
     }
 }

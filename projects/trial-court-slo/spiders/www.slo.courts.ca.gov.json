@@ -12,52 +12,56 @@
     "respect_nofollow": false, 
     "start_urls": [
         {
-            "url": "https://www.slo.courts.ca.gov/sh/index.htm", 
-            "type": "url"
+            "type": "url", 
+            "url": "https://www.slo.courts.ca.gov/sh/index.htm"
         }, 
         {
-            "url": "https://www.slo.courts.ca.gov/sh/selfhelp-civilappeals.htm", 
-            "type": "url"
+            "type": "url", 
+            "url": "https://www.slo.courts.ca.gov/sh/selfhelp-civilappeals.htm"
         }, 
         {
-            "url": "https://www.slo.courts.ca.gov/sh/selfhelp-civilcourtfiles.htm", 
-            "type": "url"
+            "type": "url", 
+            "url": "https://www.slo.courts.ca.gov/sh/selfhelp-civilcourtfiles.htm"
         }, 
         {
-            "url": "https://www.slo.courts.ca.gov/sh/selfhelp-conduct.htm", 
-            "type": "url"
+            "type": "url", 
+            "url": "https://www.slo.courts.ca.gov/sh/selfhelp-conduct.htm"
         }, 
         {
-            "url": "https://www.slo.courts.ca.gov/sh/selfhelp-courtstaff.htm", 
-            "type": "url"
+            "type": "url", 
+            "url": "https://www.slo.courts.ca.gov/sh/selfhelp-courtstaff.htm"
         }, 
         {
-            "url": "https://www.slo.courts.ca.gov/os/index.htm", 
-            "type": "url"
+            "type": "url", 
+            "url": "https://www.slo.courts.ca.gov/os/index.htm"
         }, 
         {
-            "url": "https://www.slo.courts.ca.gov/os/efiling.htm", 
-            "type": "url"
+            "type": "url", 
+            "url": "https://www.slo.courts.ca.gov/os/efiling.htm"
         }, 
         {
-            "url": "https://www.slo.courts.ca.gov/dv/index.htm", 
-            "type": "url"
+            "type": "url", 
+            "url": "https://www.slo.courts.ca.gov/dv/index.htm"
         }, 
         {
-            "url": "https://www.slo.courts.ca.gov/dv/civil.htm", 
-            "type": "url"
+            "type": "url", 
+            "url": "https://www.slo.courts.ca.gov/dv/civil.htm"
         }, 
         {
-            "url": "https://www.slo.courts.ca.gov/dv/civil-adr.htm", 
-            "type": "url"
+            "type": "url", 
+            "url": "https://www.slo.courts.ca.gov/dv/civil-adr.htm"
         }, 
         {
-            "url": "https://www.slo.courts.ca.gov/gi/index.htm", 
-            "type": "url"
+            "type": "url", 
+            "url": "https://www.slo.courts.ca.gov/gi/index.htm"
         }, 
         {
-            "url": "https://www.slo.courts.ca.gov/gi/contracts.htm", 
-            "type": "url"
+            "type": "url", 
+            "url": "https://www.slo.courts.ca.gov/gi/contracts.htm"
+        }, 
+        {
+            "type": "url", 
+            "url": "https://www.slo.courts.ca.gov/dv/traffic-appearance.htm"
         }
     ]
 }
