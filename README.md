@@ -11,23 +11,23 @@ Uses the following tools:
 # Go to this projects root directory
 
 # Run the container
-# Replace "~/Sites/scrapy-portia" with the full path to the project directory
-% docker run -d -v ~/Sites/scrapy-portia:/app/data/projects:rw -p 9001:9001 --name portia scrapinghub/portia
+# Replace "~/Sites/datacrawler" with the full path to the project directory
+% docker run -d -v ~/Sites/datacrawler:/app/data/projects:rw -p 9001:9001 --name datacrawler scrapinghub/portia
 
 # Visit http://localhost:9001
 
 # To stop the container
-% docker stop portia
+% docker stop datacrawler
 # To start the container
-% docker start portia
+% docker start datacrawler
 # To remove the container
-% docker rm portia
+% docker rm datacrawler
 ```
 
 ## Running the spider
 To run the spider, login to the container:
 ```shell script
-% docker exec -it portia /bin/bash
+% docker exec -it datacrawler /bin/bash
 ```
 In the container, go to the project folder:
 ```shell script
@@ -43,3 +43,7 @@ To detach from the login:
 ```shell script
 Ctrl+P, then Ctrl+Q
 ```
+
+## Configuring the spider
+
+Use regex to limit the URL that will be crawled. For example, ```.*\/sh\/.*``` will only index urls with `/sh/`.
