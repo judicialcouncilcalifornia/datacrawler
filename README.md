@@ -11,8 +11,8 @@ Uses the following tools:
 # Go to this projects root directory
 
 # Run the container
-# Replace "~/Sites/datacrawler" with the full path to the project directory
-% docker run -d -v ~/Sites/datacrawler:/app/data/projects:rw -p 9001:9001 --name datacrawler scrapinghub/portia
+# Replace "~/Sites/datacrawler/projects" with the full path to the project directory
+% docker run -d -v ~/Sites/datacrawler/projects:/app/data/projects:rw -p 9001:9001 --name datacrawler scrapinghub/portia
 
 # Visit http://localhost:9001
 

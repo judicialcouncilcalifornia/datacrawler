@@ -1,0 +1,107 @@
+{
+    "extractors": {}, 
+    "id": "04b4-42bc-b369", 
+    "name": "child", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "5a52-41d0-81ee", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "7c40-4137-b23d", 
+                    "selector": "#contentWrap", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "5a52-41d0-81ee", 
+                    "data": {
+                        "6937-46ff-b3dc": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "a766-411b-bdb6", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "889d-4438-a767", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#contentWrap > div:nth-child(4) > .contentMain > .row > div:nth-child(1) > .hero > .hero2 > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"contentWrap\"]/div[4]/*[contains(concat(\" \", @class, \" \"), \" contentMain \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/div[1]/*[contains(concat(\" \", @class, \" \"), \" hero \")]/*[contains(concat(\" \", @class, \" \"), \" hero2 \")]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:nth-child(3)"
+                    ], 
+                    "container_id": "5a52-41d0-81ee", 
+                    "data": {
+                        "7f0b-4b37-a809": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "71d7-4620-a69e", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "d77a-4a80-981b", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#contentWrap > div:nth-child(1) > a:nth-child(3)", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"contentWrap\"]/div[1]/a[3]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter > .row > .col-xs-12 > .row > .col-xs-12"
+                    ], 
+                    "container_id": "5a52-41d0-81ee", 
+                    "data": {
+                        "7e37-41fa-b2fd": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8ed2-47a7-930d", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "5c01-46d2-b48a", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#contentWrap > div:nth-child(4) > .contentMain > .row > .col-xs-12 > .contentCenter > .row > .col-xs-12 > .row > .col-xs-12", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"contentWrap\"]/div[4]/*[contains(concat(\" \", @class, \" \"), \" contentMain \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "7c40-4137-b23d", 
+    "spider": "www.slo.courts.ca.gov", 
+    "url": "https://www.slo.courts.ca.gov/gi/contracts.htm", 
+    "version": "0.13.3"
+}

@@ -1,0 +1,107 @@
+{
+    "extractors": {}, 
+    "id": "cb08-44eb-bd24", 
+    "name": "child", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "b0f6-4283-827f", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "7c40-4137-b23d", 
+                    "selector": "#contentWrap", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "b0f6-4283-827f", 
+                    "data": {
+                        "5e7c-44ff-9cf2": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "a766-411b-bdb6", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "8127-490e-8aff", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#contentWrap > div:nth-child(4) > .contentMain > .row > div:nth-child(1) > .hero > .hero2 > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"contentWrap\"]/div[4]/*[contains(concat(\" \", @class, \" \"), \" contentMain \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/div[1]/*[contains(concat(\" \", @class, \" \"), \" hero \")]/*[contains(concat(\" \", @class, \" \"), \" hero2 \")]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:nth-child(3)"
+                    ], 
+                    "container_id": "b0f6-4283-827f", 
+                    "data": {
+                        "4309-460c-af49": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "71d7-4620-a69e", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "6c37-4e41-aa42", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#contentWrap > div:nth-child(1) > a:nth-child(3)", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"contentWrap\"]/div[1]/a[3]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#contentWrap > div:nth-child(4) > .contentMain > .row > .col-xs-12 > .contentCenter > .row > .col-xs-12 > .row > .col-xs-12 > .content"
+                    ], 
+                    "container_id": "b0f6-4283-827f", 
+                    "data": {
+                        "16ec-48b6-bb96": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8ed2-47a7-930d", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "5555-417f-8e27", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#contentWrap > div:nth-child(4) > .contentMain > .row > .col-xs-12 > .contentCenter > .row > .col-xs-12 > .row > .col-xs-12 > .content", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"contentWrap\"]/div[4]/*[contains(concat(\" \", @class, \" \"), \" contentMain \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" content \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "7c40-4137-b23d", 
+    "spider": "www.slo.courts.ca.gov", 
+    "url": "https://www.slo.courts.ca.gov/sh/selfhelp-conduct.htm", 
+    "version": "0.13.3"
+}
