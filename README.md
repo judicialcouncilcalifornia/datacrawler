@@ -37,7 +37,7 @@ In the container, go to the project folder:
 % portiacrawl PROJECT_PATH SPIDER_NAME
 
 # Run the spider and save to file
-% portiacrawl PROJECT_PATH SPIDER_NAME -o results.json
+% portiacrawl PROJECT_PATH SPIDER_NAME -o PROJECT_PATH/results/all.json
 ```
 To detach from the login:
 ```shell script
