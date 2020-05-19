@@ -1,0 +1,107 @@
+{
+    "extractors": {}, 
+    "id": "6103-44c8-94ec", 
+    "name": "child-dv-f", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "a6c0-4d54-8194", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "6bd4-465b-a745", 
+                    "selector": ".contentMain > .row", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:last-of-type"
+                    ], 
+                    "container_id": "a6c0-4d54-8194", 
+                    "data": {
+                        "f962-48e2-b5c6": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "e85d-4f3b-8c7b", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "3219-45f9-9a65", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "a6c0-4d54-8194", 
+                    "data": {
+                        "c3c0-413e-9f26": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "3aac-41fa-87e6", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "9d1b-4371-9829", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".contentMain > .row > div:nth-child(1) > .hero > .hero2 > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentMain \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/div[1]/*[contains(concat(\" \", @class, \" \"), \" hero \")]/*[contains(concat(\" \", @class, \" \"), \" hero2 \")]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter > .row > .col-xs-12 > .row > .col-xs-12"
+                    ], 
+                    "container_id": "a6c0-4d54-8194", 
+                    "data": {
+                        "bfaf-43ac-9025": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "e895-48ca-9c26", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "5541-4b0e-abbc", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".contentMain > .row > .col-xs-12 > .contentCenter > .row > .col-xs-12 > .row > .col-xs-12", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentMain \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "6bd4-465b-a745", 
+    "spider": "www.slo.courts.ca.gov", 
+    "url": "https://www.slo.courts.ca.gov/dv/familycourt.htm", 
+    "version": "0.13.3"
+}

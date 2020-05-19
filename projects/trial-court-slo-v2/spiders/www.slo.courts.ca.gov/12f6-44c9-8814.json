@@ -1,0 +1,107 @@
+{
+    "extractors": {}, 
+    "id": "12f6-44c9-8814", 
+    "name": "child-sh-b", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "365d-4308-a299", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "6bd4-465b-a745", 
+                    "selector": ".hero2", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb a:last-of-type"
+                    ], 
+                    "container_id": "365d-4308-a299", 
+                    "data": {
+                        "af69-41d6-a656": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "e85d-4f3b-8c7b", 
+                            "required": true
+                        }
+                    }, 
+                    "id": "de31-4ec0-9de9", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb a:last-of-type\"]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "365d-4308-a299", 
+                    "data": {
+                        "26de-406b-aa78": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "3aac-41fa-87e6", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "129b-4e57-a619", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".contentMain > .row > div:nth-child(1) > .hero > .hero2 > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentMain \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/div[1]/*[contains(concat(\" \", @class, \" \"), \" hero \")]/*[contains(concat(\" \", @class, \" \"), \" hero2 \")]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentMain > .row > .col-xs-12 > .contentCenter > .row > .col-xs-12"
+                    ], 
+                    "container_id": "365d-4308-a299", 
+                    "data": {
+                        "a1df-42e9-b757": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "e895-48ca-9c26", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "dc2a-4df6-93fe", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".contentMain > .row > .col-xs-12 > .contentCenter > .row > .col-xs-12", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentMain \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "6bd4-465b-a745", 
+    "spider": "www.slo.courts.ca.gov", 
+    "url": "https://www.slo.courts.ca.gov/sh/selfhelp-bankruptcy.htm", 
+    "version": "0.13.3"
+}

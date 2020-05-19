@@ -1,0 +1,28 @@
+{
+    "6bd4-465b-a745": {
+        "fields": {
+            "3aac-41fa-87e6": {
+                "id": "3aac-41fa-87e6", 
+                "name": "title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "e85d-4f3b-8c7b": {
+                "id": "e85d-4f3b-8c7b", 
+                "name": "parent", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }, 
+            "e895-48ca-9c26": {
+                "id": "e895-48ca-9c26", 
+                "name": "body", 
+                "required": false, 
+                "type": "safe html", 
+                "vary": false
+            }
+        }, 
+        "name": "index"
+    }
+}
