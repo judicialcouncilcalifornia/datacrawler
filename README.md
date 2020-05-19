@@ -52,6 +52,8 @@ Ctrl+P, then Ctrl+Q
 5. Label the sample pages with the appropriate type.
 6. When adding properties, reuse the existing field type.
 
+![Portia Screenshot](https://raw.githubusercontent.com/JudicialCouncilOfCalifornia/datacrawler/master/images/datacrawler-portia.png)
+
 ## Configuring the spider
 
 Use regex to limit the URL that will be crawled. For example, ```.*\/sh\/.*``` will only index urls with `/sh/`.
