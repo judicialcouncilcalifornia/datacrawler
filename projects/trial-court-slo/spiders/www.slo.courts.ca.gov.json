@@ -10,8 +10,8 @@
     "respect_nofollow": false, 
     "start_urls": [
         {
-            "url": "https://www.slo.courts.ca.gov/", 
-            "type": "url"
+            "type": "url", 
+            "url": "https://www.slo.courts.ca.gov/"
         }
     ]
 }
