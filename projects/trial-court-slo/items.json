@@ -1,108 +1,42 @@
 {
-    "1e06-49af-9762": {
+    "6bd4-465b-a745": {
         "fields": {
-            "a0ed-4f0a-83f2": {
-                "id": "a0ed-4f0a-83f2", 
+            "3aac-41fa-87e6": {
+                "id": "3aac-41fa-87e6", 
                 "name": "title", 
                 "required": false, 
                 "type": "text", 
                 "vary": false
             }, 
-            "c3bf-4998-9b20": {
-                "id": "c3bf-4998-9b20", 
+            "e85d-4f3b-8c7b": {
+                "id": "e85d-4f3b-8c7b", 
                 "name": "parent", 
                 "required": false, 
                 "type": "url", 
                 "vary": false
             }, 
-            "451c-41e5-ba76": {
-                "id": "451c-41e5-ba76", 
+            "e895-48ca-9c26": {
+                "id": "e895-48ca-9c26", 
                 "name": "body", 
                 "required": false, 
                 "type": "safe html", 
                 "vary": false
             }, 
-            "d40a-477a-b5c9": {
-                "id": "d40a-477a-b5c9", 
+            "0999-446f-a3dc": {
+                "id": "0999-446f-a3dc", 
                 "name": "related_links", 
                 "required": false, 
                 "type": "url", 
+                "vary": false
+            }, 
+            "de3d-4b29-b023": {
+                "id": "de3d-4b29-b023", 
+                "name": "topics", 
+                "required": false, 
+                "type": "text", 
                 "vary": false
             }
         }, 
         "name": "index"
-    }, 
-    "7c40-4137-b23d": {
-        "fields": {
-            "a766-411b-bdb6": {
-                "id": "a766-411b-bdb6", 
-                "name": "title", 
-                "required": false, 
-                "type": "text", 
-                "vary": false
-            }, 
-            "71d7-4620-a69e": {
-                "id": "71d7-4620-a69e", 
-                "name": "parent", 
-                "required": false, 
-                "type": "url", 
-                "vary": false
-            }, 
-            "8ed2-47a7-930d": {
-                "id": "8ed2-47a7-930d", 
-                "name": "body", 
-                "required": false, 
-                "type": "safe html", 
-                "vary": false
-            }, 
-            "a96f-4bc3-86fe": {
-                "id": "a96f-4bc3-86fe", 
-                "name": "related_links", 
-                "required": false, 
-                "type": "url", 
-                "vary": false
-            }, 
-            "2e1f-4924-87c0": {
-                "id": "2e1f-4924-87c0", 
-                "name": "breadcrumbs", 
-                "required": false, 
-                "type": "url", 
-                "vary": false
-            }
-        }, 
-        "name": "child"
-    }, 
-    "2dcf-49be-af22": {
-        "fields": {
-            "3a9a-4296-b7fe": {
-                "id": "3a9a-4296-b7fe", 
-                "name": "title", 
-                "required": false, 
-                "type": "text", 
-                "vary": false
-            }, 
-            "a532-4b4b-aa76": {
-                "id": "a532-4b4b-aa76", 
-                "name": "parent", 
-                "required": false, 
-                "type": "url", 
-                "vary": false
-            }, 
-            "cf39-4369-8d49": {
-                "id": "cf39-4369-8d49", 
-                "name": "body", 
-                "required": false, 
-                "type": "safe html", 
-                "vary": false
-            }, 
-            "2de0-4374-a420": {
-                "id": "2de0-4374-a420", 
-                "name": "breadcrumbs", 
-                "required": false, 
-                "type": "url", 
-                "vary": false
-            }
-        }, 
-        "name": "subchild"
     }
 }

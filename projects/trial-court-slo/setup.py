@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='trial-court-slo',
+    name='trial-court-slo-v2',
     version='1.0',
     packages=find_packages(),
     data_files = [
