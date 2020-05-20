@@ -28,6 +28,13 @@
                 "required": false, 
                 "type": "url", 
                 "vary": false
+            }, 
+            "de3d-4b29-b023": {
+                "id": "de3d-4b29-b023", 
+                "name": "topics", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
             }
         }, 
         "name": "index"
