@@ -17,7 +17,7 @@
                     "repeated": false, 
                     "required": [], 
                     "schema_id": "6bd4-465b-a745", 
-                    "selector": "#mainContentWrap", 
+                    "selector": "#pageContent", 
                     "siblings": 0, 
                     "tagid": null, 
                     "text-content": "#portia-content"
@@ -43,9 +43,9 @@
                     "required": [], 
                     "repeated": false, 
                     "selection_mode": "auto", 
-                    "selector": "#mainContentWrap > .contentMain > .row > div:nth-child(1) > .hero > .hero2 > h1", 
+                    "selector": "#pageContent > .shadow > .col-xs-12 > .row > div:nth-child(4) > .contentMain > .row > div:nth-child(1) > .hero > .hero2 > h1", 
                     "tagid": null, 
-                    "xpath": "//*[@id=\"mainContentWrap\"]/*[contains(concat(\" \", @class, \" \"), \" contentMain \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/div[1]/*[contains(concat(\" \", @class, \" \"), \" hero \")]/*[contains(concat(\" \", @class, \" \"), \" hero2 \")]/h1"
+                    "xpath": "//*[@id=\"pageContent\"]/*[contains(concat(\" \", @class, \" \"), \" shadow \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/div[4]/*[contains(concat(\" \", @class, \" \"), \" contentMain \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/div[1]/*[contains(concat(\" \", @class, \" \"), \" hero \")]/*[contains(concat(\" \", @class, \" \"), \" hero2 \")]/h1"
                 }, 
                 {
                     "accept_selectors": [
@@ -146,6 +146,31 @@
                     "selector": ".contentLeftColumn > .row > .col-xs-12 > p > a", 
                     "tagid": null, 
                     "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentLeftColumn \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/p/a"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:nth-of-type(2)"
+                    ], 
+                    "container_id": "8572-49a4-8f64", 
+                    "data": {
+                        "6a24-4fc9-9166": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "a647-4374-840a", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "4a05-4ddd-bf42", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:nth-of-type(2)", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
                 }
             ]
         }

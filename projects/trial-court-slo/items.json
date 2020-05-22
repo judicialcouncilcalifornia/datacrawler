@@ -35,6 +35,13 @@
                 "required": false, 
                 "type": "text", 
                 "vary": false
+            }, 
+            "a647-4374-840a": {
+                "id": "a647-4374-840a", 
+                "name": "grandparent", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
             }
         }, 
         "name": "index"

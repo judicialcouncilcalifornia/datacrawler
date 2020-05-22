@@ -17,7 +17,7 @@
                     "repeated": false, 
                     "required": [], 
                     "schema_id": "6bd4-465b-a745", 
-                    "selector": "#mainContentWrap", 
+                    "selector": "#home", 
                     "siblings": 0, 
                     "tagid": null, 
                     "text-content": "#portia-content"
@@ -146,6 +146,31 @@
                     "selector": "#level1 > .nav > li > a.active", 
                     "tagid": null, 
                     "xpath": "//*[@id=\"level1\"]/*[contains(concat(\" \", @class, \" \"), \" nav \")]/li/a[contains(concat(\" \", @class, \" \"), \" active \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:nth-of-type(2)"
+                    ], 
+                    "container_id": "8b73-4b46-8148", 
+                    "data": {
+                        "18cb-4636-83dc": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "a647-4374-840a", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "05d1-4e53-8b4b", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:nth-of-type(2)", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
                 }
             ]
         }
