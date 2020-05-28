@@ -11,33 +11,31 @@ Uses the following tools:
 # Go to this projects root directory
 
 # Run the container
-# Replace "~/Sites/datacrawler/projects" with the full path to the project directory
-% docker run -d -v ~/Sites/datacrawler/projects:/app/data/projects:rw -p 9001:9001 --name datacrawler scrapinghub/portia
+% make run
 
 # Visit http://localhost:9001
 
 # To stop the container
-% docker stop datacrawler
+% make stop
 # To start the container
-% docker start datacrawler
+% make start
 # To remove the container
-% docker rm datacrawler
+% make rm
+# To see the logs
+% make logs
 ```
 
 ## Running the spider
 To run the spider, login to the container:
 ```shell script
-% docker exec -it datacrawler /bin/bash
+% make shell
 ```
-In the container, go to the project folder:
-```shell script
-% cd /app/data/projects
 
 # Run the spider
-% portiacrawl PROJECT_PATH SPIDER_NAME
+% portiacrawl projects/PROJECT_NAME SPIDER_NAME
 
 # Run the spider and save to file
-% portiacrawl PROJECT_PATH SPIDER_NAME -o PROJECT_PATH/results/all.json
+% portiacrawl projects/PROJECT_NAME SPIDER_NAME -o PROJECT_PATH/results/all.json
 ```
 To detach from the login:
 ```shell script
