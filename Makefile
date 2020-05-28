@@ -2,7 +2,7 @@
 
 PORTS ?= -p 9001:9001
 NAME ?= datacrawler
-VOLUME ?= $(PWD)
+VOLUME ?= $(PWD)/projects
 
 .PHONY: shell run start stop logs rm
 

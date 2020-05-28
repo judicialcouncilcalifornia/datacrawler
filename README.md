@@ -29,16 +29,14 @@ Uses the following tools:
 To run the spider, login to the container:
 ```shell script
 % make shell
-```
 
 # Run the spider
-% portiacrawl projects/PROJECT_NAME SPIDER_NAME
+% portiacrawl PROJECT_NAME SPIDER_NAME
 
 # Run the spider and save to file
-% portiacrawl projects/PROJECT_NAME SPIDER_NAME -o PROJECT_PATH/results/all.json
-```
-To detach from the login:
-```shell script
+% portiacrawl PROJECT_NAME SPIDER_NAME -o PROJECT_PATH/results/all.json
+
+#To detach from the login:
 Ctrl+P, then Ctrl+Q
 ```
 
