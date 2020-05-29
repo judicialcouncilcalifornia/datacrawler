@@ -1,0 +1,28 @@
+{
+    "201f-44b3-ae96": {
+        "fields": {
+            "c74b-4933-81ed": {
+                "id": "c74b-4933-81ed", 
+                "name": "title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "5a26-44fb-9b97": {
+                "id": "5a26-44fb-9b97", 
+                "name": "body", 
+                "required": false, 
+                "type": "safe html", 
+                "vary": false
+            }, 
+            "2578-4ddd-a6fb": {
+                "id": "2578-4ddd-a6fb", 
+                "name": "parent", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }
+        }, 
+        "name": "page"
+    }
+}

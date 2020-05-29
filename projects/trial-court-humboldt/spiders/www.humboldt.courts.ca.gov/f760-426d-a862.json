@@ -1,0 +1,107 @@
+{
+    "extractors": {}, 
+    "id": "f760-426d-a862", 
+    "name": "child-family-law", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "67e4-45be-8213", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "201f-44b3-ae96", 
+                    "selector": "#contentWrap", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "67e4-45be-8213", 
+                    "data": {
+                        "5118-4ef5-abcd": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c74b-4933-81ed", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "1ab4-4c84-a5ef", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#contentWrap > div:nth-child(4) > .contentMain > .row > div:nth-child(1) > .hero > .hero2 > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"contentWrap\"]/div[4]/*[contains(concat(\" \", @class, \" \"), \" contentMain \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/div[1]/*[contains(concat(\" \", @class, \" \"), \" hero \")]/*[contains(concat(\" \", @class, \" \"), \" hero2 \")]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter > .row > .col-xs-12"
+                    ], 
+                    "container_id": "67e4-45be-8213", 
+                    "data": {
+                        "7441-492b-8331": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "5a26-44fb-9b97", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "fa28-4001-8ff9", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#contentWrap > div:nth-child(4) > .contentMain > .row > .col-xs-12 > .contentCenter > .row > .col-xs-12", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"contentWrap\"]/div[4]/*[contains(concat(\" \", @class, \" \"), \" contentMain \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:last-of-type"
+                    ], 
+                    "container_id": "67e4-45be-8213", 
+                    "data": {
+                        "333f-48dd-8b6c": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "2578-4ddd-a6fb", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "4ec2-4a13-8afa", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "201f-44b3-ae96", 
+    "spider": "www.humboldt.courts.ca.gov", 
+    "url": "https://www.humboldt.courts.ca.gov/sh/familylaw.htm", 
+    "version": "0.13.3"
+}
