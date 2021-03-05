@@ -1,0 +1,107 @@
+{
+    "extractors": {}, 
+    "id": "a87d-4ea9-93d8", 
+    "name": "dv", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "29b3-4c86-a382", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "3986-4ab4-9a1f", 
+                    "selector": null, 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentMain h1"
+                    ], 
+                    "container_id": "29b3-4c86-a382", 
+                    "data": {
+                        "440f-48f0-b2a9": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c9b1-49a1-be82", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "455e-4199-a9e5", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentMain h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentMain h1 \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter"
+                    ], 
+                    "container_id": "29b3-4c86-a382", 
+                    "data": {
+                        "bead-4cbd-81a8": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "4140-427f-aac3", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "5f66-4c76-b90d", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenter", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:last-of-type"
+                    ], 
+                    "container_id": "29b3-4c86-a382", 
+                    "data": {
+                        "0a77-427c-b1b3": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "246b-417f-9d41", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "854c-4f61-ae95", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "3986-4ab4-9a1f", 
+    "spider": "www.sierra.courts.ca.gov", 
+    "url": "https://www.sierra.courts.ca.gov/divisions/index.htm", 
+    "version": "0.13.3"
+}

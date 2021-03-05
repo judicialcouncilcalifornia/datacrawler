@@ -1,0 +1,6 @@
+{
+    "2158-47ed-9ded": {
+        "id": "2158-47ed-9ded", 
+        "regular_expression": "\\b(?!Updated:|Effective)\\b.*"
+    }
+}

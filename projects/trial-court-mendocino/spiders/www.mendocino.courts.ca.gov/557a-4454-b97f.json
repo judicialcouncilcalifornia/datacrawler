@@ -1,0 +1,207 @@
+{
+    "extractors": {}, 
+    "id": "557a-4454-b97f", 
+    "name": "dv-civil", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "c435-4a44-b57e", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "c368-407c-ab33", 
+                    "selector": ".contentCenterWide", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".hero .title"
+                    ], 
+                    "container_id": "c435-4a44-b57e", 
+                    "data": {
+                        "700e-49a8-885b": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "a044-4868-8a6b", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "723f-4a30-835e", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".hero .title", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero .title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".banner wrap, .hero .banner2, .contentCenter, .simpleModule10, .contentCenterWide .simpleModule, .contentCenterWide .alignModule, .contentCenterWide .simpleModule3, .contentCenterWide .simpleModule"
+                    ], 
+                    "container_id": "c435-4a44-b57e", 
+                    "data": {
+                        "430c-4920-840f": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "5173-4eab-b2eb", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "a90c-4976-bb6d", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".banner wrap, .hero .banner2, .contentCenter, .simpleModule10, .contentCenterWide .simpleModule, .contentCenterWide .alignModule, .contentCenterWide .simpleModule3, .contentCenterWide .simpleModule", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" banner wrap \")] | //*[contains(concat(\" \", @class, \" \"), \" hero .banner2 \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenter \")] | //*[contains(concat(\" \", @class, \" \"), \" simpleModule10 \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .simpleModule \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .alignModule \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .simpleModule3 \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .simpleModule \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".subMenu p > a:last-of-type"
+                    ], 
+                    "container_id": "c435-4a44-b57e", 
+                    "data": {
+                        "587b-4bb9-96f6": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "167d-4a3a-b062", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "cd1f-4768-a924", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".subMenu p > a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" subMenu p \")]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".subMenu p > a:nth-of-type(2)"
+                    ], 
+                    "container_id": "c435-4a44-b57e", 
+                    "data": {
+                        "f7ce-4a33-a37b": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "c3e2-4297-af13", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "95f4-4e1b-8de5", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".subMenu p > a:nth-of-type(2)", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" subMenu p \")]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#leftNav .selected"
+                    ], 
+                    "container_id": "c435-4a44-b57e", 
+                    "data": {
+                        "ba79-4340-9d55": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "5640-4047-a5e3", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "4d7f-432c-8ff2", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#leftNav .selected", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"leftNav .selected\"]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentColumn .simpleModule ul li a"
+                    ], 
+                    "container_id": "c435-4a44-b57e", 
+                    "data": {
+                        "6ddd-4bab-9f96": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "936d-46bf-aa38", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "2ea0-4e75-8141", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentColumn .simpleModule ul li a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentColumn .simpleModule ul li a \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentColumn .simpleModule ul li a"
+                    ], 
+                    "container_id": "c435-4a44-b57e", 
+                    "data": {
+                        "e120-47f2-87f6": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "5731-4032-8591", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "0a90-4f3a-aa7f", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentColumn .simpleModule ul li a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentColumn .simpleModule ul li a \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "c368-407c-ab33", 
+    "spider": "www.mendocino.courts.ca.gov", 
+    "url": "https://www.mendocino.courts.ca.gov/divisions/civil/civil.html", 
+    "version": "0.13.3"
+}

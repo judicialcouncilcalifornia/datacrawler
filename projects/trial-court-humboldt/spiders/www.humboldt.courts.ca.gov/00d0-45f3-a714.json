@@ -1,0 +1,109 @@
+{
+    "extractors": {}, 
+    "id": "00d0-45f3-a714", 
+    "name": "home", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "7c3c-4e3e-9390", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "edd6-4585-9062", 
+                    "selector": ".contentLeftHomeColumn > .row > .col-xs-12 > p:nth-child(2)", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentLeftHomeColumn p a"
+                    ], 
+                    "container_id": "7c3c-4e3e-9390", 
+                    "data": {
+                        "f613-46ea-93eb": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "4a86-4991-bc6b", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "2a6e-4ccd-b5f2", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentLeftHomeColumn p a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentLeftHomeColumn p a \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentLeftHomeColumn p a"
+                    ], 
+                    "container_id": "7c3c-4e3e-9390", 
+                    "data": {
+                        "c5df-418f-9a56": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "bdb7-4a7b-87cb", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "c434-45b7-8700", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentLeftHomeColumn p a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentLeftHomeColumn p a \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentLeftHomeColumn p .date"
+                    ], 
+                    "container_id": "7c3c-4e3e-9390", 
+                    "data": {
+                        "9d57-4e34-a05b": {
+                            "attribute": "content", 
+                            "extractors": [
+                                "b2b2-4a28-ac2d"
+                            ], 
+                            "field": "abcc-4ea7-995b", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "9fdb-4594-b41d", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentLeftHomeColumn p .date", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentLeftHomeColumn p .date \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "edd6-4585-9062", 
+    "spider": "www.humboldt.courts.ca.gov", 
+    "url": "https://www.humboldt.courts.ca.gov/", 
+    "version": "0.13.3"
+}

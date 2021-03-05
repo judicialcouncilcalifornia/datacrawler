@@ -1,0 +1,157 @@
+{
+    "extractors": {}, 
+    "id": "0b2f-49d7-9aa1", 
+    "name": "gi-local-rules", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "835c-4ba2-aff8", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "b963-425c-b331", 
+                    "selector": ".hero2", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "835c-4ba2-aff8", 
+                    "data": {
+                        "97e4-4734-8ef9": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "851c-4f73-bda2", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "9865-46b5-af62", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".hero2 > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero2 \")]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter"
+                    ], 
+                    "container_id": "835c-4ba2-aff8", 
+                    "data": {
+                        "45e6-47ba-a998": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "4c12-485b-9463", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "0d0a-4298-97c8", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenter", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:last-of-type"
+                    ], 
+                    "container_id": "835c-4ba2-aff8", 
+                    "data": {
+                        "bea2-4eae-a6b7": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "777c-4db9-af9c", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "40f5-48d5-85e5", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:nth-of-type(2)"
+                    ], 
+                    "container_id": "835c-4ba2-aff8", 
+                    "data": {
+                        "1418-4bbb-af24": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "d095-4a29-b7ee", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "61a6-4c15-93ff", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:nth-of-type(2)", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#level1 > .nav > li > a.active"
+                    ], 
+                    "container_id": "835c-4ba2-aff8", 
+                    "data": {
+                        "20ef-4fb6-99eb": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "0b9f-47ea-b398", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "ed89-49a2-90bb", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#level1 > .nav > li > a.active", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"level1\"]/*[contains(concat(\" \", @class, \" \"), \" nav \")]/li/a[contains(concat(\" \", @class, \" \"), \" active \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "b963-425c-b331", 
+    "spider": "www.inyocourt.ca.gov", 
+    "url": "http://www.inyocourt.ca.gov/generalinfo/localrules.htm", 
+    "version": "0.13.3"
+}

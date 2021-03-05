@@ -1,0 +1,157 @@
+{
+    "extractors": {}, 
+    "id": "df89-4ba1-9e5f", 
+    "name": "gi-ada", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "e1b2-4d87-9d73", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "1dcf-4298-997b", 
+                    "selector": ".hero2", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "e1b2-4d87-9d73", 
+                    "data": {
+                        "2437-4c7c-a6a4": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "dff0-4271-a463", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "7ae0-4aed-9417", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".hero2 > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero2 \")]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter, .hero .descText, #mainContent"
+                    ], 
+                    "container_id": "e1b2-4d87-9d73", 
+                    "data": {
+                        "b5e9-43ab-a00c": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "bde8-4323-86f7", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "cb85-47b3-a44e", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenter, .hero .descText, #mainContent", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")] | //*[contains(concat(\" \", @class, \" \"), \" hero .descText \")] | //*[@id=\"mainContent\"]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:last-of-type"
+                    ], 
+                    "container_id": "e1b2-4d87-9d73", 
+                    "data": {
+                        "4a05-4674-9a07": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "9573-470b-b101", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "0c93-4211-af52", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:nth-of-type(2)"
+                    ], 
+                    "container_id": "e1b2-4d87-9d73", 
+                    "data": {
+                        "50a5-4a44-b312": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "1464-41d7-b940", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "feaf-4428-b6a4", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:nth-of-type(2)", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#level1 > .nav > li > a.active"
+                    ], 
+                    "container_id": "e1b2-4d87-9d73", 
+                    "data": {
+                        "68ef-4010-bca6": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "617e-49f2-8ce9", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "be39-45e9-b917", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#level1 > .nav > li > a.active", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"level1\"]/*[contains(concat(\" \", @class, \" \"), \" nav \")]/li/a[contains(concat(\" \", @class, \" \"), \" active \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "1dcf-4298-997b", 
+    "spider": "www.alpine.courts.ca.gov", 
+    "url": "https://www.alpine.courts.ca.gov/generalinfo/ada.htm", 
+    "version": "0.13.3"
+}

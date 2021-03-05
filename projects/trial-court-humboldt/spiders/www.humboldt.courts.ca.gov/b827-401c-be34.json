@@ -1,0 +1,157 @@
+{
+    "extractors": {}, 
+    "id": "b827-401c-be34", 
+    "name": "gi-jury-service-reporting-instructions", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "35ce-47eb-aedc", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "201f-44b3-ae96", 
+                    "selector": ".hero2", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "35ce-47eb-aedc", 
+                    "data": {
+                        "3219-4fbb-b264": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c74b-4933-81ed", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "fae3-45c1-a6e6", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".hero2 > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero2 \")]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter"
+                    ], 
+                    "container_id": "35ce-47eb-aedc", 
+                    "data": {
+                        "f72f-43e3-8c88": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "5a26-44fb-9b97", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "9e5b-4f7b-982f", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenter", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:last-of-type"
+                    ], 
+                    "container_id": "35ce-47eb-aedc", 
+                    "data": {
+                        "d833-4d86-b311": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "2578-4ddd-a6fb", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "d03b-44e0-a03e", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:nth-of-type(2)"
+                    ], 
+                    "container_id": "35ce-47eb-aedc", 
+                    "data": {
+                        "6259-47d9-9673": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "b830-4e9f-99dc", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "f9e0-4f40-b274", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:nth-of-type(2)", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#level1 > .nav > li > a.active"
+                    ], 
+                    "container_id": "35ce-47eb-aedc", 
+                    "data": {
+                        "aab9-4648-b92b": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c4e1-4893-8b34", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "e043-4eb7-bffc", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#level1 > .nav > li > a.active", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"level1\"]/*[contains(concat(\" \", @class, \" \"), \" nav \")]/li/a[contains(concat(\" \", @class, \" \"), \" active \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "201f-44b3-ae96", 
+    "spider": "www.humboldt.courts.ca.gov", 
+    "url": "https://www.humboldt.courts.ca.gov/gi/jury_reporting.htm", 
+    "version": "0.13.3"
+}

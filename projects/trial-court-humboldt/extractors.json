@@ -1,1 +1,10 @@
-{}
+{
+    "8c74-4924-afe9": {
+        "id": "8c74-4924-afe9", 
+        "type_extractor": "date"
+    }, 
+    "b2b2-4a28-ac2d": {
+        "id": "b2b2-4a28-ac2d", 
+        "regular_expression": "\\b(?!Posted|Effective)\\b.*"
+    }
+}

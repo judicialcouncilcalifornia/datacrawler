@@ -1,0 +1,207 @@
+{
+    "extractors": {}, 
+    "id": "5275-4280-91e0", 
+    "name": "dv-civil-family-law", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "3f7f-4fd6-9957", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "847e-40ae-9518", 
+                    "selector": ".hero2", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "3f7f-4fd6-9957", 
+                    "data": {
+                        "1262-4fb0-b9c4": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "cb12-4113-9b7d", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "c952-4410-9741", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".hero2 > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero2 \")]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter"
+                    ], 
+                    "container_id": "3f7f-4fd6-9957", 
+                    "data": {
+                        "1d49-465e-b156": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6052-4ef4-a480", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "ead7-4b1b-9325", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenter", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:last-of-type"
+                    ], 
+                    "container_id": "3f7f-4fd6-9957", 
+                    "data": {
+                        "33bc-4027-895b": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "bd8b-4c3c-8f26", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "0aa1-46e9-8afc", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:nth-of-type(2)"
+                    ], 
+                    "container_id": "3f7f-4fd6-9957", 
+                    "data": {
+                        "afe7-4e6a-b9fc": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "9570-4293-94bf", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "7edd-488a-9078", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:nth-of-type(2)", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#level1 > .nav > li > a.active"
+                    ], 
+                    "container_id": "3f7f-4fd6-9957", 
+                    "data": {
+                        "16ad-435d-97e8": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6260-4136-9b53", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "fd6a-4585-9186", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#level1 > .nav > li > a.active", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"level1\"]/*[contains(concat(\" \", @class, \" \"), \" nav \")]/li/a[contains(concat(\" \", @class, \" \"), \" active \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentLeftColumn .row p a"
+                    ], 
+                    "container_id": "3f7f-4fd6-9957", 
+                    "data": {
+                        "a711-4962-84eb": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "0c58-45ab-8105", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "4426-431f-a2c2", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentLeftColumn .row p a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentLeftColumn .row p a \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentLeftColumn .row p a"
+                    ], 
+                    "container_id": "3f7f-4fd6-9957", 
+                    "data": {
+                        "2193-4b6e-a520": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "a243-4413-ada8", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "6dbc-4374-9250", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentLeftColumn .row p a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentLeftColumn .row p a \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "847e-40ae-9518", 
+    "spider": "www.tehama.courts.ca.gov", 
+    "url": "https://www.tehama.courts.ca.gov/divisions/civil-familylaw.htm", 
+    "version": "0.13.3"
+}

@@ -1,0 +1,207 @@
+{
+    "extractors": {}, 
+    "id": "3bc5-4711-81d1", 
+    "name": "dv-jury-service", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "2d74-4aaa-9b88", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "260e-49ed-8649", 
+                    "selector": null, 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentMain h1"
+                    ], 
+                    "container_id": "2d74-4aaa-9b88", 
+                    "data": {
+                        "8f12-420c-b3ed": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "afc5-4913-af8c", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "915c-4df1-a688", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentMain h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentMain h1 \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter"
+                    ], 
+                    "container_id": "2d74-4aaa-9b88", 
+                    "data": {
+                        "59a8-4128-af29": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "29f6-42f9-a5f7", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "3e11-4695-a725", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenter", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:last-of-type"
+                    ], 
+                    "container_id": "2d74-4aaa-9b88", 
+                    "data": {
+                        "2934-4b7f-b06a": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "419a-4ba0-9fb0", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "f4ed-4e8c-a083", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:nth-of-type(2)"
+                    ], 
+                    "container_id": "2d74-4aaa-9b88", 
+                    "data": {
+                        "ad2d-4021-8621": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "4f97-48cb-b5a2", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "1583-40c8-8b19", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:nth-of-type(2)", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#level1 > .nav > li > a.active"
+                    ], 
+                    "container_id": "2d74-4aaa-9b88", 
+                    "data": {
+                        "f914-4dc1-92b7": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "55df-4bdc-9fc0", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "e404-47ac-aa41", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#level1 > .nav > li > a.active", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"level1\"]/*[contains(concat(\" \", @class, \" \"), \" nav \")]/li/a[contains(concat(\" \", @class, \" \"), \" active \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentLeftColumn .row p a"
+                    ], 
+                    "container_id": "2d74-4aaa-9b88", 
+                    "data": {
+                        "dc10-422b-a9a4": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "3cfc-454e-aa95", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "5945-4d6b-9ce3", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentLeftColumn .row p a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentLeftColumn .row p a \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentLeftColumn .row p a"
+                    ], 
+                    "container_id": "2d74-4aaa-9b88", 
+                    "data": {
+                        "58b3-44fc-a973": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "5b9e-4d03-b38a", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "20f5-4d1d-b966", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentLeftColumn .row p a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentLeftColumn .row p a \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "260e-49ed-8649", 
+    "spider": "www.lake.courts.ca.gov", 
+    "url": "https://www.lake.courts.ca.gov/dv/jury.htm", 
+    "version": "0.13.3"
+}

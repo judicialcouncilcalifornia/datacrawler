@@ -1,0 +1,207 @@
+{
+    "extractors": {}, 
+    "id": "c97e-4b53-92a6", 
+    "name": "gi-contact-info", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "5aee-4ffe-816d", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "14aa-4277-b657", 
+                    "selector": null, 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentMain h1"
+                    ], 
+                    "container_id": "5aee-4ffe-816d", 
+                    "data": {
+                        "dbd6-4b29-95fa": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "14ec-4a5d-ab81", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "76e1-417c-8958", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentMain h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentMain h1 \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter"
+                    ], 
+                    "container_id": "5aee-4ffe-816d", 
+                    "data": {
+                        "a3e6-48bd-a421": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "3704-4d22-b93b", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "b700-41c2-95ee", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenter", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:last-of-type"
+                    ], 
+                    "container_id": "5aee-4ffe-816d", 
+                    "data": {
+                        "250f-4f5b-aac8": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "4f6e-4331-9ff9", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "009b-4199-891d", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:nth-of-type(2)"
+                    ], 
+                    "container_id": "5aee-4ffe-816d", 
+                    "data": {
+                        "b4ec-488d-901a": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "fe1c-473c-9d3f", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "6477-4abc-8d9c", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:nth-of-type(2)", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#level1 > .nav > li > a.active"
+                    ], 
+                    "container_id": "5aee-4ffe-816d", 
+                    "data": {
+                        "e95b-4ecf-bd22": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "7866-4869-9fb0", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "d6fc-4442-bc36", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#level1 > .nav > li > a.active", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"level1\"]/*[contains(concat(\" \", @class, \" \"), \" nav \")]/li/a[contains(concat(\" \", @class, \" \"), \" active \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentLeftColumn .row a"
+                    ], 
+                    "container_id": "5aee-4ffe-816d", 
+                    "data": {
+                        "2dad-4ec5-9743": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "1b9a-434e-834d", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "e91f-4360-9c90", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentLeftColumn .row a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentLeftColumn .row a \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentLeftColumn .row a"
+                    ], 
+                    "container_id": "5aee-4ffe-816d", 
+                    "data": {
+                        "16df-4dd3-9045": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "2472-4c57-8d6a", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "20a0-4963-968b", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentLeftColumn .row a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentLeftColumn .row a \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "14aa-4277-b657", 
+    "spider": "www.kings.courts.ca.gov", 
+    "url": "https://www.kings.courts.ca.gov/generalinfo/contact-location.htm", 
+    "version": "0.13.3"
+}

@@ -1,0 +1,157 @@
+{
+    "extractors": {}, 
+    "id": "eca1-4542-9a7f", 
+    "name": "dv", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "14c6-433f-8819", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "c368-407c-ab33", 
+                    "selector": null, 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".hero .title"
+                    ], 
+                    "container_id": "14c6-433f-8819", 
+                    "data": {
+                        "cbd6-49c2-8079": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "a044-4868-8a6b", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "829e-4ab4-a4db", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".hero .title", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero .title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".banner .wrap, .alignModule, .contentCenterWide .simpleModule3, .contentCenterWide .simpleModule"
+                    ], 
+                    "container_id": "14c6-433f-8819", 
+                    "data": {
+                        "c06e-4f68-9a48": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "5173-4eab-b2eb", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "8494-4e1e-819f", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".banner .wrap, .alignModule, .contentCenterWide .simpleModule3, .contentCenterWide .simpleModule", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" banner .wrap \")] | //*[contains(concat(\" \", @class, \" \"), \" alignModule \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .simpleModule3 \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .simpleModule \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".subMenu p > a:last-of-type"
+                    ], 
+                    "container_id": "14c6-433f-8819", 
+                    "data": {
+                        "3ebf-4a03-b8e6": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "167d-4a3a-b062", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "2a61-4452-86f4", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".subMenu p > a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" subMenu p \")]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentColumn .simpleModule ul li a"
+                    ], 
+                    "container_id": "14c6-433f-8819", 
+                    "data": {
+                        "9e1e-48c5-8605": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "5731-4032-8591", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "123c-4629-8e35", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentColumn .simpleModule ul li a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentColumn .simpleModule ul li a \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentColumn .simpleModule ul li a"
+                    ], 
+                    "container_id": "14c6-433f-8819", 
+                    "data": {
+                        "1099-4543-ac36": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "936d-46bf-aa38", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "9e6f-4c47-bf85", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentColumn .simpleModule ul li a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentColumn .simpleModule ul li a \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "c368-407c-ab33", 
+    "spider": "www.mendocino.courts.ca.gov", 
+    "url": "https://www.mendocino.courts.ca.gov/divisions/divisions.html", 
+    "version": "0.13.3"
+}

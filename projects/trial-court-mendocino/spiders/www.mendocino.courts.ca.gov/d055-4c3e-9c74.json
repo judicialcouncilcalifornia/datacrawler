@@ -1,0 +1,207 @@
+{
+    "extractors": {}, 
+    "id": "d055-4c3e-9c74", 
+    "name": "gi-ada", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "c744-43b4-8fe9", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "c368-407c-ab33", 
+                    "selector": ".contentCenterWide", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        " .hero .title"
+                    ], 
+                    "container_id": "c744-43b4-8fe9", 
+                    "data": {
+                        "0cd1-4315-b3fa": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "a044-4868-8a6b", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "8394-46b8-b01d", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": " .hero .title", 
+                    "tagid": null, 
+                    "xpath": "//"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenterWide .simpleModule, .contentCenterWide .simpleModule3"
+                    ], 
+                    "container_id": "c744-43b4-8fe9", 
+                    "data": {
+                        "c4a0-4713-a6d2": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "5173-4eab-b2eb", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "d0d5-4ffe-88ff", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenterWide .simpleModule, .contentCenterWide .simpleModule3", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .simpleModule \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .simpleModule3 \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".subMenu p > a:last-of-type"
+                    ], 
+                    "container_id": "c744-43b4-8fe9", 
+                    "data": {
+                        "046a-4a11-b1c2": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "167d-4a3a-b062", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "4272-4860-b377", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".subMenu p > a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" subMenu p \")]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".subMenu p > a:nth-of-type(2)"
+                    ], 
+                    "container_id": "c744-43b4-8fe9", 
+                    "data": {
+                        "2131-4552-a844": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c3e2-4297-af13", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "4809-4954-822c", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".subMenu p > a:nth-of-type(2)", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" subMenu p \")]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "ul li a.selected"
+                    ], 
+                    "container_id": "c744-43b4-8fe9", 
+                    "data": {
+                        "3603-4241-9a08": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "5640-4047-a5e3", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "2c5f-4b98-b37a", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "ul li a.selected", 
+                    "tagid": null, 
+                    "xpath": "//"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentColumn .simpleModule ul a"
+                    ], 
+                    "container_id": "c744-43b4-8fe9", 
+                    "data": {
+                        "1825-4f8e-b0fe": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "5731-4032-8591", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "263f-4997-b336", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentColumn .simpleModule ul a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentColumn .simpleModule ul a \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentColumn .simpleModule ul a"
+                    ], 
+                    "container_id": "c744-43b4-8fe9", 
+                    "data": {
+                        "4626-4a16-ab97": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "936d-46bf-aa38", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "0c2d-4ece-849e", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentColumn .simpleModule ul a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentColumn .simpleModule ul a \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "c368-407c-ab33", 
+    "spider": "www.mendocino.courts.ca.gov", 
+    "url": "https://www.mendocino.courts.ca.gov/general_info/ADA.html", 
+    "version": "0.13.3"
+}

@@ -1,0 +1,107 @@
+{
+    "extractors": {}, 
+    "id": "8528-4a68-87cd", 
+    "name": "os", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "bba1-465c-985d", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "1dcf-4298-997b", 
+                    "selector": ".hero", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "bba1-465c-985d", 
+                    "data": {
+                        "7bf2-4503-ae16": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "dff0-4271-a463", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "ea7a-42bb-a1e4", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".hero > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero \")]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".hero .banner .wrap, #mainContent"
+                    ], 
+                    "container_id": "bba1-465c-985d", 
+                    "data": {
+                        "fe61-45f9-934a": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "bde8-4323-86f7", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "6a30-42af-9e43", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".hero .banner .wrap, #mainContent", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero .banner .wrap \")] | //*[@id=\"mainContent\"]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:last-of-type"
+                    ], 
+                    "container_id": "bba1-465c-985d", 
+                    "data": {
+                        "7ecb-4012-b59b": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "9573-470b-b101", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "4707-4edd-b510", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "1dcf-4298-997b", 
+    "spider": "www.alpine.courts.ca.gov", 
+    "url": "https://www.alpine.courts.ca.gov/onlineservices/index.htm", 
+    "version": "0.13.3"
+}

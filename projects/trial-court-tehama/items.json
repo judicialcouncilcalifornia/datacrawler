@@ -1,0 +1,82 @@
+{
+    "847e-40ae-9518": {
+        "fields": {
+            "cb12-4113-9b7d": {
+                "id": "cb12-4113-9b7d", 
+                "name": "title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "6052-4ef4-a480": {
+                "id": "6052-4ef4-a480", 
+                "name": "body", 
+                "required": false, 
+                "type": "raw html", 
+                "vary": false
+            }, 
+            "bd8b-4c3c-8f26": {
+                "id": "bd8b-4c3c-8f26", 
+                "name": "parent", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }, 
+            "9570-4293-94bf": {
+                "id": "9570-4293-94bf", 
+                "name": "grandparent", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }, 
+            "6260-4136-9b53": {
+                "id": "6260-4136-9b53", 
+                "name": "topics", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "0c58-45ab-8105": {
+                "id": "0c58-45ab-8105", 
+                "name": "links_title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "a243-4413-ada8": {
+                "id": "a243-4413-ada8", 
+                "name": "links_href", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }
+        }, 
+        "name": "page"
+    }, 
+    "95c9-4b4a-8152": {
+        "fields": {
+            "8b52-4204-82e9": {
+                "id": "8b52-4204-82e9", 
+                "name": "news_title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "8039-4933-8516": {
+                "id": "8039-4933-8516", 
+                "name": "news_link", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }, 
+            "333f-4e24-a2ae": {
+                "id": "333f-4e24-a2ae", 
+                "name": "news_date", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }
+        }, 
+        "name": "news"
+    }
+}

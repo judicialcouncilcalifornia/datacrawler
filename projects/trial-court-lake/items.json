@@ -1,0 +1,56 @@
+{
+    "260e-49ed-8649": {
+        "fields": {
+            "afc5-4913-af8c": {
+                "id": "afc5-4913-af8c", 
+                "name": "title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "29f6-42f9-a5f7": {
+                "id": "29f6-42f9-a5f7", 
+                "name": "body", 
+                "required": false, 
+                "type": "raw html", 
+                "vary": false
+            }, 
+            "419a-4ba0-9fb0": {
+                "id": "419a-4ba0-9fb0", 
+                "name": "parent", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }, 
+            "3cfc-454e-aa95": {
+                "id": "3cfc-454e-aa95", 
+                "name": "links_title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "5b9e-4d03-b38a": {
+                "id": "5b9e-4d03-b38a", 
+                "name": "links_href", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }, 
+            "55df-4bdc-9fc0": {
+                "id": "55df-4bdc-9fc0", 
+                "name": "topics", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "4f97-48cb-b5a2": {
+                "id": "4f97-48cb-b5a2", 
+                "name": "grandparent", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }
+        }, 
+        "name": "page"
+    }
+}

@@ -1,0 +1,207 @@
+{
+    "extractors": {}, 
+    "id": "1804-4e00-9f21", 
+    "name": "sh-small-claims", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "ea29-4b74-b4d7", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "201f-44b3-ae96", 
+                    "selector": ".hero2", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "ea29-4b74-b4d7", 
+                    "data": {
+                        "d7ad-4280-b7f1": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c74b-4933-81ed", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "9331-4236-9b60", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".hero2 > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero2 \")]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter"
+                    ], 
+                    "container_id": "ea29-4b74-b4d7", 
+                    "data": {
+                        "da37-4954-92d0": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "5a26-44fb-9b97", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "13d5-4f29-a560", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenter", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:last-of-type"
+                    ], 
+                    "container_id": "ea29-4b74-b4d7", 
+                    "data": {
+                        "b745-4c4b-8d50": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "2578-4ddd-a6fb", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "c944-4104-a286", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:nth-of-type(2)"
+                    ], 
+                    "container_id": "ea29-4b74-b4d7", 
+                    "data": {
+                        "1532-4b4d-9f8e": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "b830-4e9f-99dc", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "ec06-4721-9bcb", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:nth-of-type(2)", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#level1 > .nav > li > a.active"
+                    ], 
+                    "container_id": "ea29-4b74-b4d7", 
+                    "data": {
+                        "a6e0-46c6-8813": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c4e1-4893-8b34", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "fe4f-49de-b7c6", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#level1 > .nav > li > a.active", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"level1\"]/*[contains(concat(\" \", @class, \" \"), \" nav \")]/li/a[contains(concat(\" \", @class, \" \"), \" active \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#floatRight a"
+                    ], 
+                    "container_id": "ea29-4b74-b4d7", 
+                    "data": {
+                        "c99d-44d9-a7e5": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "b288-4e3b-babc", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "2fe4-4c1b-ac08", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": "#floatRight a", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"floatRight a\"]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#floatRight a"
+                    ], 
+                    "container_id": "ea29-4b74-b4d7", 
+                    "data": {
+                        "5c9f-4296-9834": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6d5e-4a04-9b55", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "6a55-4864-87b3", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": "#floatRight a", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"floatRight a\"]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "201f-44b3-ae96", 
+    "spider": "www.humboldt.courts.ca.gov", 
+    "url": "https://www.humboldt.courts.ca.gov/sh/smallclaims.htm", 
+    "version": "0.13.3"
+}

@@ -1,0 +1,207 @@
+{
+    "extractors": {}, 
+    "id": "b38a-46c4-afd3", 
+    "name": "dv-civil", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "e38c-47d3-9540", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "3986-4ab4-9a1f", 
+                    "selector": null, 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentMain h1"
+                    ], 
+                    "container_id": "e38c-47d3-9540", 
+                    "data": {
+                        "bdf5-4e61-9400": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c9b1-49a1-be82", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "5641-48f4-adfd", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentMain h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentMain h1 \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter"
+                    ], 
+                    "container_id": "e38c-47d3-9540", 
+                    "data": {
+                        "e369-4041-97f0": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "4140-427f-aac3", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "711b-4047-b4ea", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenter", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:last-of-type"
+                    ], 
+                    "container_id": "e38c-47d3-9540", 
+                    "data": {
+                        "a5c0-43dd-8453": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "246b-417f-9d41", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "4cb0-4bb8-bc5d", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:nth-of-type(2)"
+                    ], 
+                    "container_id": "e38c-47d3-9540", 
+                    "data": {
+                        "1ad3-4d32-8add": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "0606-43a9-9af9", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "d391-4bc6-848b", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:nth-of-type(2)", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#level1 > .nav > li > a.active"
+                    ], 
+                    "container_id": "e38c-47d3-9540", 
+                    "data": {
+                        "80d8-414a-afca": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "3d6d-4e64-b169", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "81e0-4c44-951b", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#level1 > .nav > li > a.active", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"level1\"]/*[contains(concat(\" \", @class, \" \"), \" nav \")]/li/a[contains(concat(\" \", @class, \" \"), \" active \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentLeftColumn .row ul a"
+                    ], 
+                    "container_id": "e38c-47d3-9540", 
+                    "data": {
+                        "16cd-48f6-b887": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "fff2-44d8-8341", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "6900-4453-8967", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentLeftColumn .row ul a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentLeftColumn .row ul a \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentLeftColumn .row ul a"
+                    ], 
+                    "container_id": "e38c-47d3-9540", 
+                    "data": {
+                        "5b3c-4130-a505": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "5753-4709-9498", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "5a52-4490-8e87", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentLeftColumn .row ul a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentLeftColumn .row ul a \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "3986-4ab4-9a1f", 
+    "spider": "www.sierra.courts.ca.gov", 
+    "url": "https://www.sierra.courts.ca.gov/divisions/civil.htm", 
+    "version": "0.13.3"
+}

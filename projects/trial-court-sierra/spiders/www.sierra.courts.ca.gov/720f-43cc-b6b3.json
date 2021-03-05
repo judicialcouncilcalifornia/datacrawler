@@ -1,0 +1,157 @@
+{
+    "extractors": {}, 
+    "id": "720f-43cc-b6b3", 
+    "name": "dv-juvenile", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "84ed-4764-8898", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "3986-4ab4-9a1f", 
+                    "selector": null, 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentMain h1"
+                    ], 
+                    "container_id": "84ed-4764-8898", 
+                    "data": {
+                        "69fb-4e60-9f1e": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c9b1-49a1-be82", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "7af4-4daf-a67f", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentMain h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentMain h1 \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter"
+                    ], 
+                    "container_id": "84ed-4764-8898", 
+                    "data": {
+                        "2f14-412d-8ba9": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "4140-427f-aac3", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "3dda-4066-bb52", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenter", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:last-of-type"
+                    ], 
+                    "container_id": "84ed-4764-8898", 
+                    "data": {
+                        "5528-4a35-9eb3": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "246b-417f-9d41", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "1ddf-4c69-bffc", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:nth-of-type(2)"
+                    ], 
+                    "container_id": "84ed-4764-8898", 
+                    "data": {
+                        "aee9-42b6-b00e": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "0606-43a9-9af9", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "bd06-4210-8e1b", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:nth-of-type(2)", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#level1 > .nav > li > a.active"
+                    ], 
+                    "container_id": "84ed-4764-8898", 
+                    "data": {
+                        "b24e-44cb-b3e6": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "3d6d-4e64-b169", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "e8a4-4301-9895", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#level1 > .nav > li > a.active", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"level1\"]/*[contains(concat(\" \", @class, \" \"), \" nav \")]/li/a[contains(concat(\" \", @class, \" \"), \" active \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "3986-4ab4-9a1f", 
+    "spider": "www.sierra.courts.ca.gov", 
+    "url": "https://www.sierra.courts.ca.gov/divisions/juvenile.htm", 
+    "version": "0.13.3"
+}

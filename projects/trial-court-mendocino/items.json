@@ -1,0 +1,56 @@
+{
+    "c368-407c-ab33": {
+        "fields": {
+            "a044-4868-8a6b": {
+                "id": "a044-4868-8a6b", 
+                "name": "title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "5173-4eab-b2eb": {
+                "id": "5173-4eab-b2eb", 
+                "name": "body", 
+                "required": false, 
+                "type": "raw html", 
+                "vary": false
+            }, 
+            "167d-4a3a-b062": {
+                "id": "167d-4a3a-b062", 
+                "name": "parent", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }, 
+            "936d-46bf-aa38": {
+                "id": "936d-46bf-aa38", 
+                "name": "links_href", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }, 
+            "5731-4032-8591": {
+                "id": "5731-4032-8591", 
+                "name": "links_title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "c3e2-4297-af13": {
+                "id": "c3e2-4297-af13", 
+                "name": "grandparent", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }, 
+            "5640-4047-a5e3": {
+                "id": "5640-4047-a5e3", 
+                "name": "topics", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }
+        }, 
+        "name": "page"
+    }
+}

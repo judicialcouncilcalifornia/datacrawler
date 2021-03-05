@@ -1,0 +1,207 @@
+{
+    "extractors": {}, 
+    "id": "a928-4fdf-8eac", 
+    "name": "sh", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "9930-44a5-9281", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "b963-425c-b331", 
+                    "selector": ".hero2", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "9930-44a5-9281", 
+                    "data": {
+                        "021e-4a1c-9f02": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "851c-4f73-bda2", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "ad3f-49a4-8750", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".hero2 > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero2 \")]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter"
+                    ], 
+                    "container_id": "9930-44a5-9281", 
+                    "data": {
+                        "87f1-41d0-8420": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "4c12-485b-9463", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "86f4-48b7-8c05", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenter", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:last-of-type"
+                    ], 
+                    "container_id": "9930-44a5-9281", 
+                    "data": {
+                        "7e89-4329-994d": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "777c-4db9-af9c", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "f9ad-4ed7-bb36", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:nth-of-type(2)"
+                    ], 
+                    "container_id": "9930-44a5-9281", 
+                    "data": {
+                        "85f9-4f4f-b42c": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "d095-4a29-b7ee", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "7dfe-41ce-b1f7", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:nth-of-type(2)", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#level1 > .nav > li > a.active"
+                    ], 
+                    "container_id": "9930-44a5-9281", 
+                    "data": {
+                        "e601-4d8b-b527": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "0b9f-47ea-b398", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "b0dd-40a2-99d6", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#level1 > .nav > li > a.active", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"level1\"]/*[contains(concat(\" \", @class, \" \"), \" nav \")]/li/a[contains(concat(\" \", @class, \" \"), \" active \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentLeftColumn .row p a"
+                    ], 
+                    "container_id": "9930-44a5-9281", 
+                    "data": {
+                        "52aa-431e-835d": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "b3cb-44ab-8ef7", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "44f9-4eb0-b8a8", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentLeftColumn .row p a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentLeftColumn .row p a \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentLeftColumn .row p a"
+                    ], 
+                    "container_id": "9930-44a5-9281", 
+                    "data": {
+                        "d459-4023-8a65": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "eb61-49fd-a484", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "ffae-4e95-b3eb", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentLeftColumn .row p a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentLeftColumn .row p a \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "b963-425c-b331", 
+    "spider": "www.inyocourt.ca.gov", 
+    "url": "http://www.inyocourt.ca.gov/selfhelp/index.htm", 
+    "version": "0.13.3"
+}

@@ -1,0 +1,107 @@
+{
+    "extractors": {}, 
+    "id": "b881-4c1d-82a0", 
+    "name": "dv", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "b27e-491e-a21e", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "14aa-4277-b657", 
+                    "selector": ".hero", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "b27e-491e-a21e", 
+                    "data": {
+                        "efb9-4389-a116": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "14ec-4a5d-ab81", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "37ec-41b6-b29c", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".hero > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero \")]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter"
+                    ], 
+                    "container_id": "b27e-491e-a21e", 
+                    "data": {
+                        "13f2-4d89-867f": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "3704-4d22-b93b", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "cad3-4afd-af6d", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenter", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:last-of-type"
+                    ], 
+                    "container_id": "b27e-491e-a21e", 
+                    "data": {
+                        "701e-405a-aeb5": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "4f6e-4331-9ff9", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "06cd-49ef-83f4", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "14aa-4277-b657", 
+    "spider": "www.kings.courts.ca.gov", 
+    "url": "https://www.kings.courts.ca.gov/divisions/index.htm", 
+    "version": "0.13.3"
+}

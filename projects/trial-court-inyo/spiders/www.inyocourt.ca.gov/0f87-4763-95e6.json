@@ -1,0 +1,132 @@
+{
+    "extractors": {}, 
+    "id": "0f87-4763-95e6", 
+    "name": "dv", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "ccac-474f-b3e6", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "b963-425c-b331", 
+                    "selector": ".hero", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "ccac-474f-b3e6", 
+                    "data": {
+                        "5185-497c-bfcf": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "851c-4f73-bda2", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "8f8c-439e-8008", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".hero > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero \")]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter"
+                    ], 
+                    "container_id": "ccac-474f-b3e6", 
+                    "data": {
+                        "fb8d-4698-b937": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "4c12-485b-9463", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "9681-420a-aeee", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenter", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:last-of-type"
+                    ], 
+                    "container_id": "ccac-474f-b3e6", 
+                    "data": {
+                        "097f-4a52-9f8a": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "777c-4db9-af9c", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "88e3-40e8-bcf4", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#level1 > .nav > li > a.active"
+                    ], 
+                    "container_id": "ccac-474f-b3e6", 
+                    "data": {
+                        "12ce-4ee7-8c48": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "0b9f-47ea-b398", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "8e80-41f3-8890", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#level1 > .nav > li > a.active", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"level1\"]/*[contains(concat(\" \", @class, \" \"), \" nav \")]/li/a[contains(concat(\" \", @class, \" \"), \" active \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "b963-425c-b331", 
+    "spider": "www.inyocourt.ca.gov", 
+    "url": "http://www.inyocourt.ca.gov/divisions/index.htm", 
+    "version": "0.13.3"
+}

@@ -12,7 +12,7 @@
                 "id": "5a26-44fb-9b97", 
                 "name": "body", 
                 "required": false, 
-                "type": "safe html", 
+                "type": "raw html", 
                 "vary": false
             }, 
             "2578-4ddd-a6fb": {
@@ -21,8 +21,88 @@
                 "required": false, 
                 "type": "url", 
                 "vary": false
+            }, 
+            "b830-4e9f-99dc": {
+                "id": "b830-4e9f-99dc", 
+                "name": "grandparent", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }, 
+            "d737-4be3-8ebb": {
+                "id": "d737-4be3-8ebb", 
+                "name": "id", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }, 
+            "c4e1-4893-8b34": {
+                "id": "c4e1-4893-8b34", 
+                "name": "topics", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "b288-4e3b-babc": {
+                "id": "b288-4e3b-babc", 
+                "name": "links_href", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }, 
+            "6d5e-4a04-9b55": {
+                "id": "6d5e-4a04-9b55", 
+                "name": "links_title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
             }
         }, 
         "name": "page"
+    }, 
+    "edd6-4585-9062": {
+        "fields": {
+            "4a86-4991-bc6b": {
+                "id": "4a86-4991-bc6b", 
+                "name": "news_title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "5fb8-43b6-94ed": {
+                "id": "5fb8-43b6-94ed", 
+                "name": "title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "bdb7-4a7b-87cb": {
+                "id": "bdb7-4a7b-87cb", 
+                "name": "news_link", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }, 
+            "abcc-4ea7-995b": {
+                "id": "abcc-4ea7-995b", 
+                "name": "news_date", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }
+        }, 
+        "name": "news"
+    }, 
+    "5e8b-49c0-b86b": {
+        "fields": {
+            "c1ee-436c-8a3b": {
+                "id": "c1ee-436c-8a3b", 
+                "name": "title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }
+        }, 
+        "name": "location"
     }
 }

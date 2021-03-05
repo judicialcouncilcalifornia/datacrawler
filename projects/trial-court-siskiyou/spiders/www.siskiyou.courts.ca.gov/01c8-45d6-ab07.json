@@ -1,0 +1,207 @@
+{
+    "extractors": {}, 
+    "id": "01c8-45d6-ab07", 
+    "name": "dv-admin", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "fbe5-4535-aa1f", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "3ca2-47ea-a9e1", 
+                    "selector": ".hero", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".title"
+                    ], 
+                    "container_id": "fbe5-4535-aa1f", 
+                    "data": {
+                        "69c6-4155-a79b": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "1697-4fbd-adaf", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "19ae-4317-a493", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".hero > .title", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero \")]/*[contains(concat(\" \", @class, \" \"), \" title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter, .hero .banner .wrap, .hero .banner3 .wrap1, .contentCenterWide .simpleModule2, .contentCenterWide .wrapThreeColumns, .hero p, .contentCenterWide .alignModule, .descTxt, .contentCenterWide .simpleModule"
+                    ], 
+                    "container_id": "fbe5-4535-aa1f", 
+                    "data": {
+                        "b203-45be-8165": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "2896-43b8-8434", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "5656-4d06-b313", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenter, .hero .banner .wrap, .hero .banner3 .wrap1, .contentCenterWide .simpleModule2, .contentCenterWide .wrapThreeColumns, .hero p, .contentCenterWide .alignModule, .descTxt, .contentCenterWide .simpleModule", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")] | //*[contains(concat(\" \", @class, \" \"), \" hero .banner .wrap \")] | //*[contains(concat(\" \", @class, \" \"), \" hero .banner3 .wrap1 \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .simpleModule2 \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .wrapThreeColumns \")] | //*[contains(concat(\" \", @class, \" \"), \" hero p \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .alignModule \")] | //*[contains(concat(\" \", @class, \" \"), \" descTxt \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .simpleModule \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".subMenu p > a:last-of-type"
+                    ], 
+                    "container_id": "fbe5-4535-aa1f", 
+                    "data": {
+                        "4c7b-4eeb-bd03": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "3ace-45ab-9292", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "368d-42e7-a555", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".subMenu p > a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" subMenu p \")]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".subMenu p > a:nth-of-type(2)"
+                    ], 
+                    "container_id": "fbe5-4535-aa1f", 
+                    "data": {
+                        "4e4b-4678-855c": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "b42a-497a-b6ed", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "e065-40db-bb67", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".subMenu p > a:nth-of-type(2)", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" subMenu p \")]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "a.selected"
+                    ], 
+                    "container_id": "fbe5-4535-aa1f", 
+                    "data": {
+                        "dcc3-43ad-9c20": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "9dc8-4d4f-a8db", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "7867-4a18-a58a", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "a.selected", 
+                    "tagid": null, 
+                    "xpath": "//a[contains(concat(\" \", @class, \" \"), \" selected \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentColumn .simpleModule2 ul li a"
+                    ], 
+                    "container_id": "fbe5-4535-aa1f", 
+                    "data": {
+                        "ebfa-40f6-8e0d": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "1437-42dd-9d60", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "5492-4fa4-aebc", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentColumn .simpleModule2 ul li a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentColumn .simpleModule2 ul li a \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentColumn .simpleModule2 ul li a"
+                    ], 
+                    "container_id": "fbe5-4535-aa1f", 
+                    "data": {
+                        "d0d6-42d0-a8f7": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6490-411d-bf5d", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "6e9b-4375-a38b", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentColumn .simpleModule2 ul li a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentColumn .simpleModule2 ul li a \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "3ca2-47ea-a9e1", 
+    "spider": "www.siskiyou.courts.ca.gov", 
+    "url": "http://www.siskiyou.courts.ca.gov/divisions/administration.htm", 
+    "version": "0.13.3"
+}

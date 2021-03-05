@@ -1,0 +1,107 @@
+{
+    "extractors": {}, 
+    "id": "c44e-4156-abd4", 
+    "name": "os", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "3e35-4fee-b226", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "02dc-46a4-b74c", 
+                    "selector": ".hero", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "3e35-4fee-b226", 
+                    "data": {
+                        "f6a8-4659-853a": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "67a8-4cc8-bcd7", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "7d2b-4b06-b126", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".hero > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero \")]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter, .hero .banner .wrap, .hero .banner3 .wrap1, .contentCenterWide .simpleModule2, .contentCenterWide .wrapThreeColumns, .hero p, .contentCenterWide .alignModule, .descTxt, .contentCenterWide .simpleModule"
+                    ], 
+                    "container_id": "3e35-4fee-b226", 
+                    "data": {
+                        "ffe0-4084-8761": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8f92-42af-86b2", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "3ead-4a30-b1be", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenter, .hero .banner .wrap, .hero .banner3 .wrap1, .contentCenterWide .simpleModule2, .contentCenterWide .wrapThreeColumns, .hero p, .contentCenterWide .alignModule, .descTxt, .contentCenterWide .simpleModule", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")] | //*[contains(concat(\" \", @class, \" \"), \" hero .banner .wrap \")] | //*[contains(concat(\" \", @class, \" \"), \" hero .banner3 .wrap1 \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .simpleModule2 \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .wrapThreeColumns \")] | //*[contains(concat(\" \", @class, \" \"), \" hero p \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .alignModule \")] | //*[contains(concat(\" \", @class, \" \"), \" descTxt \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .simpleModule \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:last-of-type"
+                    ], 
+                    "container_id": "3e35-4fee-b226", 
+                    "data": {
+                        "5b7f-4222-90e1": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "5962-42e1-8939", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "5064-4e76-8684", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "02dc-46a4-b74c", 
+    "spider": "www.mono.courts.ca.gov", 
+    "url": "https://www.mono.courts.ca.gov/onlineservices/index.htm", 
+    "version": "0.13.3"
+}

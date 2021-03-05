@@ -1,7 +1,7 @@
 {
     "extractors": {}, 
     "id": "f760-426d-a862", 
-    "name": "child-family-law", 
+    "name": "sh-family-law", 
     "page_id": "", 
     "page_type": "item", 
     "plugins": {
@@ -17,7 +17,7 @@
                     "repeated": false, 
                     "required": [], 
                     "schema_id": "201f-44b3-ae96", 
-                    "selector": "#contentWrap", 
+                    "selector": ".contentMain > .row", 
                     "siblings": 0, 
                     "tagid": null, 
                     "text-content": "#portia-content"
@@ -43,9 +43,9 @@
                     "required": [], 
                     "repeated": false, 
                     "selection_mode": "auto", 
-                    "selector": "#contentWrap > div:nth-child(4) > .contentMain > .row > div:nth-child(1) > .hero > .hero2 > h1", 
+                    "selector": ".contentMain > .row > div:nth-child(1) > .hero > .hero2 > h1", 
                     "tagid": null, 
-                    "xpath": "//*[@id=\"contentWrap\"]/div[4]/*[contains(concat(\" \", @class, \" \"), \" contentMain \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/div[1]/*[contains(concat(\" \", @class, \" \"), \" hero \")]/*[contains(concat(\" \", @class, \" \"), \" hero2 \")]/h1"
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentMain \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/div[1]/*[contains(concat(\" \", @class, \" \"), \" hero \")]/*[contains(concat(\" \", @class, \" \"), \" hero2 \")]/h1"
                 }, 
                 {
                     "accept_selectors": [
@@ -68,9 +68,9 @@
                     "required": [], 
                     "repeated": false, 
                     "selection_mode": "auto", 
-                    "selector": "#contentWrap > div:nth-child(4) > .contentMain > .row > .col-xs-12 > .contentCenter > .row > .col-xs-12", 
+                    "selector": ".contentMain > .row > .col-xs-12 > .contentCenter > .row > .col-xs-12", 
                     "tagid": null, 
-                    "xpath": "//*[@id=\"contentWrap\"]/div[4]/*[contains(concat(\" \", @class, \" \"), \" contentMain \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]"
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentMain \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]"
                 }, 
                 {
                     "accept_selectors": [
@@ -96,6 +96,56 @@
                     "selector": "#breadcrumb > a:last-of-type", 
                     "tagid": null, 
                     "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:nth-of-type(2)"
+                    ], 
+                    "container_id": "67e4-45be-8213", 
+                    "data": {
+                        "6dec-49d5-9113": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "b830-4e9f-99dc", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "00e7-4bc9-89dc", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:nth-of-type(2)", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#level1 > .nav > li > a.active"
+                    ], 
+                    "container_id": "67e4-45be-8213", 
+                    "data": {
+                        "3d7b-4487-8d1c": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c4e1-4893-8b34", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "2371-4ae6-9a65", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#level1 > .nav > li > a.active", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"level1\"]/*[contains(concat(\" \", @class, \" \"), \" nav \")]/li/a[contains(concat(\" \", @class, \" \"), \" active \")]"
                 }
             ]
         }

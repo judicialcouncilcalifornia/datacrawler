@@ -1,0 +1,157 @@
+{
+    "extractors": {}, 
+    "id": "92cf-4cba-9f55", 
+    "name": "ff", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "5099-460b-985b", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "3ca2-47ea-a9e1", 
+                    "selector": ".hero2", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".title"
+                    ], 
+                    "container_id": "5099-460b-985b", 
+                    "data": {
+                        "1eed-4bbf-abf3": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "1697-4fbd-adaf", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "4f96-4dd8-b390", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".hero2 > .title", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero2 \")]/*[contains(concat(\" \", @class, \" \"), \" title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter, .hero .banner .wrap, .hero .banner3 .wrap1, .contentCenterWide .simpleModule2, .contentCenterWide .wrapThreeColumns, .hero p, .contentCenterWide .alignModule"
+                    ], 
+                    "container_id": "5099-460b-985b", 
+                    "data": {
+                        "cfe4-4fc3-addd": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "2896-43b8-8434", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "62db-4b94-baee", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenter, .hero .banner .wrap, .hero .banner3 .wrap1, .contentCenterWide .simpleModule2, .contentCenterWide .wrapThreeColumns, .hero p, .contentCenterWide .alignModule", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")] | //*[contains(concat(\" \", @class, \" \"), \" hero .banner .wrap \")] | //*[contains(concat(\" \", @class, \" \"), \" hero .banner3 .wrap1 \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .simpleModule2 \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .wrapThreeColumns \")] | //*[contains(concat(\" \", @class, \" \"), \" hero p \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .alignModule \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".subMenu p > a:last-of-type"
+                    ], 
+                    "container_id": "5099-460b-985b", 
+                    "data": {
+                        "bf8f-4540-b2e7": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "3ace-45ab-9292", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "1d8a-41b4-b7ef", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".subMenu p > a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" subMenu p \")]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentColumn .simpleModule2 ul a, .contentColumn .simpleModule ul a"
+                    ], 
+                    "container_id": "5099-460b-985b", 
+                    "data": {
+                        "ee19-43a1-95ad": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "1437-42dd-9d60", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "473a-41d5-85b2", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentColumn .simpleModule2 ul a, .contentColumn .simpleModule ul a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentColumn .simpleModule2 ul a \")] | //*[contains(concat(\" \", @class, \" \"), \" contentColumn .simpleModule ul a \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentColumn .simpleModule2 ul a, .contentColumn .simpleModule ul a"
+                    ], 
+                    "container_id": "5099-460b-985b", 
+                    "data": {
+                        "d6de-4f32-9d6a": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6490-411d-bf5d", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "1ca8-4fcc-8039", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentColumn .simpleModule2 ul a, .contentColumn .simpleModule ul a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentColumn .simpleModule2 ul a \")] | //*[contains(concat(\" \", @class, \" \"), \" contentColumn .simpleModule ul a \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "3ca2-47ea-a9e1", 
+    "spider": "www.siskiyou.courts.ca.gov", 
+    "url": "http://www.siskiyou.courts.ca.gov/forms/index.htm", 
+    "version": "0.13.3"
+}

@@ -1,0 +1,107 @@
+{
+    "extractors": {}, 
+    "id": "c1db-44b8-8dbe", 
+    "name": "dv", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "a3da-4044-9f21", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "260e-49ed-8649", 
+                    "selector": null, 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentMain h1"
+                    ], 
+                    "container_id": "a3da-4044-9f21", 
+                    "data": {
+                        "01d7-4312-9576": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "afc5-4913-af8c", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "5502-4ec6-83a7", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentMain h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentMain h1 \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter"
+                    ], 
+                    "container_id": "a3da-4044-9f21", 
+                    "data": {
+                        "ac91-40ef-bea3": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "29f6-42f9-a5f7", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "32a9-4244-a621", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenter", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb > a:last-of-type"
+                    ], 
+                    "container_id": "a3da-4044-9f21", 
+                    "data": {
+                        "90f2-4c55-8f4c": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "419a-4ba0-9fb0", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "bc51-41b0-a582", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "260e-49ed-8649", 
+    "spider": "www.lake.courts.ca.gov", 
+    "url": "https://www.lake.courts.ca.gov/dv/index.htm", 
+    "version": "0.13.3"
+}
