@@ -66,7 +66,7 @@
                     "pre_text": null, 
                     "reject_selectors": [], 
                     "required": [], 
-                    "repeated": true, 
+                    "repeated": false, 
                     "selection_mode": "css", 
                     "selector": ".contentCenter, .hero .banner .wrap, .hero .banner3 .wrap1, .contentCenterWide .simpleModule2, .contentCenterWide .wrapThreeColumns, .hero p, .contentCenterWide .alignModule, .descTxt, .contentCenterWide .simpleModule", 
                     "tagid": null, 

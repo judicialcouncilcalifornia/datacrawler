@@ -17,13 +17,15 @@
                     "repeated": false, 
                     "required": [], 
                     "schema_id": "201f-44b3-ae96", 
-                    "selector": null, 
+                    "selector": "#level1", 
                     "siblings": 0, 
                     "tagid": null, 
                     "text-content": "#portia-content"
                 }, 
                 {
-                    "accept_selectors": [], 
+                    "accept_selectors": [
+                        "#level1 > a"
+                    ], 
                     "container_id": "23a7-4de1-b375", 
                     "data": {
                         "9bd8-4069-83f2": {
@@ -41,9 +43,9 @@
                     "required": [], 
                     "repeated": false, 
                     "selection_mode": "auto", 
-                    "selector": null, 
+                    "selector": "#level1 > a", 
                     "tagid": null, 
-                    "xpath": "//*"
+                    "xpath": "//*[@id=\"level1\"]/a"
                 }, 
                 {
                     "accept_selectors": [

@@ -1,7 +1,7 @@
 {
     "extractors": {}, 
-    "id": "1009-41f7-8e39", 
-    "name": "gi-jury-service", 
+    "id": "53f5-47d7-8be1", 
+    "name": "gi-courtroom-remote", 
     "page_id": "", 
     "page_type": "item", 
     "plugins": {
@@ -12,30 +12,55 @@
                         "#portia-content": "#dummy"
                     }, 
                     "container_id": null, 
-                    "id": "ebd8-4a0f-b483", 
+                    "id": "394d-40e8-b9f2", 
                     "item_container": true, 
                     "repeated": false, 
                     "required": [], 
                     "schema_id": "201f-44b3-ae96", 
-                    "selector": ".hero:nth-child(1)", 
+                    "selector": ".contentCenter > .row > .col-xs-12 > .row > .col-xs-12", 
                     "siblings": 0, 
                     "tagid": null, 
                     "text-content": "#portia-content"
                 }, 
                 {
                     "accept_selectors": [
-                        ".contentMain"
+                        "h2"
                     ], 
-                    "container_id": "ebd8-4a0f-b483", 
+                    "container_id": "394d-40e8-b9f2", 
                     "data": {
-                        "0c6e-44dd-8aa0": {
+                        "f1ac-44c2-a53f": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c74b-4933-81ed", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "f03d-47d9-9d2d", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".contentCenter > .row > .col-xs-12 > .row > .col-xs-12 > h2", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/h2"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter, .hero .banner .wrap, .hero .banner3 .wrap1, .contentCenterWide .simpleModule2, .contentCenterWide .wrapThreeColumns, .hero p, .contentCenterWide .alignModule, .descTxt, .contentCenterWide .simpleModule"
+                    ], 
+                    "container_id": "394d-40e8-b9f2", 
+                    "data": {
+                        "62ae-4847-9450": {
                             "attribute": "content", 
                             "extractors": {}, 
                             "field": "5a26-44fb-9b97", 
                             "required": false
                         }
                     }, 
-                    "id": "e2aa-4460-95f2", 
+                    "id": "e99a-4146-8ac0", 
                     "text-content": "content", 
                     "post_text": null, 
                     "pre_text": null, 
@@ -43,24 +68,24 @@
                     "required": [], 
                     "repeated": false, 
                     "selection_mode": "css", 
-                    "selector": ".contentMain", 
+                    "selector": ".contentCenter, .hero .banner .wrap, .hero .banner3 .wrap1, .contentCenterWide .simpleModule2, .contentCenterWide .wrapThreeColumns, .hero p, .contentCenterWide .alignModule, .descTxt, .contentCenterWide .simpleModule", 
                     "tagid": null, 
-                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentMain \")]"
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")] | //*[contains(concat(\" \", @class, \" \"), \" hero .banner .wrap \")] | //*[contains(concat(\" \", @class, \" \"), \" hero .banner3 .wrap1 \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .simpleModule2 \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .wrapThreeColumns \")] | //*[contains(concat(\" \", @class, \" \"), \" hero p \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .alignModule \")] | //*[contains(concat(\" \", @class, \" \"), \" descTxt \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .simpleModule \")]"
                 }, 
                 {
                     "accept_selectors": [
                         "#breadcrumb > a:last-of-type"
                     ], 
-                    "container_id": "ebd8-4a0f-b483", 
+                    "container_id": "394d-40e8-b9f2", 
                     "data": {
-                        "e945-4a50-86f8": {
+                        "96b1-40a2-9843": {
                             "attribute": "href", 
                             "extractors": {}, 
                             "field": "2578-4ddd-a6fb", 
                             "required": false
                         }
                     }, 
-                    "id": "2b61-496d-a4a0", 
+                    "id": "e2e0-4ec0-b4b6", 
                     "text-content": "content", 
                     "post_text": null, 
                     "pre_text": null, 
@@ -76,16 +101,16 @@
                     "accept_selectors": [
                         "#breadcrumb > a:nth-of-type(2)"
                     ], 
-                    "container_id": "ebd8-4a0f-b483", 
+                    "container_id": "394d-40e8-b9f2", 
                     "data": {
-                        "8cb7-41b0-800b": {
+                        "46b9-4545-9fe3": {
                             "attribute": "href", 
                             "extractors": {}, 
                             "field": "b830-4e9f-99dc", 
                             "required": false
                         }
                     }, 
-                    "id": "a820-4231-8679", 
+                    "id": "d6de-492e-923b", 
                     "text-content": "content", 
                     "post_text": null, 
                     "pre_text": null, 
@@ -101,16 +126,16 @@
                     "accept_selectors": [
                         "#level1 > .nav > li > a.active"
                     ], 
-                    "container_id": "ebd8-4a0f-b483", 
+                    "container_id": "394d-40e8-b9f2", 
                     "data": {
-                        "563f-47b4-a592": {
+                        "4d1a-4ed7-869b": {
                             "attribute": "content", 
                             "extractors": {}, 
                             "field": "c4e1-4893-8b34", 
                             "required": false
                         }
                     }, 
-                    "id": "f783-4eeb-9e77", 
+                    "id": "6ade-4b87-98c1", 
                     "text-content": "content", 
                     "post_text": null, 
                     "pre_text": null, 
@@ -121,37 +146,12 @@
                     "selector": "#level1 > .nav > li > a.active", 
                     "tagid": null, 
                     "xpath": "//*[@id=\"level1\"]/*[contains(concat(\" \", @class, \" \"), \" nav \")]/li/a[contains(concat(\" \", @class, \" \"), \" active \")]"
-                }, 
-                {
-                    "accept_selectors": [
-                        ".hero:nth-child(1) > h1"
-                    ], 
-                    "container_id": "ebd8-4a0f-b483", 
-                    "data": {
-                        "2d62-481e-9f8d": {
-                            "attribute": "content", 
-                            "extractors": {}, 
-                            "field": "c74b-4933-81ed", 
-                            "required": false
-                        }
-                    }, 
-                    "id": "d3be-4bb2-8311", 
-                    "text-content": "content", 
-                    "post_text": null, 
-                    "pre_text": null, 
-                    "reject_selectors": [], 
-                    "required": [], 
-                    "repeated": false, 
-                    "selection_mode": "css", 
-                    "selector": ".hero:nth-child(1) > h1", 
-                    "tagid": null, 
-                    "xpath": "//*[1][contains(concat(\" \", @class, \" \"), \" hero \")]/h1"
                 }
             ]
         }
     }, 
     "scrapes": "201f-44b3-ae96", 
     "spider": "www.humboldt.courts.ca.gov", 
-    "url": "https://www.humboldt.courts.ca.gov/gi/jury.htm", 
+    "url": "https://www.humboldt.courts.ca.gov/gi/4885.htm", 
     "version": "0.13.3"
 }
