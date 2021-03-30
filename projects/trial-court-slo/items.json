@@ -24,7 +24,7 @@
             }, 
             "0999-446f-a3dc": {
                 "id": "0999-446f-a3dc", 
-                "name": "related_links", 
+                "name": "links_href", 
                 "required": false, 
                 "type": "url", 
                 "vary": false
@@ -41,6 +41,13 @@
                 "name": "grandparent", 
                 "required": false, 
                 "type": "url", 
+                "vary": false
+            }, 
+            "0aad-4925-9ae4": {
+                "id": "0aad-4925-9ae4", 
+                "name": "links_title", 
+                "required": false, 
+                "type": "text", 
                 "vary": false
             }
         }, 
