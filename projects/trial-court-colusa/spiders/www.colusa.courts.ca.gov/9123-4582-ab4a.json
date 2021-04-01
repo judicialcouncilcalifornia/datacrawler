@@ -1,0 +1,82 @@
+{
+    "extractors": {}, 
+    "id": "9123-4582-ab4a", 
+    "name": "Home", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "6627-4184-b9d9", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "d9c6-47e6-b939", 
+                    "selector": "#mainContent", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#mainContent > h1"
+                    ], 
+                    "container_id": "6627-4184-b9d9", 
+                    "data": {
+                        "a303-4ada-b01f": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "e4bd-4b6b-96eb", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "4669-440b-913b", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#mainContent > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"mainContent\"]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".paratable"
+                    ], 
+                    "container_id": "6627-4184-b9d9", 
+                    "data": {
+                        "bd61-45a2-8aa7": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "7123-4fae-92dc", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "ac2c-49ea-b148", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": "#mainContent > .paratable", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"mainContent\"]/*[contains(concat(\" \", @class, \" \"), \" paratable \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "d9c6-47e6-b939", 
+    "spider": "www.colusa.courts.ca.gov", 
+    "url": "http://www.colusa.courts.ca.gov/", 
+    "version": "0.13.3"
+}
