@@ -1,11 +1,41 @@
 {
-    "ba74-4ce8-a0db": {
-        "fields": {}, 
-        "name": "H1"
-    }, 
     "d9c6-47e6-b939": {
-        "auto_created": true, 
-        "fields": {}, 
+        "fields": {
+            "e4bd-4b6b-96eb": {
+                "id": "e4bd-4b6b-96eb", 
+                "name": "Title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "7123-4fae-92dc": {
+                "id": "7123-4fae-92dc", 
+                "name": "Body", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }
+        }, 
         "name": "Home1"
+    }, 
+    "ef5f-4d29-b38b": {
+        "default": true, 
+        "fields": {
+            "9ca0-472b-92a5": {
+                "id": "9ca0-472b-92a5", 
+                "name": "Title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "938c-48f1-808e": {
+                "id": "938c-48f1-808e", 
+                "name": "Body", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }
+        }, 
+        "name": "Child Page"
     }
 }
