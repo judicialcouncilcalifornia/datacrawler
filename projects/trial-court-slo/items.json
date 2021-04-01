@@ -19,7 +19,7 @@
                 "id": "e895-48ca-9c26", 
                 "name": "body", 
                 "required": false, 
-                "type": "safe html", 
+                "type": "raw html", 
                 "vary": false
             }, 
             "0999-446f-a3dc": {
