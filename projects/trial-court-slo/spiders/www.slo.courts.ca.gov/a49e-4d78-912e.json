@@ -1,7 +1,7 @@
 {
     "extractors": {}, 
-    "id": "e86f-407d-b746", 
-    "name": "child-sh", 
+    "id": "a49e-4d78-912e", 
+    "name": "sh - civil", 
     "page_id": "", 
     "page_type": "item", 
     "plugins": {
@@ -12,80 +12,30 @@
                         "#portia-content": "#dummy"
                     }, 
                     "container_id": null, 
-                    "id": "51f5-46e9-8911", 
+                    "id": "6424-40f2-9990", 
                     "item_container": true, 
                     "repeated": false, 
                     "required": [], 
                     "schema_id": "6bd4-465b-a745", 
-                    "selector": ".contentCenter > .row > .col-xs-12 > .row > .col-xs-12", 
+                    "selector": ".contentMain > .row", 
                     "siblings": 0, 
                     "tagid": null, 
                     "text-content": "#portia-content"
                 }, 
                 {
                     "accept_selectors": [
-                        "#breadcrumb > a:last-of-type"
+                        "h1"
                     ], 
-                    "container_id": "51f5-46e9-8911", 
+                    "container_id": "6424-40f2-9990", 
                     "data": {
-                        "8443-4588-919c": {
-                            "attribute": "href", 
-                            "extractors": {}, 
-                            "field": "e85d-4f3b-8c7b", 
-                            "required": false
-                        }
-                    }, 
-                    "id": "7e4e-42fa-81a5", 
-                    "text-content": "content", 
-                    "post_text": null, 
-                    "pre_text": null, 
-                    "reject_selectors": [], 
-                    "required": [], 
-                    "repeated": false, 
-                    "selection_mode": "css", 
-                    "selector": "#breadcrumb > a:last-of-type", 
-                    "tagid": null, 
-                    "xpath": "//*[@id=\"breadcrumb\"]/"
-                }, 
-                {
-                    "accept_selectors": [
-                        ".hero h1"
-                    ], 
-                    "container_id": "51f5-46e9-8911", 
-                    "data": {
-                        "665e-4aab-bb99": {
+                        "a644-4c7e-b0ee": {
                             "attribute": "content", 
                             "extractors": {}, 
                             "field": "3aac-41fa-87e6", 
                             "required": false
                         }
                     }, 
-                    "id": "2fb8-4f5a-8e04", 
-                    "text-content": "content", 
-                    "post_text": null, 
-                    "pre_text": null, 
-                    "reject_selectors": [], 
-                    "required": [], 
-                    "repeated": false, 
-                    "selection_mode": "css", 
-                    "selector": ".hero h1", 
-                    "tagid": null, 
-                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero h1 \")]"
-                }, 
-                {
-                    "accept_selectors": [
-                        ".content"
-                    ], 
-                    "container_id": "51f5-46e9-8911", 
-                    "data": {
-                        "2f52-45b3-a410": {
-                            "attribute": "content", 
-                            "extractors": {}, 
-                            "field": "e895-48ca-9c26", 
-                            "required": false
-                        }
-                    }, 
-                    "id": "0392-48f5-92a4", 
+                    "id": "a8fb-459c-b0c3", 
                     "text-content": "content", 
                     "post_text": null, 
                     "pre_text": null, 
@@ -93,49 +43,49 @@
                     "required": [], 
                     "repeated": false, 
                     "selection_mode": "auto", 
-                    "selector": ".contentCenter > .row > .col-xs-12 > .row > .col-xs-12 > .content", 
+                    "selector": ".contentMain > .row > div:nth-child(1) > .hero > .hero2 > h1", 
                     "tagid": null, 
-                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" content \")]"
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentMain \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/div[1]/*[contains(concat(\" \", @class, \" \"), \" hero \")]/*[contains(concat(\" \", @class, \" \"), \" hero2 \")]/h1"
                 }, 
                 {
                     "accept_selectors": [
-                        "#mainContentWrap > .contentLeftColumn > .row > .col-xs-12 a"
+                        ".contentCenter > .row > .col-xs-12 > .row > .col-xs-12"
                     ], 
-                    "container_id": "51f5-46e9-8911", 
+                    "container_id": "6424-40f2-9990", 
                     "data": {
-                        "5f8b-4a27-8426": {
-                            "attribute": "href", 
+                        "ef59-49f2-88a6": {
+                            "attribute": "content", 
                             "extractors": {}, 
-                            "field": "0999-446f-a3dc", 
+                            "field": "e895-48ca-9c26", 
                             "required": false
                         }
                     }, 
-                    "id": "b6b7-4ba1-9c13", 
+                    "id": "18df-405f-9a93", 
                     "text-content": "content", 
                     "post_text": null, 
                     "pre_text": null, 
                     "reject_selectors": [], 
                     "required": [], 
-                    "repeated": true, 
-                    "selection_mode": "css", 
-                    "selector": "#mainContentWrap > .contentLeftColumn > .row > .col-xs-12 a", 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".contentMain > .row > .col-xs-12 > .contentCenter > .row > .col-xs-12 > .row > .col-xs-12", 
                     "tagid": null, 
-                    "xpath": "//*[@id=\"mainContentWrap\"]/*[contains(concat(\" \", @class, \" \"), \" contentLeftColumn \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 a \")]"
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentMain \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]"
                 }, 
                 {
                     "accept_selectors": [
-                        "#level1 > .nav > li > a.active"
+                        "#floatRight"
                     ], 
-                    "container_id": "51f5-46e9-8911", 
+                    "container_id": "6424-40f2-9990", 
                     "data": {
-                        "7898-4378-ae27": {
+                        "c00c-4ba2-b9f9": {
                             "attribute": "content", 
                             "extractors": {}, 
-                            "field": "de3d-4b29-b023", 
+                            "field": "835b-42da-83a4", 
                             "required": false
                         }
                     }, 
-                    "id": "580b-493f-927f", 
+                    "id": "5457-4555-9905", 
                     "text-content": "content", 
                     "post_text": null, 
                     "pre_text": null, 
@@ -143,24 +93,24 @@
                     "required": [], 
                     "repeated": false, 
                     "selection_mode": "css", 
-                    "selector": "#level1 > .nav > li > a.active", 
+                    "selector": "#floatRight", 
                     "tagid": null, 
-                    "xpath": "//*[@id=\"level1\"]/*[contains(concat(\" \", @class, \" \"), \" nav \")]/li/a[contains(concat(\" \", @class, \" \"), \" active \")]"
+                    "xpath": "//*[@id=\"floatRight\"]"
                 }, 
                 {
                     "accept_selectors": [
                         "#breadcrumb > a:nth-of-type(2)"
                     ], 
-                    "container_id": "51f5-46e9-8911", 
+                    "container_id": "6424-40f2-9990", 
                     "data": {
-                        "3a11-43ba-aea3": {
-                            "attribute": "content", 
+                        "a9d1-4e7d-b35d": {
+                            "attribute": "href", 
                             "extractors": {}, 
                             "field": "a647-4374-840a", 
                             "required": false
                         }
                     }, 
-                    "id": "b46a-406e-864c", 
+                    "id": "34bd-474b-b9c2", 
                     "text-content": "content", 
                     "post_text": null, 
                     "pre_text": null, 
@@ -174,18 +124,68 @@
                 }, 
                 {
                     "accept_selectors": [
-                        "#mainContentWrap > .contentLeftColumn > .row > .col-xs-12 a"
+                        "#breadcrumb > a:last-of-type"
                     ], 
-                    "container_id": "51f5-46e9-8911", 
+                    "container_id": "6424-40f2-9990", 
                     "data": {
-                        "6dff-4ca8-8d76": {
-                            "attribute": "content", 
+                        "177a-4363-8122": {
+                            "attribute": "href", 
                             "extractors": {}, 
-                            "field": "0aad-4925-9ae4", 
+                            "field": "e85d-4f3b-8c7b", 
                             "required": false
                         }
                     }, 
-                    "id": "d229-4006-8c4c", 
+                    "id": "2436-4512-96f3", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb > a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#level1 > .nav > li > a.active"
+                    ], 
+                    "container_id": "6424-40f2-9990", 
+                    "data": {
+                        "36ed-46d3-b496": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "de3d-4b29-b023", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "6a9b-4869-94f8", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#level1 > .nav > li > a.active", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"level1\"]/*[contains(concat(\" \", @class, \" \"), \" nav \")]/li/a[contains(concat(\" \", @class, \" \"), \" active \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentLeftColumn .row p a"
+                    ], 
+                    "container_id": "6424-40f2-9990", 
+                    "data": {
+                        "79f9-430c-9db0": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "0999-446f-a3dc", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "3c5c-48d6-ac92", 
                     "text-content": "content", 
                     "post_text": null, 
                     "pre_text": null, 
@@ -193,38 +193,40 @@
                     "required": [], 
                     "repeated": true, 
                     "selection_mode": "css", 
-                    "selector": "#mainContentWrap > .contentLeftColumn > .row > .col-xs-12 a", 
+                    "selector": ".contentLeftColumn .row p a", 
                     "tagid": null, 
-                    "xpath": "//*[@id=\"mainContentWrap\"]/*[contains(concat(\" \", @class, \" \"), \" contentLeftColumn \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 a \")]"
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentLeftColumn .row p a \")]"
                 }, 
                 {
-                    "accept_selectors": [], 
-                    "container_id": "51f5-46e9-8911", 
+                    "accept_selectors": [
+                        ".contentLeftColumn .row p a"
+                    ], 
+                    "container_id": "6424-40f2-9990", 
                     "data": {
-                        "1a19-49b5-a80c": {
+                        "135a-4b34-88da": {
                             "attribute": "content", 
                             "extractors": {}, 
-                            "field": "835b-42da-83a4", 
+                            "field": "0aad-4925-9ae4", 
                             "required": false
                         }
                     }, 
-                    "id": "5db1-4dc0-8987", 
+                    "id": "ac93-404e-8189", 
                     "text-content": "content", 
                     "post_text": null, 
                     "pre_text": null, 
                     "reject_selectors": [], 
                     "required": [], 
-                    "repeated": false, 
-                    "selection_mode": "auto", 
-                    "selector": "", 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentLeftColumn .row p a", 
                     "tagid": null, 
-                    "xpath": "//*"
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentLeftColumn .row p a \")]"
                 }
             ]
         }
     }, 
     "scrapes": "6bd4-465b-a745", 
     "spider": "www.slo.courts.ca.gov", 
-    "url": "https://www.slo.courts.ca.gov/sh/selfhelp-smallclaims.htm", 
+    "url": "https://www.slo.courts.ca.gov/sh/selfhelp-civilappeals.htm", 
     "version": "0.13.3"
 }

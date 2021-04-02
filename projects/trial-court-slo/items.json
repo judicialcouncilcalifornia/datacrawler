@@ -49,6 +49,13 @@
                 "required": false, 
                 "type": "text", 
                 "vary": false
+            }, 
+            "835b-42da-83a4": {
+                "id": "835b-42da-83a4", 
+                "name": "aside", 
+                "required": false, 
+                "type": "raw html", 
+                "vary": false
             }
         }, 
         "name": "index"
