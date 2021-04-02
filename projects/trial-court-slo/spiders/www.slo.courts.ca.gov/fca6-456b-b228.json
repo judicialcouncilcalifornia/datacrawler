@@ -104,7 +104,7 @@
                     "container_id": "14ac-4ada-a7c0", 
                     "data": {
                         "aea0-44ed-921c": {
-                            "attribute": "href", 
+                            "attribute": "content", 
                             "extractors": {}, 
                             "field": "de3d-4b29-b023", 
                             "required": false

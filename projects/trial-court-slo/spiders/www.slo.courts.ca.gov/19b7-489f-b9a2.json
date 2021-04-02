@@ -79,7 +79,7 @@
                     "container_id": "2f7a-42f2-995c", 
                     "data": {
                         "a7e5-4f4d-a970": {
-                            "attribute": "href", 
+                            "attribute": "content", 
                             "extractors": {}, 
                             "field": "de3d-4b29-b023", 
                             "required": false
