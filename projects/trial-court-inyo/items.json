@@ -49,6 +49,13 @@
                 "required": false, 
                 "type": "url", 
                 "vary": false
+            }, 
+            "1260-47c4-92f8": {
+                "id": "1260-47c4-92f8", 
+                "name": "aside", 
+                "required": false, 
+                "type": "raw html", 
+                "vary": false
             }
         }, 
         "name": "page"
