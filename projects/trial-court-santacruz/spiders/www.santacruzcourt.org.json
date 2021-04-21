@@ -10,7 +10,7 @@
     "respect_nofollow": false, 
     "start_urls": [
         {
-            "url": "http://www.santacruzcourt.org/", 
+            "url": "https://www.santacruzcourt.org/", 
             "type": "url"
         }
     ]

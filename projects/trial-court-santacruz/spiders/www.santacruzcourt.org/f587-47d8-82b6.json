@@ -177,6 +177,6 @@
     }, 
     "scrapes": "29e2-4a09-98ac", 
     "spider": "www.santacruzcourt.org", 
-    "url": "http://www.santacruzcourt.org/self-help", 
+    "url": "https://www.santacruzcourt.org/self-help",
     "version": "0.13.3"
 }

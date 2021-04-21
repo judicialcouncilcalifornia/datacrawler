@@ -177,6 +177,6 @@
     }, 
     "scrapes": "29e2-4a09-98ac", 
     "spider": "www.santacruzcourt.org", 
-    "url": "http://www.santacruzcourt.org/divisions/small-claims", 
+    "url": "https://www.santacruzcourt.org/divisions/small-claims",
     "version": "0.13.3"
 }
