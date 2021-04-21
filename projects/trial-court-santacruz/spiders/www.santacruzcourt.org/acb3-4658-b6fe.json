@@ -1,0 +1,182 @@
+{
+    "extractors": {}, 
+    "id": "acb3-4658-b6fe", 
+    "name": "dv-smallclaims", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "94d4-4507-ba92", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "29e2-4a09-98ac", 
+                    "selector": null, 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#floatRight"
+                    ], 
+                    "container_id": "94d4-4507-ba92", 
+                    "data": {
+                        "b6cd-4a98-a183": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "4fd5-41ac-86f8", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "0b04-4f61-b340", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#floatRight", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"floatRight\"]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter"
+                    ], 
+                    "container_id": "94d4-4507-ba92", 
+                    "data": {
+                        "76f5-45cd-ab09": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "fca2-4484-b7da", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "d6d2-4221-8cd2", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenter", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentMain  h1"
+                    ], 
+                    "container_id": "94d4-4507-ba92", 
+                    "data": {
+                        "7f16-4dfd-a35e": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8b8d-46b9-86b7", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "0ad7-4122-b5d2", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentMain  h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentMain  h1 \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".breadcrumb li:nth-last-child(2) a"
+                    ], 
+                    "container_id": "94d4-4507-ba92", 
+                    "data": {
+                        "f4af-48fa-a278": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "d945-4a77-94a4", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "c641-44d8-8ca4", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".breadcrumb li:nth-last-child(2) a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" breadcrumb li:nth-last-child(2) a \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentLeftColumn > p > a"
+                    ], 
+                    "container_id": "94d4-4507-ba92", 
+                    "data": {
+                        "bf70-4d36-8c6d": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "b6e6-461d-9b06", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "5083-4534-8f4a", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentLeftColumn > p > a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentLeftColumn \")]/p/a"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentLeftColumn p a"
+                    ], 
+                    "container_id": "94d4-4507-ba92", 
+                    "data": {
+                        "cb1c-4c28-a47e": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "5e8c-4973-96bb", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "15de-409f-873c", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentLeftColumn p a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentLeftColumn p a \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "29e2-4a09-98ac", 
+    "spider": "www.santacruzcourt.org", 
+    "url": "http://www.santacruzcourt.org/divisions/small-claims", 
+    "version": "0.13.3"
+}

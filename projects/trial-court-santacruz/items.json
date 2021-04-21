@@ -1,0 +1,63 @@
+{
+    "29e2-4a09-98ac": {
+        "fields": {
+            "8b8d-46b9-86b7": {
+                "id": "8b8d-46b9-86b7", 
+                "name": "title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "fca2-4484-b7da": {
+                "id": "fca2-4484-b7da", 
+                "name": "body", 
+                "required": false, 
+                "type": "raw html", 
+                "vary": false
+            }, 
+            "4fd5-41ac-86f8": {
+                "id": "4fd5-41ac-86f8", 
+                "name": "aside", 
+                "required": false, 
+                "type": "raw html", 
+                "vary": false
+            }, 
+            "d945-4a77-94a4": {
+                "id": "d945-4a77-94a4", 
+                "name": "parent", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }, 
+            "0f07-4ca9-98fc": {
+                "id": "0f07-4ca9-98fc", 
+                "name": "grandparent", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }, 
+            "4b77-42d0-b537": {
+                "id": "4b77-42d0-b537", 
+                "name": "topics", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "b6e6-461d-9b06": {
+                "id": "b6e6-461d-9b06", 
+                "name": "links_href", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }, 
+            "5e8c-4973-96bb": {
+                "id": "5e8c-4973-96bb", 
+                "name": "links_title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }
+        }, 
+        "name": "page"
+    }
+}
