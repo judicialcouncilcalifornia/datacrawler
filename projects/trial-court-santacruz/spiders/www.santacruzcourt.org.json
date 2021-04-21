@@ -1,17 +1,19 @@
 {
     "allowed_domains": [], 
     "exclude_patterns": [], 
-    "follow_patterns": [], 
+    "follow_patterns": [
+        "https:\\/\\/www.santacruzcourt.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)"
+    ], 
     "id": "www.santacruzcourt.org", 
     "js_disable_patterns": [], 
     "js_enable_patterns": [], 
     "js_enabled": false, 
-    "links_to_follow": "all", 
+    "links_to_follow": "patterns", 
     "respect_nofollow": false, 
     "start_urls": [
         {
-            "url": "https://www.santacruzcourt.org/", 
-            "type": "url"
+            "type": "url", 
+            "url": "https://www.santacruzcourt.org/"
         }
     ]
 }
