@@ -49,6 +49,13 @@
                 "required": false, 
                 "type": "url", 
                 "vary": false
+            }, 
+            "e796-4695-aa90": {
+                "id": "e796-4695-aa90", 
+                "name": "aside", 
+                "required": false, 
+                "type": "raw html", 
+                "vary": false
             }
         }, 
         "name": "page"

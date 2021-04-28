@@ -146,6 +146,31 @@
                     "selector": ".contentLeftColumn .row p a", 
                     "tagid": null, 
                     "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentLeftColumn .row p a \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#floatRight"
+                    ], 
+                    "container_id": "f8b7-437d-b12d", 
+                    "data": {
+                        "1654-49f4-9d2b": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "1ecf-4c13-970f", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "c615-41b3-8625", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#floatRight", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"floatRight\"]"
                 }
             ]
         }
