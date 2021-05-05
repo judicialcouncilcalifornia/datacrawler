@@ -49,6 +49,13 @@
                 "required": false, 
                 "type": "url", 
                 "vary": false
+            }, 
+            "f36d-4928-8d79": {
+                "id": "f36d-4928-8d79", 
+                "name": "aside", 
+                "required": false, 
+                "type": "raw html", 
+                "vary": false
             }
         }, 
         "name": "page"

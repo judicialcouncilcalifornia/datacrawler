@@ -196,6 +196,31 @@
                     "selector": "#floatRight a", 
                     "tagid": null, 
                     "xpath": "//*[@id=\"floatRight a\"]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#floatRight"
+                    ], 
+                    "container_id": "ea29-4b74-b4d7", 
+                    "data": {
+                        "fe23-4692-82c2": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "f2e6-4706-b03e", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "ddc8-41d6-9763", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#floatRight", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"floatRight\"]"
                 }
             ]
         }

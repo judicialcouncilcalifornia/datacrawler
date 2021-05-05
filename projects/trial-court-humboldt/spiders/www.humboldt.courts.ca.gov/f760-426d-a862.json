@@ -17,7 +17,7 @@
                     "repeated": false, 
                     "required": [], 
                     "schema_id": "201f-44b3-ae96", 
-                    "selector": ".contentMain > .row", 
+                    "selector": ".hero2", 
                     "siblings": 0, 
                     "tagid": null, 
                     "text-content": "#portia-content"
@@ -43,13 +43,13 @@
                     "required": [], 
                     "repeated": false, 
                     "selection_mode": "auto", 
-                    "selector": ".contentMain > .row > div:nth-child(1) > .hero > .hero2 > h1", 
+                    "selector": ".hero2 > h1", 
                     "tagid": null, 
-                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentMain \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/div[1]/*[contains(concat(\" \", @class, \" \"), \" hero \")]/*[contains(concat(\" \", @class, \" \"), \" hero2 \")]/h1"
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero2 \")]/h1"
                 }, 
                 {
                     "accept_selectors": [
-                        ".contentCenter > .row > .col-xs-12"
+                        ".contentCenter"
                     ], 
                     "container_id": "67e4-45be-8213", 
                     "data": {
@@ -67,10 +67,10 @@
                     "reject_selectors": [], 
                     "required": [], 
                     "repeated": false, 
-                    "selection_mode": "auto", 
-                    "selector": ".contentMain > .row > .col-xs-12 > .contentCenter > .row > .col-xs-12", 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenter", 
                     "tagid": null, 
-                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentMain \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]/*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]/*[contains(concat(\" \", @class, \" \"), \" row \")]/*[contains(concat(\" \", @class, \" \"), \" col-xs-12 \")]"
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]"
                 }, 
                 {
                     "accept_selectors": [
@@ -146,6 +146,31 @@
                     "selector": "#level1 > .nav > li > a.active", 
                     "tagid": null, 
                     "xpath": "//*[@id=\"level1\"]/*[contains(concat(\" \", @class, \" \"), \" nav \")]/li/a[contains(concat(\" \", @class, \" \"), \" active \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#floatRight"
+                    ], 
+                    "container_id": "67e4-45be-8213", 
+                    "data": {
+                        "4d42-424b-89ae": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "f2e6-4706-b03e", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "cfeb-4154-a681", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#floatRight", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"floatRight\"]"
                 }
             ]
         }

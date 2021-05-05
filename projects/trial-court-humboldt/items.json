@@ -56,6 +56,13 @@
                 "required": false, 
                 "type": "text", 
                 "vary": false
+            }, 
+            "f2e6-4706-b03e": {
+                "id": "f2e6-4706-b03e", 
+                "name": "aside", 
+                "required": false, 
+                "type": "raw html", 
+                "vary": false
             }
         }, 
         "name": "page"
