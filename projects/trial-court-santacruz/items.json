@@ -59,5 +59,24 @@
             }
         }, 
         "name": "page"
+    }, 
+    "804f-442e-8e3b": {
+        "fields": {
+            "9a20-4bba-ad73": {
+                "id": "9a20-4bba-ad73", 
+                "name": "title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "4104-4490-b626": {
+                "id": "4104-4490-b626", 
+                "name": "link", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }
+        }, 
+        "name": "file"
     }
 }

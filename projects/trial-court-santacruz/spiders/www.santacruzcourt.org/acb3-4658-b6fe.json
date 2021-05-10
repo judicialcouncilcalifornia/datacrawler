@@ -171,12 +171,77 @@
                     "selector": ".contentLeftColumn p a", 
                     "tagid": null, 
                     "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentLeftColumn p a \")]"
+                }, 
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "1a72-4c73-91a5", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "804f-442e-8e3b", 
+                    "selector": null, 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "a[href*=\".pdf\"],a[href*=\".doc\"],a[href*=\".docx\"],a[href*=\".xls\"],a[href*=\".xlsx\"]"
+                    ], 
+                    "container_id": "1a72-4c73-91a5", 
+                    "data": {
+                        "98e2-4d40-ba21": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "4104-4490-b626", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "ec68-4031-ab2f", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": "a[href*=\".pdf\"],a[href*=\".doc\"],a[href*=\".docx\"],a[href*=\".xls\"],a[href*=\".xlsx\"]", 
+                    "tagid": null, 
+                    "xpath": "//"
+                }, 
+                {
+                    "accept_selectors": [
+                        "a[href*=\".pdf\"],a[href*=\".doc\"],a[href*=\".docx\"],a[href*=\".xls\"],a[href*=\".xlsx\"]"
+                    ], 
+                    "container_id": "1a72-4c73-91a5", 
+                    "data": {
+                        "b927-4ed3-96db": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "9a20-4bba-ad73", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "c69b-4021-a8a2", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": "a[href*=\".pdf\"],a[href*=\".doc\"],a[href*=\".docx\"],a[href*=\".xls\"],a[href*=\".xlsx\"]", 
+                    "tagid": null, 
+                    "xpath": "//"
                 }
             ]
         }
     }, 
     "scrapes": "29e2-4a09-98ac", 
     "spider": "www.santacruzcourt.org", 
-    "url": "https://www.santacruzcourt.org/divisions/small-claims",
+    "url": "https://www.santacruzcourt.org/divisions/small-claims", 
     "version": "0.13.3"
 }

@@ -1,0 +1,82 @@
+{
+    "extractors": {}, 
+    "id": "3496-459c-9ba3", 
+    "name": "dv", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "0bcb-4b49-9a0f", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "7901-403f-a271", 
+                    "selector": null, 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#main-content-center > section > section"
+                    ], 
+                    "container_id": "0bcb-4b49-9a0f", 
+                    "data": {
+                        "db87-4825-8ab4": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "2d81-4395-aa14", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "a50e-4c99-a2ed", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": "#main-content-center > section > section", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"main-content-center\"]/section/section"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#main-content-center > section > h2"
+                    ], 
+                    "container_id": "0bcb-4b49-9a0f", 
+                    "data": {
+                        "da78-44ad-ac50": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6d66-4bb2-84c1", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "dae0-485d-9651", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#main-content-center > section > h2", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"main-content-center\"]/section/h2"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "7901-403f-a271", 
+    "spider": "www.tularesuperiorcourt.ca.gov", 
+    "url": "https://www.tularesuperiorcourt.ca.gov/index.php?section=divisions", 
+    "version": "0.13.3"
+}

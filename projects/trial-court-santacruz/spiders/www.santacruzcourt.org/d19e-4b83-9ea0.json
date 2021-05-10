@@ -96,12 +96,77 @@
                     "selector": ".contentMain h1", 
                     "tagid": null, 
                     "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentMain h1 \")]"
+                }, 
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "bd83-4f00-a8ea", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "804f-442e-8e3b", 
+                    "selector": null, 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "a[href*=\".pdf\"],a[href*=\".doc\"],a[href*=\".docx\"],a[href*=\".xls\"],a[href*=\".xlsx\"]"
+                    ], 
+                    "container_id": "bd83-4f00-a8ea", 
+                    "data": {
+                        "e658-42fb-b4d9": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "4104-4490-b626", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "d497-4dc0-9281", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "a[href*=\".pdf\"],a[href*=\".doc\"],a[href*=\".docx\"],a[href*=\".xls\"],a[href*=\".xlsx\"]", 
+                    "tagid": null, 
+                    "xpath": "//"
+                }, 
+                {
+                    "accept_selectors": [
+                        "a[href*=\".pdf\"],a[href*=\".doc\"],a[href*=\".docx\"],a[href*=\".xls\"],a[href*=\".xlsx\"]"
+                    ], 
+                    "container_id": "bd83-4f00-a8ea", 
+                    "data": {
+                        "1ebf-478d-829a": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "9a20-4bba-ad73", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "828b-4aa0-86f7", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "a[href*=\".pdf\"],a[href*=\".doc\"],a[href*=\".docx\"],a[href*=\".xls\"],a[href*=\".xlsx\"]", 
+                    "tagid": null, 
+                    "xpath": "//"
                 }
             ]
         }
     }, 
     "scrapes": "29e2-4a09-98ac", 
     "spider": "www.santacruzcourt.org", 
-    "url": "https://www.santacruzcourt.org/divisions",
+    "url": "https://www.santacruzcourt.org/divisions", 
     "version": "0.13.3"
 }

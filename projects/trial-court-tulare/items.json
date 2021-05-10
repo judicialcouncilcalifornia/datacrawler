@@ -1,0 +1,21 @@
+{
+    "7901-403f-a271": {
+        "fields": {
+            "2d81-4395-aa14": {
+                "id": "2d81-4395-aa14", 
+                "name": "body", 
+                "required": false, 
+                "type": "raw html", 
+                "vary": false
+            }, 
+            "6d66-4bb2-84c1": {
+                "id": "6d66-4bb2-84c1", 
+                "name": "title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }
+        }, 
+        "name": "page"
+    }
+}
