@@ -42,6 +42,13 @@
                 "required": false, 
                 "type": "text", 
                 "vary": false
+            }, 
+            "880c-4ed4-8e45": {
+                "id": "880c-4ed4-8e45", 
+                "name": "aside", 
+                "required": false, 
+                "type": "raw html", 
+                "vary": false
             }
         }, 
         "name": "page"

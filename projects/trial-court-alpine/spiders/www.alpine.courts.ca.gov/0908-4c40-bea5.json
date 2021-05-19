@@ -49,7 +49,7 @@
                 }, 
                 {
                     "accept_selectors": [
-                        ".hero > div, #mainContent, .banner .wrap"
+                        ".contentCenter, .hero"
                     ], 
                     "container_id": "4180-44cd-9da9", 
                     "data": {
@@ -68,9 +68,9 @@
                     "required": [], 
                     "repeated": true, 
                     "selection_mode": "css", 
-                    "selector": ".hero > div, #mainContent, .banner .wrap", 
+                    "selector": ".contentCenter, .hero", 
                     "tagid": null, 
-                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero \")]/div | //*[@id=\"mainContent\"] | //*[contains(concat(\" \", @class, \" \"), \" banner .wrap \")]"
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")] | //*[contains(concat(\" \", @class, \" \"), \" hero \")]"
                 }, 
                 {
                     "accept_selectors": [

@@ -96,6 +96,31 @@
                     "selector": "#breadcrumb > a:last-of-type", 
                     "tagid": null, 
                     "xpath": "//*[@id=\"breadcrumb\"]/"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#floatRight"
+                    ], 
+                    "container_id": "3c81-4780-bda4", 
+                    "data": {
+                        "3ada-430e-bd02": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "880c-4ed4-8e45", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "af5a-4831-87da", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#floatRight", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"floatRight\"]"
                 }
             ]
         }
