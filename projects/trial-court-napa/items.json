@@ -1,0 +1,42 @@
+{
+    "7dff-4de1-b9ff": {
+        "fields": {
+            "8c33-4ebf-b172": {
+                "id": "8c33-4ebf-b172", 
+                "name": "title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "c745-4352-9ca1": {
+                "id": "c745-4352-9ca1", 
+                "name": "body", 
+                "required": false, 
+                "type": "raw html", 
+                "vary": false
+            }, 
+            "dd45-40ee-8116": {
+                "id": "dd45-40ee-8116", 
+                "name": "topics", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "636b-4d1b-9839": {
+                "id": "636b-4d1b-9839", 
+                "name": "parent", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }, 
+            "f272-4c96-8f77": {
+                "id": "f272-4c96-8f77", 
+                "name": "grandparent", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }
+        }, 
+        "name": "page"
+    }
+}

@@ -1,0 +1,157 @@
+{
+    "extractors": {}, 
+    "id": "bcb9-41cf-b222", 
+    "name": "os-rr", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "264e-4b6a-8b90", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "7dff-4de1-b9ff", 
+                    "selector": ".hero", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenterWrap"
+                    ], 
+                    "container_id": "264e-4b6a-8b90", 
+                    "data": {
+                        "980e-43f0-9418": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c745-4352-9ca1", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "3619-4467-b068", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenterWrap", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenterWrap \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "264e-4b6a-8b90", 
+                    "data": {
+                        "980c-46d3-981c": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8c33-4ebf-b172", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "1082-48b2-a766", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".hero > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero \")]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".subMenu p a:last-of-type"
+                    ], 
+                    "container_id": "264e-4b6a-8b90", 
+                    "data": {
+                        "6f21-46fe-bf9c": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "636b-4d1b-9839", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "cfec-4936-9dfe", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".subMenu p a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" subMenu p a:last-of-type \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".subMenu p a:nth-of-type(2)"
+                    ], 
+                    "container_id": "264e-4b6a-8b90", 
+                    "data": {
+                        "eb57-4443-b7c0": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "f272-4c96-8f77", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "306c-425d-ac8d", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".subMenu p a:nth-of-type(2)", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" subMenu p a:nth-of-type(2) \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#leftNav li a.selected"
+                    ], 
+                    "container_id": "264e-4b6a-8b90", 
+                    "data": {
+                        "73ec-4517-ab4f": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "dd45-40ee-8116", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "b6b9-46a1-8e40", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#leftNav li a.selected", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"leftNav li a.selected\"]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "7dff-4de1-b9ff", 
+    "spider": "www.napa.courts.ca.gov", 
+    "url": "http://www.napa.courts.ca.gov/online-services/research-records",
+    "version": "0.13.3"
+}
