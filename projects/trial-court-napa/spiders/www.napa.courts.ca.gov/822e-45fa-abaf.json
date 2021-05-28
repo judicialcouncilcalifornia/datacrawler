@@ -1,0 +1,82 @@
+{
+    "extractors": {}, 
+    "id": "822e-45fa-abaf", 
+    "name": "dv", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "8562-4f96-b03f", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "7dff-4de1-b9ff", 
+                    "selector": ".hero", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenterWrap"
+                    ], 
+                    "container_id": "8562-4f96-b03f", 
+                    "data": {
+                        "16dc-4fa3-9687": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c745-4352-9ca1", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "7a71-4134-bf4c", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenterWrap", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenterWrap \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "8562-4f96-b03f", 
+                    "data": {
+                        "e912-4289-b04b": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8c33-4ebf-b172", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "ed5d-4924-884f", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".hero > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero \")]/h1"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "7dff-4de1-b9ff", 
+    "spider": "www.napa.courts.ca.gov", 
+    "url": "http://www.napa.courts.ca.gov/divisions", 
+    "version": "0.13.3"
+}

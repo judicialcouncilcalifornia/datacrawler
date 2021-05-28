@@ -1,0 +1,157 @@
+{
+    "extractors": {}, 
+    "id": "2515-4774-a001", 
+    "name": "dv-civil", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "a451-4806-b7e3", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "7dff-4de1-b9ff", 
+                    "selector": ".hero", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenterWrap"
+                    ], 
+                    "container_id": "a451-4806-b7e3", 
+                    "data": {
+                        "c6f1-4b25-b293": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c745-4352-9ca1", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "8f54-4eca-a31d", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenterWrap", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenterWrap \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "a451-4806-b7e3", 
+                    "data": {
+                        "e747-4159-afa4": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8c33-4ebf-b172", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "2f8f-4c1a-9143", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".hero > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero \")]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".subMenu p a:nth-of-type(2)"
+                    ], 
+                    "container_id": "a451-4806-b7e3", 
+                    "data": {
+                        "ef9c-4e36-b67b": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "f272-4c96-8f77", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "f07d-4542-bd67", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".subMenu p a:nth-of-type(2)", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" subMenu p a:nth-of-type(2) \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".subMenu p a:last-of-type"
+                    ], 
+                    "container_id": "a451-4806-b7e3", 
+                    "data": {
+                        "f321-419e-bc70": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "636b-4d1b-9839", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "807c-4b2c-87fa", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".subMenu p a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" subMenu p a:last-of-type \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#leftNav li a.selected"
+                    ], 
+                    "container_id": "a451-4806-b7e3", 
+                    "data": {
+                        "995d-4d00-ad7c": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "dd45-40ee-8116", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "f8fc-4135-9ddb", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#leftNav li a.selected", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"leftNav li a.selected\"]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "7dff-4de1-b9ff", 
+    "spider": "www.napa.courts.ca.gov", 
+    "url": "http://www.napa.courts.ca.gov/divisions/civil", 
+    "version": "0.13.3"
+}

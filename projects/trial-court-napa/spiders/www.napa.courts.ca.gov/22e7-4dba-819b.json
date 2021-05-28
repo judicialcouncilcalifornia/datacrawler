@@ -1,0 +1,157 @@
+{
+    "extractors": {}, 
+    "id": "22e7-4dba-819b", 
+    "name": "gi-gj", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "5867-4eae-b595", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "7dff-4de1-b9ff", 
+                    "selector": ".hero", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenterWrap"
+                    ], 
+                    "container_id": "5867-4eae-b595", 
+                    "data": {
+                        "b9ca-4961-986f": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c745-4352-9ca1", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "bc36-4411-8aa5", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenterWrap", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenterWrap \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "5867-4eae-b595", 
+                    "data": {
+                        "764e-4ce0-8197": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "8c33-4ebf-b172", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "d4a3-45a1-b423", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".hero > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero \")]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".subMenu p a:nth-of-type(2)"
+                    ], 
+                    "container_id": "5867-4eae-b595", 
+                    "data": {
+                        "490b-4ba7-9e13": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "f272-4c96-8f77", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "67fd-4298-a87d", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".subMenu p a:nth-of-type(2)", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" subMenu p a:nth-of-type(2) \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".subMenu p a:last-of-type"
+                    ], 
+                    "container_id": "5867-4eae-b595", 
+                    "data": {
+                        "d46b-4e3a-a5ec": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "636b-4d1b-9839", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "d208-456d-a899", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".subMenu p a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" subMenu p a:last-of-type \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#leftNav a.selected"
+                    ], 
+                    "container_id": "5867-4eae-b595", 
+                    "data": {
+                        "2e1f-4eaf-82b8": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "dd45-40ee-8116", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "e8d6-4b18-924b", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#leftNav a.selected", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"leftNav a.selected\"]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "7dff-4de1-b9ff", 
+    "spider": "www.napa.courts.ca.gov", 
+    "url": "http://www.napa.courts.ca.gov/general-info/grand-jury", 
+    "version": "0.13.3"
+}
