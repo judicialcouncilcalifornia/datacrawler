@@ -196,6 +196,31 @@
                     "selector": ".contentColumn .simpleModule3 ul li a", 
                     "tagid": null, 
                     "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentColumn .simpleModule3 ul li a \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenterWrap .contentColumn"
+                    ], 
+                    "container_id": "3297-491b-baaf", 
+                    "data": {
+                        "339f-4107-9770": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "4539-4884-a93b", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "ac8a-4974-868f", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenterWrap .contentColumn", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenterWrap .contentColumn \")]"
                 }
             ]
         }

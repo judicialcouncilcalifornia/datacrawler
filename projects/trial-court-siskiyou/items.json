@@ -49,6 +49,13 @@
                 "required": false, 
                 "type": "text", 
                 "vary": false
+            }, 
+            "4539-4884-a93b": {
+                "id": "4539-4884-a93b", 
+                "name": "aside", 
+                "required": false, 
+                "type": "raw html", 
+                "vary": false
             }
         }, 
         "name": "page"
