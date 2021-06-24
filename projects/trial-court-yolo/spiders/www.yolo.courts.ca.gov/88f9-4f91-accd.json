@@ -1,0 +1,82 @@
+{
+    "extractors": {}, 
+    "id": "88f9-4f91-accd", 
+    "name": "os", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "0dda-45e0-8328", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "9347-48b0-a1b4", 
+                    "selector": ".hero", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "0dda-45e0-8328", 
+                    "data": {
+                        "8b4c-4984-bce6": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "edd0-45f4-b09f", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "38aa-40ec-a057", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".hero > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero \")]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".banner, .contentCenterWide"
+                    ], 
+                    "container_id": "0dda-45e0-8328", 
+                    "data": {
+                        "b5c2-41a5-96a2": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "cee9-47d9-8f47", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "0d01-46cf-bebf", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".banner, .contentCenterWide", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" banner \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "9347-48b0-a1b4", 
+    "spider": "www.yolo.courts.ca.gov", 
+    "url": "https://www.yolo.courts.ca.gov/online-services", 
+    "version": "0.13.3"
+}

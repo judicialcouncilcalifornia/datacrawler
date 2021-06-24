@@ -1,0 +1,573 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<!-- BEGIN page.tpl.php -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- BEGIN head.php -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/sites/default/files/calcourts_favicon.gif" type="image/x-icon" />
+
+<title>Tentative Rulings Calendar | Superior Court of California - County of Yolo</title>
+<link rel="shortcut icon" href="/sites/default/files/images/favicon_seal.ico" type="image/x-icon" />
+
+<link rel="canonical" href="http://www.yolo.courts.ca.gov/online-services/tentative-rulings" />
+<link rel="stylesheet" type="text/css" href="/sites/all/themes/calcourts/css/styles.css" media="all" />
+<link rel="stylesheet" type="text/css" href="/sites/all/themes/calcourts/css/blue.css" media="all" />
+<link rel="alternate stylesheet" type="text/css" media="screen" title="medium" href="/sites/all/themes/calcourts/css/medium.css" />
+<link rel="alternate stylesheet" type="text/css" media="screen" title="large" href="/sites/all/themes/calcourts/css/large.css" />
+<link rel="stylesheet" type="text/css" href="/sites/all/themes/calcourts/css/print.css" media="print" />
+
+<!--<script type="text/javascript" src="/js/jquery-1.4.2.min.js"></script>-->
+<script type="text/javascript" src="/sites/all/themes/calcourts/js/cwc.js"></script>
+<script type="text/javascript" src="/sites/all/themes/calcourts/js/list.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<!--
+<script src="https://static.dudamobile.com/DM_redirect.js" type="text/javascript"></script>
+<script type="text/javascript">DM_redirect("http://mobile.yolo.courts.ca.gov");</script>
+-->
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+    var bgArray = ['1.jpg', '2.jpg', '3.jpg'];
+    var bg = bgArray[Math.floor(Math.random() * bgArray.length)];
+
+    $('body').css('background', bg);
+
+    // If you have defined a path for the images
+    var path = 'images/bg/';
+
+    // then you can put it right before the variable 'bg'
+    $('body').css('background', path+bg);
+
+}); 
+</script>
+
+	
+<!--[if LT IE 7]>
+<link rel="stylesheet" type="text/css" href="/sites/all/themes/calcourts/css/ie6.css" media="all" />
+<script type="text/javascript">
+ $(document).ready(function(){
+   $("#mainMenu li, #homeTabs li span, .faq dt").hover(
+     function () { $(this).addClass("hover"); },
+     function () { $(this).removeClass("hover"); }
+   );
+ });
+</script>
+<![endif]-->
+<!--[if LT IE 8]>
+<style type="text/css">
+    .chevron { list-style-type: disc; }
+    #search input#edit-submit, #search input#edit-submit-1, #search input#edit-submit-2 { margin-left: -5px; }
+</style>
+<script type="text/javascript">
+ $(document).ready(function(){
+   
+ });
+</script>
+<![endif]-->
+<!-- END head.php -->
+<link type="text/css" rel="stylesheet" media="all" href="/modules/node/node.css?0" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/defaults.css?0" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system.css?0" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/system/system-menus.css?0" />
+<link type="text/css" rel="stylesheet" media="all" href="/modules/user/user.css?0" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/google_cse/google_cse.css?0" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/range/range.css?0" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/video/css/video.css?0" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/cck/theme/content-module.css?0" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/ctools/css/ctools.css?0" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/date/date.css?0" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/libraries/jquery.ui/themes/default/ui.datepicker.css?0" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/date/date_popup/themes/jquery.timeentry.css?0" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/dhtml_menu/dhtml_menu.css?0" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/filefield/filefield.css?0" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/nice_menus/nice_menus_default.css?0" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/node_widget-6.x-1.0-beta4/node_widget/node_widget.css?0" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/panels/css/panels.css?0" />
+<link type="text/css" rel="stylesheet" media="all" href="/misc/farbtastic/farbtastic.css?0" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/calendar/calendar.css?0" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/cck/modules/fieldgroup/fieldgroup.css?0" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/default/modules/views/css/views.css?0" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/modules/tablefield/tablefield.css?0" />
+<link type="text/css" rel="stylesheet" media="all" href="/sites/all/themes/calcourts/css/styles.css?0" />
+<link type="text/css" rel="stylesheet" media="print" href="/sites/all/themes/calcourts/css/print.css?0" />
+<script type="text/javascript" src="/sites/default/modules/jquery_update/replace/jquery.min.js?0"></script>
+<script type="text/javascript" src="/misc/drupal.js?0"></script>
+<script type="text/javascript" src="/sites/all/modules/video/js/video.js?0"></script>
+<script type="text/javascript" src="/sites/default/modules/dhtml_menu/dhtml_menu.js?0"></script>
+<script type="text/javascript" src="/sites/default/modules/google_analytics/googleanalytics.js?0"></script>
+<script type="text/javascript" src="/sites/default/modules/nice_menus/superfish/js/superfish.js?0"></script>
+<script type="text/javascript" src="/sites/default/modules/nice_menus/superfish/js/jquery.bgiframe.min.js?0"></script>
+<script type="text/javascript" src="/sites/default/modules/nice_menus/superfish/js/jquery.hoverIntent.minified.js?0"></script>
+<script type="text/javascript" src="/sites/default/modules/nice_menus/nice_menus.js?0"></script>
+<script type="text/javascript" src="/sites/default/modules/panels/js/panels.js?0"></script>
+<script type="text/javascript" src="/sites/all/libraries/superfish/superfish.js?0"></script>
+<script type="text/javascript" src="/sites/default/modules/superfish/superfish.js?0"></script>
+<script type="text/javascript" src="/sites/default/modules/views_slideshow/js/views_slideshow.js?0"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "dhtmlMenu": { "slide": "slide", "siblings": "siblings", "relativity": "relativity", "children": "children", "doubleclick": "doubleclick", "clone": 0 }, "googleanalytics": { "trackOutbound": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip" }, "nice_menus_options": { "delay": "250", "speed": "fast" }, "CToolsUrlIsAjaxTrusted": { "/online-services/tentative-rulings": true } });
+//--><!]]>
+</script>
+</head>
+<body class="onlineServices">
+    <div id="mainContainer">
+        <!-- BEGIN body_header.php -->
+<a name="top"></a>
+<div id="headerWrap">
+    <!--<div class="contact">
+      <a href="/contact" name="Contact_Us">Contact Us</a>
+    </div>-->
+    <div class="date"><!--Updated Daily-->Jun. 23, 2021</div>
+    <div class="toolbar">
+      <a href="https://translate.google.com/translate?hl=en&sl=auto&tl=es&u=https://www.yolo.courts.ca.gov" class="txttoolbar" onclick="return confirm('DISCLAIMER:\n \nThe official language used for the content of the Yolo Superior Court public website is English. \nGoogle™ Translate is a free online language translation service that can translate text and web pages into different languages. Computerized translations are only an approximation of the original content. The translation should not be considered exact and in some cases may include incorrect or offensive language. \nThe Yolo Superior Court does not warrant the accuracy, reliability or timeliness of any information translated by Google™ Translate or any other translation system. \nIn addition, some applications, files or items cannot be translated including graphs, photos or some portable document formats (pdfs). \nPlease be aware that when a translation is requested, you will be leaving the Yolo Superior Court website. \nThe Yolo Superior Court does not endorse the use of Google™ Translate. Other translation services may be used to view our site. \nAny person or entity that relies on information obtained from any translation system does so at their own risk. \nWhen a translation is complete, you assume the risk of any inaccuracies, errors or other problems encountered. \nThe Yolo Superior Court is not responsible for any damage or issues that may possibly result from using Google™ Translate or any other translation system.')">Español</a>
+      <a href="https://translate.google.com/translate?hl=en&sl=auto&tl=pa&u=https://www.yolo.courts.ca.gov" class="txttoolbar" onclick="return confirm('DISCLAIMER:\n \nThe official language used for the content of the Yolo Superior Court public website is English. \nGoogle™ Translate is a free online language translation service that can translate text and web pages into different languages. Computerized translations are only an approximation of the original content. The translation should not be considered exact and in some cases may include incorrect or offensive language. \nThe Yolo Superior Court does not warrant the accuracy, reliability or timeliness of any information translated by Google™ Translate or any other translation system. \nIn addition, some applications, files or items cannot be translated including graphs, photos or some portable document formats (pdfs). \nPlease be aware that when a translation is requested, you will be leaving the Yolo Superior Court website. \nThe Yolo Superior Court does not endorse the use of Google™ Translate. Other translation services may be used to view our site. \nAny person or entity that relies on information obtained from any translation system does so at their own risk. \nWhen a translation is complete, you assume the risk of any inaccuracies, errors or other problems encountered. \nThe Yolo Superior Court is not responsible for any damage or issues that may possibly result from using Google™ Translate or any other translation system.')">ਪੰਜਾਬੀ ਦੇ</a>
+      <a href="https://translate.google.com/translate?hl=en&sl=auto&tl=ru&u=https://www.yolo.courts.ca.gov" class="txttoolbar" onclick="return confirm('DISCLAIMER:\n \nThe official language used for the content of the Yolo Superior Court public website is English. \nGoogle™ Translate is a free online language translation service that can translate text and web pages into different languages. Computerized translations are only an approximation of the original content. The translation should not be considered exact and in some cases may include incorrect or offensive language. \nThe Yolo Superior Court does not warrant the accuracy, reliability or timeliness of any information translated by Google™ Translate or any other translation system. \nIn addition, some applications, files or items cannot be translated including graphs, photos or some portable document formats (pdfs). \nPlease be aware that when a translation is requested, you will be leaving the Yolo Superior Court website. \nThe Yolo Superior Court does not endorse the use of Google™ Translate. Other translation services may be used to view our site. \nAny person or entity that relies on information obtained from any translation system does so at their own risk. \nWhen a translation is complete, you assume the risk of any inaccuracies, errors or other problems encountered. \nThe Yolo Superior Court is not responsible for any damage or issues that may possibly result from using Google™ Translate or any other translation system.')">русскийੇ</a>
+
+       <!-- <a class="normal" href="#" onclick="setActiveStyleSheet('default'); return false;">A</a>
+        <a class="medium" href="#" onclick="setActiveStyleSheet('medium'); return false;">A</a>
+        <a class="large" href="#" onclick="setActiveStyleSheet('large'); return false;">A</a>-->
+        <!--<a href="#" class="txttoolbar on">English</a> | <a href="#" class="txttoolbar">Español</a>-->
+    </div>
+
+    <div class="logo">
+        <a href="/"><img src="/sites/default/files/images/logo.gif" width="335" height="41" alt="Superior Court of California - County of Yolo" title="Superior Court of California - County of Yolo" /></a>
+    </div>
+    <div>
+      <script>
+        (function() {
+          var cx = '011003726102376087900:ggsyos4jyws';
+          var gcse = document.createElement('script');
+          gcse.type = 'text/javascript';
+          gcse.async = true;
+          gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(gcse, s);
+        })();
+      </script>
+      <gcse:search></gcse:search>
+  </div>
+  </div>
+<div class="cleaner"></div>
+<!-- END body_header.php -->
+        <!-- BEGIN menu_top.php -->
+<ul id="mainMenu">
+<li><a id="home" href="/">Home</a></li>
+  <li class="selected"><a href="/online-services">Online Services<span>Pay&nbsp;Fines,&nbsp;Calendars...</span></a>
+    <ul>
+<li class="menu-23924 menu-path-https--portal-cayolotylertechcloud-Portal- first  odd "><a href="https://portal-cayolo.tylertech.cloud/Portal/" title="" id="dhtml_menu-23924">Court Calendar</a></li>
+<li class="menu-20857 menu-path-https--ncourtcom-ncourtlanding-cayolocountylandingaspx even "><a href="https://www.ncourt.com/ncourtlanding/cayolocountylanding.aspx" title="" id="dhtml_menu-20857">Court Payments</a></li>
+<li class="menu-27200 menu-path-node-710342 odd "><a href="/online-services/hearing-stream" title="" id="dhtml_menu-27200">Courtroom Live Streams</a></li>
+<li class="menu-27201 menu-path-node-710483 even "><a href="/online-services/courtroom-remote-appearance" title="" id="dhtml_menu-27201">Courtroom Remote Appearance</a></li>
+<li class="menu-27196 menu-path-node-710494 odd "><a href="/online-services/file-at-home" title="" id="dhtml_menu-27196">File @ Home</a></li>
+<li class="menu-27197 menu-path-node-710481 even "><a href="/online-services/e-file" title="" id="dhtml_menu-27197">eFile Court Documents</a></li>
+<li class="menu-16872 menu-path-node-632246 odd "><a href="/Jury" title="" id="dhtml_menu-16872">Jury Services</a></li>
+<li class="menu-27157 menu-path-node-709937 even "><a href="/divisions/small-claims/modria-faqs" title="" id="dhtml_menu-27157">Online Dispute Resolution</a></li>
+<li class="menu-8104 menu-path-online-services-probate-notes odd "><a href="/online-services/probate-notes" title="Probate Notes" id="dhtml_menu-8104">Probate Notes</a></li>
+<li class="menu-22772 menu-path-node-5531 even "><a href="/interpreterrequest" title="Request For Interpreter Form" id="dhtml_menu-22772">Interpreter Requests</a></li>
+<li class="menu-9193 menu-path-online-services-tentative-rulings active-trail odd "><a href="/online-services/tentative-rulings" title="" id="dhtml_menu-9193" class="active">Tentative Rulings</a></li>
+<li class="menu-27231 menu-path-node-710671 even "><a href="/online-services/traffic-remote-appearance" title="" id="dhtml_menu-27231">Traffic Remote Appearance</a></li>
+<li class="menu-26486 menu-path-node-632178 odd  last "><a href="/SelfHelpWorkshop" title="" id="dhtml_menu-26486">Self Help Workshop Sign Up</a></li>
+    </ul></li>
+  <li><a href="/forms-filing">Forms & Filing<span>Forms,&nbsp;Fee&nbsp;Schedule...</span></a>
+    <ul>
+<li class="menu-1620 menu-path-node-31 first  odd "><a href="/forms-filing/fee-schedule" title="" id="dhtml_menu-1620">Fee Schedule</a></li>
+<li class="menu-1902 menu-path-courtscagov-formshtm even  last "><a href="http://www.courts.ca.gov/forms.htm" title="" id="dhtml_menu-1902">Judicial Council Forms</a></li>
+    </ul></li>
+  <li><a href="/self-help/main">Self-Help<span>Self-Rep,&nbsp;Info,&nbsp;FAQs...</span></a>
+    <ul>
+    </ul></li>
+  <li><a href="/divisions/main">Divisions<span>Civil,&nbsp;Criminal,&nbsp;Family...</span></a>
+    <ul>
+<li class="menu-1331 menu-path-node-12 first  odd "><a href="/divisions/civil" title="" id="dhtml_menu-1331">Civil</a></li>
+<li class="menu-1338 menu-path-node-16 even "><a href="/divisions/collections" title="" id="dhtml_menu-1338">Collections</a></li>
+<li class="menu-1637 menu-path-node-48 odd "><a href="/divisions/court-services" title="" id="dhtml_menu-1637">Court Services</a></li>
+<li class="menu-1604 menu-path-node-18 even "><a href="/divisions/criminal" title="" id="dhtml_menu-1604">Criminal</a></li>
+<li class="menu-1607 menu-path-node-20 odd "><a href="/divisions/family" title="" id="dhtml_menu-1607">Family</a></li>
+<li class="menu-1608 menu-path-node-21 even "><a href="/divisions/juvenile" title="" id="dhtml_menu-1608">Juvenile</a></li>
+<li class="menu-1610 menu-path-node-23 odd "><a href="/divisions/small-claims/home" title="" id="dhtml_menu-1610">Small Claims</a></li>
+<li class="menu-1611 menu-path-node-24 even  last "><a href="/divisions/traffic" title="" id="dhtml_menu-1611">Traffic</a></li>
+    </ul></li>
+  <li><a href="/general-info">General Info<span>Local&nbsp;Rules,&nbsp;ADA,&nbsp;Maps...</span></a>
+    <ul>
+<li class="menu-1633 menu-path-node-44 first  odd "><a href="/general-info/ada" title="" id="dhtml_menu-1633">ADA</a></li>
+<li class="menu-26398 menu-path-node-632158 even "><a href="/attorney" title="" id="dhtml_menu-26398">Attorneys</a></li>
+<li class="menu-12987 menu-path-node-212 odd "><a href="/general-info/budget" title="" id="dhtml_menu-12987">Budget</a></li>
+<li class="menu-1900 menu-path-node-61 even "><a href="/general-info/court-holidays" title="" id="dhtml_menu-1900">Court Holidays</a></li>
+<li class="menu-26399 menu-path-node-135 odd "><a href="/divisions/court-services/court-reporters" title="" id="dhtml_menu-26399">Court Reporters</a></li>
+<li class="menu-26104 menu-path-node-631641 even "><a href="/general-info/evidence-presentation" title="" id="dhtml_menu-26104">Evidence Presentation</a></li>
+<li class="menu-1925 menu-path-node-64 odd "><a href="/GrandJury" title="" id="dhtml_menu-1925">Grand Jury</a></li>
+<li class="menu-1899 menu-path-node-60 even "><a href="/general-info/history" title="" id="dhtml_menu-1899">History</a></li>
+<li class="menu-1632 menu-path-node-43 odd "><a href="/general-info/human-resources" title="" id="dhtml_menu-1632">Human Resources</a></li>
+<li class="menu-1634 menu-path-node-45 even "><a href="/general-info/interpreter-information" title="" id="dhtml_menu-1634">Interpreter Information</a></li>
+<li class="menu-4003 menu-path-node-92 odd "><a href="/general-info/job-opportunities" title="" id="dhtml_menu-4003">Job Opportunities</a></li>
+<li class="menu-1631 menu-path-node-42 even "><a href="/general-info/judicial-assignments" title="" id="dhtml_menu-1631">Judicial Assignments</a></li>
+<li class="menu-27154 menu-path-node-709991 odd "><a href="/general-info/judicial-profile" title="" id="dhtml_menu-27154">Judicial Profiles</a></li>
+<li class="menu-27136 menu-path-node-632246 even "><a href="/Jury" title="" id="dhtml_menu-27136">Jury Services</a></li>
+<li class="menu-1635 menu-path-node-46 odd "><a href="/general-info/local-rules" title="" id="dhtml_menu-1635">Local Rules and Policies</a></li>
+<li class="menu-1630 menu-path-node-41 even "><a href="/general-info/locations" title="" id="dhtml_menu-1630">Locations</a></li>
+<li class="menu-24990 menu-path-node-512806 odd "><a href="/general-info/media-center" title="" id="dhtml_menu-24990">Media Center</a></li>
+<li class="menu-3398 menu-path-node-69 even "><a href="/general-info/payment-information" title="" id="dhtml_menu-3398">Payment Information</a></li>
+<li class="menu-4327 menu-path-node-109 odd "><a href="/general-info/press-releases" title="" id="dhtml_menu-4327">Press Releases</a></li>
+<li class="menu-7329 menu-path-node-144 even  last "><a href="/general-info/public-notice" title="" id="dhtml_menu-7329">Public Notice</a></li>
+    </ul></li>
+  
+</ul>
+<!-- END menu_top.php -->
+
+        <div id="containerLanding">
+            <div class="subMenu"><!-- (breadcrumb) -->
+                <p><a href="/">Home</a> &raquo; &nbsp;<strong> Tentative Rulings Calendar</strong></p>
+            </div>
+            <div id="mainContentWrap" class="bgTwoColumn">
+                    <div class="contentColumn">
+                                                 <!-- BEGIN block.tpl.php -->
+<div id="leftNav"><ul><li><a href="/online-services">Online Services</a><ul><li><a href="https://portal-cayolo.tylertech.cloud/Portal/">Court Calendar</a></li><li><a href="https://www.ncourt.com/ncourtlanding/cayolocountylanding.aspx">Court Payments</a></li><li><a href="/online-services/hearing-stream">Courtroom Live Streams</a></li><li><a href="/online-services/courtroom-remote-appearance">Courtoom Remote Appearance</a></li><li><a href="/online-services/file-at-home">File @ Home</a></li><li><a href="/online-services/e-file">eFile Court Documents</a></li><li><a href="https://jurystatus.yolo.courts.ca.gov/login">Jury Services</a></li><li><a href="/divisions/small-claims/modria-faqs">Online Dispute Resolution</a></li><li><a href="/online-services/probate-notes">Probate Notes</a></li><li><a href="https://www.yolo.courts.ca.gov/interpreterrequest">Interpreter Requests</a></li><li><a href="/online-services/tentative-rulings">Tentative Rulings</a></li><li><a href="/online-services/traffic-remote-appearance">Traffic Remote Appearance</a></li><li><a href="/SelfHelpWorkshop">Self Help Workshop Sign Up</a></li></ul></li></ul></div><!-- END block.tpl.php -->
+
+                    </div>
+                    <div class="contentCenterWrap">
+                        <div class="hero">
+                            <!-- Begin field_content_header -->
+                            <h1>Tentative Rulings Calendar</h1>                            <!-- End field_content_header -->
+                        </div>
+                        <div class="function"><a href="javascript:window.print();" class="print">Print</a> | <a href="/site/contact" class="email">Contact</a></div>
+                        <div class="cleaner"></div>
+                        <div class="contentCenterWide">
+                                                      <!-- Begin content body -->
+                            <div class="view view-calendar-tentative-date-calendar view-id-calendar_tentative_date_calendar view-display-id-calendar_1 view-dom-id-b4edab2a3dab083577b085acc0dcb28b">
+        <div class="view-header">
+      <p><b>INSTRUCTIONS:</b>&nbsp; To view the Tentative Ruling for a particular Civil Law and Motion matter,  select your date on the left.  Unless you already have Adobe Acrobat installed on your computer, the free <a href="http://www.adobe.com/">Adobe Acrobat Reader</a>&nbsp;is required to review the Tentative Rulings.</p>
+<p>Pursuant to Yolo County Local Rules, Tentative Rulings will become the order of the court unless, by 4:00 p.m. on the court day before the hearing date, a party requests a hearing and notifies other counsel of the hearing request.  To request a hearing, you must contact the clerk of the department where the hearing is on the calendar.  The telephone number for the clerk of the department will be listed on the Tentative Rulings for that hearing date. If you are scheduled to appear and there is no tentative ruling in your case, you should appear as scheduled.</p>
+<p>If no hearing is requested, the prevailing party must submit an order to the court in accordance with Rule 3.1312 of the 2007 California Rules of Court. You can also obtain the tentative rulings by telephone by calling (530) 406-6806.</p>
+<p style="display: none">[block:views=351f2554a15329ea940344f3ae93ab63]</p>
+    </div>
+  
+  
+  
+      <div class="view-content">
+      
+<div class="calendar-calendar">
+      <ul class="links"><li class="calendar calendar-year first"><a href="https://www.yolo.courts.ca.gov/online-services/tentative-rulings/2021" rel="nofollow">Year</a></li>
+<li class="calendar calendar-month"><a href="https://www.yolo.courts.ca.gov/online-services/tentative-rulings/2021-06" rel="nofollow">Month</a></li>
+<li class="calendar calendar-week"><a href="https://www.yolo.courts.ca.gov/online-services/tentative-rulings/2021-W23" rel="nofollow">Week</a></li>
+<li class="calendar calendar-day last"><a href="https://www.yolo.courts.ca.gov/online-services/tentative-rulings/2021-06-01" rel="nofollow">Day</a></li>
+</ul>  <div class="date-nav clear-block">
+  <div class="date-prev">
+          <span class="next views-summary"> <a href="https://www.yolo.courts.ca.gov/online-services/tentative-rulings/2021-05" title="Navigate to previous month" rel="nofollow">« Prev</a></span>
+      &nbsp;</div>
+  <div class="date-heading">
+    <h3>June 2021</h3>
+  </div>
+  <div class="date-next">&nbsp;
+          <span class="next views-summary"> <a href="https://www.yolo.courts.ca.gov/online-services/tentative-rulings/2021-07" title="Navigate to next month" rel="nofollow">Next »</a></span>
+      </div>
+</div>
+</div>    </div>
+  
+  
+      <div class="attachment attachment-after">
+      <div class="calendar-calendar"><div class="month-view">
+<table>
+  <thead>
+    <tr>
+              <th class="days week">
+          &nbsp;        </th>
+              <th class="days sun">
+          Sunday        </th>
+              <th class="days mon">
+          Monday        </th>
+              <th class="days tue">
+          Tuesday        </th>
+              <th class="days wed">
+          Wednesday        </th>
+              <th class="days thu">
+          Thursday        </th>
+              <th class="days fri">
+          Friday        </th>
+              <th class="days sat">
+          Saturday        </th>
+          </tr>
+  </thead>
+  <tbody>
+          <tr>
+                  <td id="calendar_tentative_date_calendar-weekno-2021-05-30" class="week">
+            <a href="https://www.yolo.courts.ca.gov/online-services/tentative-rulings/2021-W23">23</a>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-05-30" class="sun empty">
+            <div class="inner"><div class="calendar-empty">&nbsp;</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-05-31" class="mon empty">
+            <div class="inner"><div class="calendar-empty">&nbsp;</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-01" class="tue past has-events">
+            <div class="inner"><div class="month day"> <a href="https://www.yolo.courts.ca.gov/online-services/tentative-rulings/2021-06-01">1</a> </div><div class="view-item view-item-calendar_tentative_date_calendar">
+  <div class="calendar.710847.field_caltentative.0.0 calendar monthview">
+              <div class="view-field view-data-node-vid node-vid">
+          
+        <a href="https://www.yolo.courts.ca.gov/system/files/ATO-TEN-210601.pdf"><p><img alt="" src="/sites/default/files/images/btn_gavel.gif" /></p></a>      </div>  
+      </div>    
+</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-02" class="wed past has-events">
+            <div class="inner"><div class="month day"> <a href="https://www.yolo.courts.ca.gov/online-services/tentative-rulings/2021-06-02">2</a> </div><div class="view-item view-item-calendar_tentative_date_calendar">
+  <div class="calendar.710849.field_caltentative.0.1 calendar monthview">
+              <div class="view-field view-data-node-vid node-vid">
+          
+        <a href="https://www.yolo.courts.ca.gov/system/files/ATO-TEN-210602.pdf"><p><img alt="" src="/sites/default/files/images/btn_gavel.gif" /></p></a>      </div>  
+      </div>    
+</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-03" class="thu past has-events">
+            <div class="inner"><div class="month day"> <a href="https://www.yolo.courts.ca.gov/online-services/tentative-rulings/2021-06-03">3</a> </div><div class="view-item view-item-calendar_tentative_date_calendar">
+  <div class="calendar.710852.field_caltentative.0.2 calendar monthview">
+              <div class="view-field view-data-node-vid node-vid">
+          
+        <a href="https://www.yolo.courts.ca.gov/system/files/ATO-TEN-210603.pdf"><p><img alt="" src="/sites/default/files/images/btn_gavel.gif" /></p></a>      </div>  
+      </div>    
+</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-04" class="fri past has-events">
+            <div class="inner"><div class="month day"> <a href="https://www.yolo.courts.ca.gov/online-services/tentative-rulings/2021-06-04">4</a> </div><div class="view-item view-item-calendar_tentative_date_calendar">
+  <div class="calendar.710854.field_caltentative.0.3 calendar monthview">
+              <div class="view-field view-data-node-vid node-vid">
+          
+        <a href="https://www.yolo.courts.ca.gov/system/files/ATO-TEN-210604.pdf"><p><img alt="" src="/sites/default/files/images/btn_gavel.gif" /></p></a>      </div>  
+      </div>    
+</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-05" class="sat past has-no-events">
+            <div class="inner"><div class="month day"> 5 </div><div class="calendar-empty">&nbsp;</div>
+</div>          </td>
+              </tr>
+          <tr>
+                  <td id="calendar_tentative_date_calendar-weekno-2021-06-06" class="week">
+            <a href="https://www.yolo.courts.ca.gov/online-services/tentative-rulings/2021-W24">24</a>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-06" class="sun past has-no-events">
+            <div class="inner"><div class="month day"> 6 </div><div class="calendar-empty">&nbsp;</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-07" class="mon past has-events">
+            <div class="inner"><div class="month day"> <a href="https://www.yolo.courts.ca.gov/online-services/tentative-rulings/2021-06-07">7</a> </div><div class="view-item view-item-calendar_tentative_date_calendar">
+  <div class="calendar.710855.field_caltentative.0.4 calendar monthview">
+              <div class="view-field view-data-node-vid node-vid">
+          
+        <a href="https://www.yolo.courts.ca.gov/system/files/ATO-TEN-210607.pdf"><p><img alt="" src="/sites/default/files/images/btn_gavel.gif" /></p></a>      </div>  
+      </div>    
+</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-08" class="tue past has-events">
+            <div class="inner"><div class="month day"> <a href="https://www.yolo.courts.ca.gov/online-services/tentative-rulings/2021-06-08">8</a> </div><div class="view-item view-item-calendar_tentative_date_calendar">
+  <div class="calendar.710858.field_caltentative.0.5 calendar monthview">
+              <div class="view-field view-data-node-vid node-vid">
+          
+        <a href="https://www.yolo.courts.ca.gov/system/files/ATO-TEN-210608.pdf"><p><img alt="" src="/sites/default/files/images/btn_gavel.gif" /></p></a>      </div>  
+      </div>    
+</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-09" class="wed past has-no-events">
+            <div class="inner"><div class="month day"> 9 </div><div class="calendar-empty">&nbsp;</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-10" class="thu past has-events">
+            <div class="inner"><div class="month day"> <a href="https://www.yolo.courts.ca.gov/online-services/tentative-rulings/2021-06-10">10</a> </div><div class="view-item view-item-calendar_tentative_date_calendar">
+  <div class="calendar.710861.field_caltentative.0.6 calendar monthview">
+              <div class="view-field view-data-node-vid node-vid">
+          
+        <a href="https://www.yolo.courts.ca.gov/system/files/ATO-TEN-210610.pdf"><p><img alt="" src="/sites/default/files/images/btn_gavel.gif" /></p></a>      </div>  
+      </div>    
+</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-11" class="fri past has-events">
+            <div class="inner"><div class="month day"> <a href="https://www.yolo.courts.ca.gov/online-services/tentative-rulings/2021-06-11">11</a> </div><div class="view-item view-item-calendar_tentative_date_calendar">
+  <div class="calendar.710863.field_caltentative.0.7 calendar monthview">
+              <div class="view-field view-data-node-vid node-vid">
+          
+        <a href="https://www.yolo.courts.ca.gov/system/files/ATO-TEN-210611.pdf"><p><img alt="" src="/sites/default/files/images/btn_gavel.gif" /></p></a>      </div>  
+      </div>    
+</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-12" class="sat past has-no-events">
+            <div class="inner"><div class="month day"> 12 </div><div class="calendar-empty">&nbsp;</div>
+</div>          </td>
+              </tr>
+          <tr>
+                  <td id="calendar_tentative_date_calendar-weekno-2021-06-13" class="week">
+            <a href="https://www.yolo.courts.ca.gov/online-services/tentative-rulings/2021-W25">25</a>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-13" class="sun past has-no-events">
+            <div class="inner"><div class="month day"> 13 </div><div class="calendar-empty">&nbsp;</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-14" class="mon past has-no-events">
+            <div class="inner"><div class="month day"> 14 </div><div class="calendar-empty">&nbsp;</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-15" class="tue past has-events">
+            <div class="inner"><div class="month day"> <a href="https://www.yolo.courts.ca.gov/online-services/tentative-rulings/2021-06-15">15</a> </div><div class="view-item view-item-calendar_tentative_date_calendar">
+  <div class="calendar.710866.field_caltentative.0.8 calendar monthview">
+              <div class="view-field view-data-node-vid node-vid">
+          
+        <a href="https://www.yolo.courts.ca.gov/system/files/ATO-TEN-210615.pdf"><p><img alt="" src="/sites/default/files/images/btn_gavel.gif" /></p></a>      </div>  
+      </div>    
+</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-16" class="wed past has-events">
+            <div class="inner"><div class="month day"> <a href="https://www.yolo.courts.ca.gov/online-services/tentative-rulings/2021-06-16">16</a> </div><div class="view-item view-item-calendar_tentative_date_calendar">
+  <div class="calendar.710867.field_caltentative.0.9 calendar monthview">
+              <div class="view-field view-data-node-vid node-vid">
+          
+        <a href="https://www.yolo.courts.ca.gov/system/files/ATO-TEN-210616.pdf"><p><img alt="" src="/sites/default/files/images/btn_gavel.gif" /></p></a>      </div>  
+      </div>    
+</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-17" class="thu past has-events">
+            <div class="inner"><div class="month day"> <a href="https://www.yolo.courts.ca.gov/online-services/tentative-rulings/2021-06-17">17</a> </div><div class="view-item view-item-calendar_tentative_date_calendar">
+  <div class="calendar.710870.field_caltentative.0.10 calendar monthview">
+              <div class="view-field view-data-node-vid node-vid">
+          
+        <a href="https://www.yolo.courts.ca.gov/system/files/ATO-TEN-210617.pdf"><p><img alt="" src="/sites/default/files/images/btn_gavel.gif" /></p></a>      </div>  
+      </div>    
+</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-18" class="fri past has-events">
+            <div class="inner"><div class="month day"> <a href="https://www.yolo.courts.ca.gov/online-services/tentative-rulings/2021-06-18">18</a> </div><div class="view-item view-item-calendar_tentative_date_calendar">
+  <div class="calendar.710873.field_caltentative.0.11 calendar monthview">
+              <div class="view-field view-data-node-vid node-vid">
+          
+        <a href="https://www.yolo.courts.ca.gov/system/files/ATO-TEN-210618.pdf"><p><img alt="" src="/sites/default/files/images/btn_gavel.gif" /></p></a>      </div>  
+      </div>    
+</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-19" class="sat past has-no-events">
+            <div class="inner"><div class="month day"> 19 </div><div class="calendar-empty">&nbsp;</div>
+</div>          </td>
+              </tr>
+          <tr>
+                  <td id="calendar_tentative_date_calendar-weekno-2021-06-20" class="week">
+            <a href="https://www.yolo.courts.ca.gov/online-services/tentative-rulings/2021-W26">26</a>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-20" class="sun past has-no-events">
+            <div class="inner"><div class="month day"> 20 </div><div class="calendar-empty">&nbsp;</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-21" class="mon past has-no-events">
+            <div class="inner"><div class="month day"> 21 </div><div class="calendar-empty">&nbsp;</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-22" class="tue past has-no-events">
+            <div class="inner"><div class="month day"> 22 </div><div class="calendar-empty">&nbsp;</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-23" class="wed today has-events">
+            <div class="inner"><div class="month day"> <a href="https://www.yolo.courts.ca.gov/online-services/tentative-rulings/2021-06-23">23</a> </div><div class="view-item view-item-calendar_tentative_date_calendar">
+  <div class="calendar.710875.field_caltentative.0.12 calendar monthview">
+              <div class="view-field view-data-node-vid node-vid">
+          
+        <a href="https://www.yolo.courts.ca.gov/system/files/ATO-TEN-210623.pdf"><p><img alt="" src="/sites/default/files/images/btn_gavel.gif" /></p></a>      </div>  
+      </div>    
+</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-24" class="thu future has-no-events">
+            <div class="inner"><div class="month day"> 24 </div><div class="calendar-empty">&nbsp;</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-25" class="fri future has-no-events">
+            <div class="inner"><div class="month day"> 25 </div><div class="calendar-empty">&nbsp;</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-26" class="sat future has-no-events">
+            <div class="inner"><div class="month day"> 26 </div><div class="calendar-empty">&nbsp;</div>
+</div>          </td>
+              </tr>
+          <tr>
+                  <td id="calendar_tentative_date_calendar-weekno-2021-06-27" class="week">
+            <a href="https://www.yolo.courts.ca.gov/online-services/tentative-rulings/2021-W27">27</a>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-27" class="sun future has-no-events">
+            <div class="inner"><div class="month day"> 27 </div><div class="calendar-empty">&nbsp;</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-28" class="mon future has-no-events">
+            <div class="inner"><div class="month day"> 28 </div><div class="calendar-empty">&nbsp;</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-29" class="tue future has-no-events">
+            <div class="inner"><div class="month day"> 29 </div><div class="calendar-empty">&nbsp;</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-06-30" class="wed future has-no-events">
+            <div class="inner"><div class="month day"> 30 </div><div class="calendar-empty">&nbsp;</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-07-01" class="thu empty">
+            <div class="inner"><div class="calendar-empty">&nbsp;</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-07-02" class="fri empty">
+            <div class="inner"><div class="calendar-empty">&nbsp;</div>
+</div>          </td>
+                  <td id="calendar_tentative_date_calendar-2021-07-03" class="sat empty">
+            <div class="inner"><div class="calendar-empty">&nbsp;</div>
+</div>          </td>
+              </tr>
+      </tbody>
+</table>
+</div></div>    </div>
+  
+  
+  
+  
+</div><!-- BEGIN block.tpl.php -->
+<script src="https://static.dudamobile.com/DM_redirect.js" type="text/javascript"></script>
+<script type="text/javascript">DM_redirect("http://mobile.yolo.courts.ca.gov");</script><!-- END block.tpl.php -->
+
+                            <!-- End content body -->
+                                                    </div>
+                                            </div>
+            </div>
+            <!-- BEGIN  body_footer.php -->
+<div id="footerWrap">
+    <div class="footerRight">&copy; 2021  Superior Court of California - County of Yolo</div>
+    <div class="footerLeft">
+    <!-- begin body_footer --><!-- BEGIN block.tpl.php -->
+<div><a href="/site/contact">Contact</a> | <a href="/disclaimer">Disclaimer</a> |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+<!-- END block.tpl.php -->
+
+	<!-- end body_footer -->
+    </div>
+</div>
+<div class="preloads"><img src="/sites/all/themes/calcourts/css/img/common/btn_over.gif" alt="" /><img src="/sites/all/themes/calcourts/css/img/common/btn-HomeColorOver.png" alt="" /><img src="/sites/all/themes/calcourts/css/img/common/btn-HomeGreyOver.png" alt="" /></div>
+<script type="text/javascript" src="/sites/all/themes/calcourts/js/jquery.tablesorter.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+   $(".faq dt").click(function() { $(this).next().slideToggle("fast"); });
+   $("#homeTabs div > ul > li").click(function() { $(this).siblings().removeClass("selected"); $(this).addClass("selected"); });
+   $("a[href^='http'], a[href$='.pdf").attr({ target: "_blank" });
+});
+</script>
+<!--[if LTE IE 7]>
+<script type="text/javascript">
+$(document).ready(function(){
+/*
+   $(".iconArrowRight, .iconArrow2Right").append('&nbsp;&nbsp;<img src="/sites/all/themes/calcourts/css/img/icon-externalLinks.gif" width="10" height="10" alt="" />');
+   $(".iconPDFLeft").prepend('<img src="/sites/all/themes/calcourts/css/img/icon-pdf.gif" width="10" height="10" alt="" />&nbsp;&nbsp;');
+   $(".iconPDFRight").append('&nbsp;&nbsp;<img src="/sites/all/themes/calcourts/css/img/icon-pdf.gif" width="10" height="10" alt="" />');
+   $(".iconPDF3Left").prepend('<img src="/sites/all/themes/calcourts/css/img/icon-pdf3.gif" width="10" height="10" alt="" />&nbsp;&nbsp;');
+   $(".iconPDF3Right").append('&nbsp;&nbsp;<img src="/sites/all/themes/calcourts/css/img/icon-pdf3.gif" width="10" height="10" alt="" />');
+*/
+   $(".chevron li").prepend('&raquo&nbsp;');
+   var rightwidth = $('.image').outerWidth();
+   if (rightwidth != 'NaNpx') {
+       $('.image').parent().width(rightwidth);
+   }
+});
+</script>
+<![endif]-->
+<!-- END body_footer.php -->
+
+            <div class="cleaner"></div>
+        </div>
+        <div class="cleaner"></div>
+    </div>
+    <script type="text/javascript" src="/sites/all/modules/google_cse/google_cse.js?0"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "googleCSE": { "language": "en" } });
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-96961744-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+</body>
+</html>
+<!-- END page.tpl.php -->
+
+

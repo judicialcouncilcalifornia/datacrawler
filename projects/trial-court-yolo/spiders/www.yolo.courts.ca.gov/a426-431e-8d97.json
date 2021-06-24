@@ -1,0 +1,107 @@
+{
+    "extractors": {}, 
+    "id": "a426-431e-8d97", 
+    "name": "sh", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "cb96-4c83-8c60", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "9347-48b0-a1b4", 
+                    "selector": ".hero", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "cb96-4c83-8c60", 
+                    "data": {
+                        "0e72-41aa-8c7b": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "edd0-45f4-b09f", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "4c39-4d61-979e", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".hero > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero \")]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter"
+                    ], 
+                    "container_id": "cb96-4c83-8c60", 
+                    "data": {
+                        "e88f-4d02-b6f7": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "cee9-47d9-8f47", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "821e-484a-820e", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenter", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenterWrap .contentColumn"
+                    ], 
+                    "container_id": "cb96-4c83-8c60", 
+                    "data": {
+                        "bf28-42ba-ae7f": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "e311-4c80-b047", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "50ca-4ebc-834a", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenterWrap .contentColumn", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenterWrap .contentColumn \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "9347-48b0-a1b4", 
+    "spider": "www.yolo.courts.ca.gov", 
+    "url": "https://www.yolo.courts.ca.gov/self-help/main", 
+    "version": "0.13.3"
+}
