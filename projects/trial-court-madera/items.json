@@ -1,1 +1,28 @@
-{}
+{
+    "25ca-4b88-a30f": {
+        "fields": {
+            "a76a-495d-b8d3": {
+                "id": "a76a-495d-b8d3", 
+                "name": "title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "9456-49e0-b116": {
+                "id": "9456-49e0-b116", 
+                "name": "body", 
+                "required": false, 
+                "type": "raw html", 
+                "vary": false
+            }, 
+            "c735-44ba-b15f": {
+                "id": "c735-44ba-b15f", 
+                "name": "parent", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }
+        }, 
+        "name": "page"
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "extractors": {}, 
+    "id": "d0fd-48d4-9e1e", 
+    "name": "os", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "cacd-45fa-9d78", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "25ca-4b88-a30f", 
+                    "selector": ".jcc-hero__column-left:nth-child(1)", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".jcc-hero__title"
+                    ], 
+                    "container_id": "cacd-45fa-9d78", 
+                    "data": {
+                        "bc89-46c5-9bfe": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "a76a-495d-b8d3", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "084a-4cd5-9744", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".jcc-hero__column-left:nth-child(1) > .jcc-hero__title", 
+                    "tagid": null, 
+                    "xpath": "//*[1][contains(concat(\" \", @class, \" \"), \" jcc-hero__column-left \")]/*[contains(concat(\" \", @class, \" \"), \" jcc-hero__title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".jcc-hero__columns, .grid-container-widescreen, .jcc-text-section-aside__container:nth-child(2)"
+                    ], 
+                    "container_id": "cacd-45fa-9d78", 
+                    "data": {
+                        "ad81-49f8-82db": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "9456-49e0-b116", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "a3b3-4989-a970", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".jcc-hero__columns, .grid-container-widescreen, .jcc-text-section-aside__container:nth-child(2)", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" jcc-hero__columns \")] | //*[contains(concat(\" \", @class, \" \"), \" grid-container-widescreen \")] | //*[2][contains(concat(\" \", @class, \" \"), \" jcc-text-section-aside__container \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".jcc-breadcrumbs li:nth-last-child(2) a"
+                    ], 
+                    "container_id": "cacd-45fa-9d78", 
+                    "data": {
+                        "2c16-4e5b-9744": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "c735-44ba-b15f", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "3aaa-4a3f-87c6", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".jcc-breadcrumbs li:nth-last-child(2) a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" jcc-breadcrumbs li:nth-last-child(2) a \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "25ca-4b88-a30f", 
+    "spider": "www.madera.courts.ca.gov", 
+    "url": "https://www.madera.courts.ca.gov/online-services", 
+    "version": "0.13.3"
+}

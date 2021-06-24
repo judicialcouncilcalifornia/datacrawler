@@ -1,0 +1,82 @@
+{
+    "extractors": {}, 
+    "id": "1034-496f-9493", 
+    "name": "os-ji", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "0468-4c02-8da5", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "25ca-4b88-a30f", 
+                    "selector": null, 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".jcc-hero__body"
+                    ], 
+                    "container_id": "0468-4c02-8da5", 
+                    "data": {
+                        "0d24-49f2-a08d": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "9456-49e0-b116", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "e40c-46f5-937b", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".jcc-hero__body", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" jcc-hero__body \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".jcc-hero__title"
+                    ], 
+                    "container_id": "0468-4c02-8da5", 
+                    "data": {
+                        "368c-4725-97a5": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "a76a-495d-b8d3", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "e8d4-401e-b67b", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".jcc-hero__title", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" jcc-hero__title \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "25ca-4b88-a30f", 
+    "spider": "www.madera.courts.ca.gov", 
+    "url": "https://www.madera.courts.ca.gov/online-services/jury-information", 
+    "version": "0.13.3"
+}
