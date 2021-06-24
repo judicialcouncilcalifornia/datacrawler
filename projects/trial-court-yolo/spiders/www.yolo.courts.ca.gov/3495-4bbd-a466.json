@@ -24,7 +24,7 @@
                 }, 
                 {
                     "accept_selectors": [
-                        "h1"
+                        ".hero > h1"
                     ], 
                     "container_id": "f152-46dd-8c0d", 
                     "data": {
@@ -42,7 +42,7 @@
                     "reject_selectors": [], 
                     "required": [], 
                     "repeated": false, 
-                    "selection_mode": "auto", 
+                    "selection_mode": "css", 
                     "selector": ".hero > h1", 
                     "tagid": null, 
                     "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero \")]/h1"

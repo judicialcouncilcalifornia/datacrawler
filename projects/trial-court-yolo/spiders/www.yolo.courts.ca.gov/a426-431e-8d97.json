@@ -42,7 +42,7 @@
                     "reject_selectors": [], 
                     "required": [], 
                     "repeated": false, 
-                    "selection_mode": "auto", 
+                    "selection_mode": "css", 
                     "selector": ".hero > h1", 
                     "tagid": null, 
                     "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero \")]/h1"

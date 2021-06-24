@@ -1,7 +1,7 @@
 {
     "extractors": {}, 
-    "id": "4be9-4f4f-8ba3", 
-    "name": "os-tentative-rulings", 
+    "id": "de90-42bd-ae3c", 
+    "name": "gj", 
     "page_id": "", 
     "page_type": "item", 
     "plugins": {
@@ -12,7 +12,7 @@
                         "#portia-content": "#dummy"
                     }, 
                     "container_id": null, 
-                    "id": "daad-4a7f-b034", 
+                    "id": "252e-4d44-a26b", 
                     "item_container": true, 
                     "repeated": false, 
                     "required": [], 
@@ -26,41 +26,41 @@
                     "accept_selectors": [
                         "h1"
                     ], 
-                    "container_id": "daad-4a7f-b034", 
+                    "container_id": "252e-4d44-a26b", 
                     "data": {
-                        "4aec-443e-bd46": {
+                        "4098-4b32-b484": {
                             "attribute": "content", 
                             "extractors": {}, 
                             "field": "edd0-45f4-b09f", 
                             "required": false
                         }
                     }, 
-                    "id": "3a48-474b-9e30", 
+                    "id": "a184-4fc2-82ad", 
                     "text-content": "content", 
                     "post_text": null, 
                     "pre_text": null, 
                     "reject_selectors": [], 
                     "required": [], 
                     "repeated": false, 
-                    "selection_mode": "css", 
+                    "selection_mode": "auto", 
                     "selector": ".hero > h1", 
                     "tagid": null, 
                     "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero \")]/h1"
                 }, 
                 {
                     "accept_selectors": [
-                        ".contentCenterWide"
+                        ".contentCenter"
                     ], 
-                    "container_id": "daad-4a7f-b034", 
+                    "container_id": "252e-4d44-a26b", 
                     "data": {
-                        "568e-4efd-a4fa": {
+                        "4534-4590-b630": {
                             "attribute": "content", 
                             "extractors": {}, 
                             "field": "cee9-47d9-8f47", 
                             "required": false
                         }
                     }, 
-                    "id": "510f-4003-9f24", 
+                    "id": "d3ff-4f59-b987", 
                     "text-content": "content", 
                     "post_text": null, 
                     "pre_text": null, 
@@ -68,15 +68,40 @@
                     "required": [], 
                     "repeated": false, 
                     "selection_mode": "css", 
-                    "selector": ".contentCenterWide", 
+                    "selector": ".contentCenter", 
                     "tagid": null, 
-                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenterWide \")]"
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenterWrap .contentColumn"
+                    ], 
+                    "container_id": "252e-4d44-a26b", 
+                    "data": {
+                        "61f3-4cb9-9b84": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "e311-4c80-b047", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "3875-4eb5-a655", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenterWrap .contentColumn", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenterWrap .contentColumn \")]"
                 }
             ]
         }
     }, 
     "scrapes": "9347-48b0-a1b4", 
     "spider": "www.yolo.courts.ca.gov", 
-    "url": "https://www.yolo.courts.ca.gov/online-services/tentative-rulings", 
+    "url": "https://www.yolo.courts.ca.gov/GrandJury", 
     "version": "0.13.3"
 }
