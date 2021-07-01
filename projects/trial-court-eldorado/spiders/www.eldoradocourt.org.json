@@ -1,7 +1,9 @@
 {
     "allowed_domains": [], 
     "exclude_patterns": [], 
-    "follow_patterns": [], 
+    "follow_patterns": [
+        "http://www.eldoradocourt.org/*"
+    ], 
     "id": "www.eldoradocourt.org", 
     "js_disable_patterns": [], 
     "js_enable_patterns": [], 
@@ -10,8 +12,12 @@
     "respect_nofollow": false, 
     "start_urls": [
         {
-            "url": "http://www.eldoradocourt.org/", 
-            "type": "url"
+            "type": "url", 
+            "url": "http://www.eldoradocourt.org/"
+        }, 
+        {
+            "type": "feed", 
+            "url": "https://gist.githubusercontent.com/ivanbueno-jcc/bc35f6f9d9094805be0bb3f13ccc79d0/raw/71af109d2afba7d83ca360eb0634d8129e568a5a/gistfile1.txt"
         }
     ]
 }

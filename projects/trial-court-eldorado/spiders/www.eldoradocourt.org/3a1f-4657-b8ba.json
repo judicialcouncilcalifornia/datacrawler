@@ -1,0 +1,132 @@
+{
+    "extractors": {}, 
+    "id": "3a1f-4657-b8ba", 
+    "name": "dv-appeals", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "061d-4f29-8ddd", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "cf6c-4b31-abdb", 
+                    "selector": ".hero", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenterWrap .contentColumn"
+                    ], 
+                    "container_id": "061d-4f29-8ddd", 
+                    "data": {
+                        "f21f-47cd-ae72": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "defb-4eea-b974", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "fa16-405e-baf2", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenterWrap .contentColumn", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenterWrap .contentColumn \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter"
+                    ], 
+                    "container_id": "061d-4f29-8ddd", 
+                    "data": {
+                        "bcf7-4ed4-b668": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "1d0e-4ae3-a08d", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "c472-4478-a1c8", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenter", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".subMenu a:last-of-type"
+                    ], 
+                    "container_id": "061d-4f29-8ddd", 
+                    "data": {
+                        "b6da-430f-840f": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "78dd-409a-9ac8", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "a4c0-4b47-82b1", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".subMenu a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" subMenu a:last-of-type \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".title"
+                    ], 
+                    "container_id": "061d-4f29-8ddd", 
+                    "data": {
+                        "9ea1-44b9-a4ed": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "ad51-4dd9-bcf8", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "668b-4987-ab4b", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".hero > .title", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero \")]/*[contains(concat(\" \", @class, \" \"), \" title \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "cf6c-4b31-abdb", 
+    "spider": "www.eldoradocourt.org", 
+    "url": "http://www.eldoradocourt.org/divisions/appeals.html", 
+    "version": "0.13.3"
+}

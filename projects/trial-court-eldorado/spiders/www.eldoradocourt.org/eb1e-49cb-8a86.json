@@ -1,0 +1,132 @@
+{
+    "extractors": {}, 
+    "id": "eb1e-49cb-8a86", 
+    "name": "os-payfines", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "da4b-4d9b-9b35", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "cf6c-4b31-abdb", 
+                    "selector": ".hero", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenterWrap .contentColumn"
+                    ], 
+                    "container_id": "da4b-4d9b-9b35", 
+                    "data": {
+                        "1d03-480f-9a5a": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "defb-4eea-b974", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "361e-4d01-b553", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenterWrap .contentColumn", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenterWrap .contentColumn \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenterWide"
+                    ], 
+                    "container_id": "da4b-4d9b-9b35", 
+                    "data": {
+                        "6fee-48bd-9c42": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "1d0e-4ae3-a08d", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "7927-4f6b-a210", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenterWide", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenterWide \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".subMenu a:last-of-type"
+                    ], 
+                    "container_id": "da4b-4d9b-9b35", 
+                    "data": {
+                        "8cb2-4999-8242": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "78dd-409a-9ac8", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "8a17-4f8b-afa3", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".subMenu a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" subMenu a:last-of-type \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".title"
+                    ], 
+                    "container_id": "da4b-4d9b-9b35", 
+                    "data": {
+                        "ee09-40d1-ae6e": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "ad51-4dd9-bcf8", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "fac1-4139-a405", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".hero > .title", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero \")]/*[contains(concat(\" \", @class, \" \"), \" title \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "cf6c-4b31-abdb", 
+    "spider": "www.eldoradocourt.org", 
+    "url": "http://www.eldoradocourt.org/onlineservices/payfines.html", 
+    "version": "0.13.3"
+}

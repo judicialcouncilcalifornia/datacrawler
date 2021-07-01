@@ -1,0 +1,107 @@
+{
+    "extractors": {}, 
+    "id": "2068-4fb0-a198", 
+    "name": "gi", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "8a86-4cef-a280", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "cf6c-4b31-abdb", 
+                    "selector": ".hero", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenterWide"
+                    ], 
+                    "container_id": "8a86-4cef-a280", 
+                    "data": {
+                        "05ed-446f-8f86": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "1d0e-4ae3-a08d", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "a842-41ac-86e5", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenterWide", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenterWide \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".subMenu a:last-of-type"
+                    ], 
+                    "container_id": "8a86-4cef-a280", 
+                    "data": {
+                        "75ce-409f-819b": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "78dd-409a-9ac8", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "6c8b-487d-b101", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".subMenu a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" subMenu a:last-of-type \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".title"
+                    ], 
+                    "container_id": "8a86-4cef-a280", 
+                    "data": {
+                        "128e-4f18-8ad5": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "ad51-4dd9-bcf8", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "65ea-4d89-9a89", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".hero > .title", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero \")]/*[contains(concat(\" \", @class, \" \"), \" title \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "cf6c-4b31-abdb", 
+    "spider": "www.eldoradocourt.org", 
+    "url": "http://www.eldoradocourt.org/generalinfo/index.html", 
+    "version": "0.13.3"
+}

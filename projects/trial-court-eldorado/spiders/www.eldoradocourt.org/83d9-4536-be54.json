@@ -1,0 +1,107 @@
+{
+    "extractors": {}, 
+    "id": "83d9-4536-be54", 
+    "name": "os-livestream", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "c860-4e0e-ba93", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "cf6c-4b31-abdb", 
+                    "selector": ".hero", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenterWide"
+                    ], 
+                    "container_id": "c860-4e0e-ba93", 
+                    "data": {
+                        "9fe1-4496-8d5f": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "1d0e-4ae3-a08d", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "6b15-4db8-a18f", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenterWide", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenterWide \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".subMenu a:last-of-type"
+                    ], 
+                    "container_id": "c860-4e0e-ba93", 
+                    "data": {
+                        "57de-4767-9fa9": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "78dd-409a-9ac8", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "c652-43be-b6bd", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".subMenu a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" subMenu a:last-of-type \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".title"
+                    ], 
+                    "container_id": "c860-4e0e-ba93", 
+                    "data": {
+                        "c70b-4fc1-bed2": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "ad51-4dd9-bcf8", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "42b0-46a5-9af9", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".hero > .title", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero \")]/*[contains(concat(\" \", @class, \" \"), \" title \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "cf6c-4b31-abdb", 
+    "spider": "www.eldoradocourt.org", 
+    "url": "http://www.eldoradocourt.org/onlineservices/livestream.html", 
+    "version": "0.13.3"
+}
