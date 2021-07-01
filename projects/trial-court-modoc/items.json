@@ -1,0 +1,35 @@
+{
+    "7e28-449c-abb7": {
+        "fields": {
+            "ecf0-4b04-9fcb": {
+                "id": "ecf0-4b04-9fcb", 
+                "name": "title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "3a22-4405-93c4": {
+                "id": "3a22-4405-93c4", 
+                "name": "body", 
+                "required": false, 
+                "type": "raw html", 
+                "vary": false
+            }, 
+            "bc06-4c80-a3eb": {
+                "id": "bc06-4c80-a3eb", 
+                "name": "parent", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }, 
+            "49ed-4ffb-95e7": {
+                "id": "49ed-4ffb-95e7", 
+                "name": "aside", 
+                "required": false, 
+                "type": "raw html", 
+                "vary": false
+            }
+        }, 
+        "name": "page"
+    }
+}

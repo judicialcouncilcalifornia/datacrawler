@@ -1,0 +1,107 @@
+{
+    "extractors": {}, 
+    "id": "4de6-4077-a067", 
+    "name": "dv", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "175f-4dad-b0d8", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "7e28-449c-abb7", 
+                    "selector": ".hero", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        "h1"
+                    ], 
+                    "container_id": "175f-4dad-b0d8", 
+                    "data": {
+                        "9d4d-42d6-89eb": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "ecf0-4b04-9fcb", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "dc25-4682-9cfc", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".hero > h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero \")]/h1"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentMain .hero .wrap, #mainContent"
+                    ], 
+                    "container_id": "175f-4dad-b0d8", 
+                    "data": {
+                        "f976-4569-ad2a": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "3a22-4405-93c4", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "6b76-4369-9b37", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentMain .hero .wrap, #mainContent", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentMain .hero .wrap \")] | //*[@id=\"mainContent\"]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#breadcrumb a:last-of-type"
+                    ], 
+                    "container_id": "175f-4dad-b0d8", 
+                    "data": {
+                        "eb9e-4e04-9718": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "bc06-4c80-a3eb", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "2162-48ac-9f3f", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#breadcrumb a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"breadcrumb a:last-of-type\"]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "7e28-449c-abb7", 
+    "spider": "www.modoc.courts.ca.gov", 
+    "url": "https://www.modoc.courts.ca.gov/divisions/index.htm", 
+    "version": "0.13.3"
+}
