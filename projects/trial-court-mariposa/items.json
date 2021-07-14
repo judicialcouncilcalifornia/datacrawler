@@ -1,0 +1,42 @@
+{
+    "0967-4ed1-ae10": {
+        "fields": {
+            "44fe-4b4b-8fd6": {
+                "id": "44fe-4b4b-8fd6", 
+                "name": "title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "27ad-4254-9082": {
+                "id": "27ad-4254-9082", 
+                "name": "body", 
+                "required": false, 
+                "type": "raw html", 
+                "vary": false
+            }, 
+            "af58-4e58-98fc": {
+                "id": "af58-4e58-98fc", 
+                "name": "parent", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }, 
+            "e21e-4cb8-ac6a": {
+                "id": "e21e-4cb8-ac6a", 
+                "name": "aside", 
+                "required": false, 
+                "type": "raw html", 
+                "vary": false
+            }, 
+            "eea8-45bb-ba21": {
+                "id": "eea8-45bb-ba21", 
+                "name": "field1", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }
+        }, 
+        "name": "page"
+    }
+}

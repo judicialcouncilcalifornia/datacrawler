@@ -1,0 +1,107 @@
+{
+    "extractors": {}, 
+    "id": "280d-4ba2-9da1", 
+    "name": "os", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "4e45-4e1b-a927", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "0967-4ed1-ae10", 
+                    "selector": null, 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".hero .title"
+                    ], 
+                    "container_id": "4e45-4e1b-a927", 
+                    "data": {
+                        "6124-40da-a68b": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "44fe-4b4b-8fd6", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "f8b5-470c-8d72", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".hero .title", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero .title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenterWide"
+                    ], 
+                    "container_id": "4e45-4e1b-a927", 
+                    "data": {
+                        "44d2-4c6d-bafe": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "27ad-4254-9082", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "0763-48c6-901b", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenterWide", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenterWide \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".subMenu a:last-of-type"
+                    ], 
+                    "container_id": "4e45-4e1b-a927", 
+                    "data": {
+                        "f6da-4ec5-8ee5": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "af58-4e58-98fc", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "c434-4d0f-b98a", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".subMenu a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" subMenu a:last-of-type \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "0967-4ed1-ae10", 
+    "spider": "www.mariposacourt.org", 
+    "url": "http://www.mariposacourt.org/onlineservices/index.shtml", 
+    "version": "0.13.3"
+}
