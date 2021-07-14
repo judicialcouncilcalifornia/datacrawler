@@ -74,7 +74,7 @@
                 }, 
                 {
                     "accept_selectors": [
-                        ".contentCenter"
+                        ".contentCenter, .hero > .banner, .contentCenterWide .simpleModule, .contentCenterWide .wrapThreeColumns"
                     ], 
                     "container_id": "2a98-4f7a-8aec", 
                     "data": {
@@ -93,9 +93,9 @@
                     "required": [], 
                     "repeated": false, 
                     "selection_mode": "css", 
-                    "selector": ".contentCenter", 
+                    "selector": ".contentCenter, .hero > .banner, .contentCenterWide .simpleModule, .contentCenterWide .wrapThreeColumns", 
                     "tagid": null, 
-                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]"
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")] | //*[contains(concat(\" \", @class, \" \"), \" hero \")]/*[contains(concat(\" \", @class, \" \"), \" banner \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .simpleModule \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .wrapThreeColumns \")]"
                 }, 
                 {
                     "accept_selectors": [
