@@ -74,7 +74,7 @@
                 }, 
                 {
                     "accept_selectors": [
-                        ".contentCenter, .hero > .banner, .contentCenterWide .simpleModule, .contentCenterWide .wrapThreeColumns, .contentCenterWide .banner3, .contentCenterWide .alignModule, .contentCenterWide .simpleModule3"
+                        ".contentCenter, .hero > .banner, .contentCenterWide .simpleModule, .contentCenterWide .wrapThreeColumns, .contentCenterWide .banner3, .contentCenterWide .alignModule, .contentCenterWide .simpleModule3, .contentCenterWide .threeColumns"
                     ], 
                     "container_id": "2a98-4f7a-8aec", 
                     "data": {
@@ -93,9 +93,9 @@
                     "required": [], 
                     "repeated": false, 
                     "selection_mode": "css", 
-                    "selector": ".contentCenter, .hero > .banner, .contentCenterWide .simpleModule, .contentCenterWide .wrapThreeColumns, .contentCenterWide .banner3, .contentCenterWide .alignModule, .contentCenterWide .simpleModule3", 
+                    "selector": ".contentCenter, .hero > .banner, .contentCenterWide .simpleModule, .contentCenterWide .wrapThreeColumns, .contentCenterWide .banner3, .contentCenterWide .alignModule, .contentCenterWide .simpleModule3, .contentCenterWide .threeColumns", 
                     "tagid": null, 
-                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")] | //*[contains(concat(\" \", @class, \" \"), \" hero \")]/*[contains(concat(\" \", @class, \" \"), \" banner \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .simpleModule \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .wrapThreeColumns \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .banner3 \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .alignModule \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .simpleModule3 \")]"
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")] | //*[contains(concat(\" \", @class, \" \"), \" hero \")]/*[contains(concat(\" \", @class, \" \"), \" banner \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .simpleModule \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .wrapThreeColumns \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .banner3 \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .alignModule \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .simpleModule3 \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .threeColumns \")]"
                 }, 
                 {
                     "accept_selectors": [
