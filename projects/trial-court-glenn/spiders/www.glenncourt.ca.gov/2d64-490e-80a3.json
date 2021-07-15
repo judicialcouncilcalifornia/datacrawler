@@ -1,0 +1,132 @@
+{
+    "extractors": {}, 
+    "id": "2d64-490e-80a3", 
+    "name": "dv-collection", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "cb6d-4b5a-a386", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "e501-426e-9d0c", 
+                    "selector": null, 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".hero .title"
+                    ], 
+                    "container_id": "cb6d-4b5a-a386", 
+                    "data": {
+                        "8289-4ef7-aa6b": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "2a05-4e12-b53f", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "d963-404c-8d53", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".hero .title", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero .title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".subMenu a:last-of-type"
+                    ], 
+                    "container_id": "cb6d-4b5a-a386", 
+                    "data": {
+                        "1358-42dd-90e3": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "db99-4f5e-9117", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "339c-4512-9447", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".subMenu a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" subMenu a:last-of-type \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenterWide .simpleModule3, .contentCenterWide .alignModule, .contentCenterWide .banner2, .contentCenter"
+                    ], 
+                    "container_id": "cb6d-4b5a-a386", 
+                    "data": {
+                        "955b-4387-b3fb": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "04c4-49f6-8adb", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "f879-4d79-9aa2", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenterWide .simpleModule3, .contentCenterWide .alignModule, .contentCenterWide .banner2, .contentCenter", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .simpleModule3 \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .alignModule \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .banner2 \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenterWide .contentColumn"
+                    ], 
+                    "container_id": "cb6d-4b5a-a386", 
+                    "data": {
+                        "e2a3-4beb-8466": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "2d23-49d2-8983", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "2341-4fdb-b0a7", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenterWide .contentColumn", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .contentColumn \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "e501-426e-9d0c", 
+    "spider": "www.glenncourt.ca.gov", 
+    "url": "https://www.glenncourt.ca.gov/divisions/collection.shtml", 
+    "version": "0.13.3"
+}
