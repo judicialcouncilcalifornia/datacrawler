@@ -1,12 +1,16 @@
 {
     "allowed_domains": [], 
-    "exclude_patterns": [], 
-    "follow_patterns": [], 
+    "exclude_patterns": [
+        "https://www.glenncourt.ca.gov/_dev/*"
+    ], 
+    "follow_patterns": [
+        "https://www.glenncourt.ca.gov/*"
+    ], 
     "id": "www.glenncourt.ca.gov", 
     "js_disable_patterns": [], 
     "js_enable_patterns": [], 
     "js_enabled": false, 
-    "links_to_follow": "all", 
+    "links_to_follow": "patterns", 
     "respect_nofollow": false, 
     "start_urls": [
         {

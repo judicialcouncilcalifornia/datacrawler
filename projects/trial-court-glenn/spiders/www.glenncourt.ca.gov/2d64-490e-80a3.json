@@ -74,7 +74,7 @@
                 }, 
                 {
                     "accept_selectors": [
-                        ".contentCenterWide .simpleModule3, .contentCenterWide .alignModule, .contentCenterWide .banner2, .contentCenter"
+                        ".contentCenterWide .simpleModule3, .contentCenterWrap .simpleModule3, .contentCenterWide .alignModule, .contentCenterWide .banner2, .contentCenter, .simpleModule3 .onlineTable, .contentCenterWide .formTable"
                     ], 
                     "container_id": "cb6d-4b5a-a386", 
                     "data": {
@@ -93,9 +93,9 @@
                     "required": [], 
                     "repeated": false, 
                     "selection_mode": "css", 
-                    "selector": ".contentCenterWide .simpleModule3, .contentCenterWide .alignModule, .contentCenterWide .banner2, .contentCenter", 
+                    "selector": ".contentCenterWide .simpleModule3, .contentCenterWrap .simpleModule3, .contentCenterWide .alignModule, .contentCenterWide .banner2, .contentCenter, .simpleModule3 .onlineTable, .contentCenterWide .formTable", 
                     "tagid": null, 
-                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .simpleModule3 \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .alignModule \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .banner2 \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenter \")]"
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .simpleModule3 \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWrap .simpleModule3 \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .alignModule \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .banner2 \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenter \")] | //*[contains(concat(\" \", @class, \" \"), \" simpleModule3 .onlineTable \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide .formTable \")]"
                 }, 
                 {
                     "accept_selectors": [
