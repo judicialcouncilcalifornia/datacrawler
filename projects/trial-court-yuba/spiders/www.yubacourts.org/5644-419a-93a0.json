@@ -1,0 +1,132 @@
+{
+    "extractors": {}, 
+    "id": "5644-419a-93a0", 
+    "name": "sh", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "a253-44fb-8603", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "c393-4417-945d", 
+                    "selector": null, 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".hero h1"
+                    ], 
+                    "container_id": "a253-44fb-8603", 
+                    "data": {
+                        "5f08-4db8-a2a8": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "a4ab-4b3d-84df", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "ec51-4731-a28d", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".hero h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" hero h1 \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".subMenu a:last-of-type"
+                    ], 
+                    "container_id": "a253-44fb-8603", 
+                    "data": {
+                        "6e69-4e62-9aa8": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "76cd-4760-a46e", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "f1d9-414d-a259", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".subMenu a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" subMenu a:last-of-type \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenterWrap .contentColumn"
+                    ], 
+                    "container_id": "a253-44fb-8603", 
+                    "data": {
+                        "50d5-4ada-a5ae": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "ecb2-444f-8d96", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "2937-420a-a33b", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenterWrap .contentColumn", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenterWrap .contentColumn \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenter, .hero .banner .wrap, .hero2 p, .contentCenterWide"
+                    ], 
+                    "container_id": "a253-44fb-8603", 
+                    "data": {
+                        "dd8f-450c-82eb": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "4ed7-4c6c-b5bb", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "5b63-4be9-bef3", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentCenter, .hero .banner .wrap, .hero2 p, .contentCenterWide", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenter \")] | //*[contains(concat(\" \", @class, \" \"), \" hero .banner .wrap \")] | //*[contains(concat(\" \", @class, \" \"), \" hero2 p \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenterWide \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "c393-4417-945d", 
+    "spider": "www.yubacourts.org", 
+    "url": "http://www.yubacourts.org/self-help/family-law-facilitator", 
+    "version": "0.13.3"
+}
