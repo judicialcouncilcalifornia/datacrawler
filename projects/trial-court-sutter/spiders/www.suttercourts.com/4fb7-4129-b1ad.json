@@ -1,0 +1,132 @@
+{
+    "extractors": {}, 
+    "id": "4fb7-4129-b1ad", 
+    "name": "division", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "4dbd-4473-ab91", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "1053-4546-afc2", 
+                    "selector": null, 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentMain h1"
+                    ], 
+                    "container_id": "4dbd-4473-ab91", 
+                    "data": {
+                        "c0af-4036-9df1": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "251b-4a59-a338", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "d3c0-460f-be40", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentMain h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentMain h1 \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentMain .banner, .contentCenter .col-xs-12, .contentCenter .col-xs-8"
+                    ], 
+                    "container_id": "4dbd-4473-ab91", 
+                    "data": {
+                        "411c-4d2a-8797": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "aa5e-43cb-a1e7", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "b234-4ae7-909f", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".contentMain .banner, .contentCenter .col-xs-12, .contentCenter .col-xs-8", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentMain .banner \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenter .col-xs-12 \")] | //*[contains(concat(\" \", @class, \" \"), \" contentCenter .col-xs-8 \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        "#floatRight"
+                    ], 
+                    "container_id": "4dbd-4473-ab91", 
+                    "data": {
+                        "3bee-4d4d-823f": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "c388-417e-9949", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "7552-40e6-a851", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": "#floatRight", 
+                    "tagid": null, 
+                    "xpath": "//*[@id=\"floatRight\"]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".breadcrumb li:nth-last-child(2) a"
+                    ], 
+                    "container_id": "4dbd-4473-ab91", 
+                    "data": {
+                        "9bf3-4ff6-82d5": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "3411-47ae-8b3a", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "0053-4fce-b900", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".breadcrumb li:nth-last-child(2) a", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" breadcrumb li:nth-last-child(2) a \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "1053-4546-afc2", 
+    "spider": "www.suttercourts.com", 
+    "url": "https://www.suttercourts.com/divisions", 
+    "version": "0.13.3"
+}

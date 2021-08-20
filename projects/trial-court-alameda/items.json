@@ -1,0 +1,28 @@
+{
+    "5f51-4abb-8688": {
+        "fields": {
+            "ecdd-4908-9dc4": {
+                "id": "ecdd-4908-9dc4", 
+                "name": "title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "ad44-4c4d-81e7": {
+                "id": "ad44-4c4d-81e7", 
+                "name": "body", 
+                "required": false, 
+                "type": "raw html", 
+                "vary": false
+            }, 
+            "61a4-47c2-8e6d": {
+                "id": "61a4-47c2-8e6d", 
+                "name": "parent", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }
+        }, 
+        "name": "page"
+    }
+}

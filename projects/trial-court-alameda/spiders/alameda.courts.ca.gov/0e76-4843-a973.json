@@ -1,0 +1,107 @@
+{
+    "extractors": {}, 
+    "id": "0e76-4843-a973", 
+    "name": "civil", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "b3c5-46e7-85a4", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "5f51-4abb-8688", 
+                    "selector": null, 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentContainer h1"
+                    ], 
+                    "container_id": "b3c5-46e7-85a4", 
+                    "data": {
+                        "251b-476a-8dbc": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "ecdd-4908-9dc4", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "adce-4b5c-a074", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentContainer h1", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentContainer h1 \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentContainer"
+                    ], 
+                    "container_id": "b3c5-46e7-85a4", 
+                    "data": {
+                        "ba7a-438e-afe7": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "ad44-4c4d-81e7", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "ee89-49fe-91d2", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".contentContainer", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentContainer \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".breadcrumbs a:first-of-type"
+                    ], 
+                    "container_id": "b3c5-46e7-85a4", 
+                    "data": {
+                        "ee46-4efa-b6cf": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "61a4-47c2-8e6d", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "6c56-4c7a-97ee", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".breadcrumbs a:first-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" breadcrumbs a:first-of-type \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "5f51-4abb-8688", 
+    "spider": "alameda.courts.ca.gov", 
+    "url": "http://alameda.courts.ca.gov/Pages.aspx/Civil", 
+    "version": "0.13.3"
+}

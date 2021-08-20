@@ -1,0 +1,35 @@
+{
+    "1053-4546-afc2": {
+        "fields": {
+            "251b-4a59-a338": {
+                "id": "251b-4a59-a338", 
+                "name": "title", 
+                "required": false, 
+                "type": "text", 
+                "vary": false
+            }, 
+            "aa5e-43cb-a1e7": {
+                "id": "aa5e-43cb-a1e7", 
+                "name": "body", 
+                "required": false, 
+                "type": "raw html", 
+                "vary": false
+            }, 
+            "c388-417e-9949": {
+                "id": "c388-417e-9949", 
+                "name": "aside", 
+                "required": false, 
+                "type": "raw html", 
+                "vary": false
+            }, 
+            "3411-47ae-8b3a": {
+                "id": "3411-47ae-8b3a", 
+                "name": "parent", 
+                "required": false, 
+                "type": "url", 
+                "vary": false
+            }
+        }, 
+        "name": "page"
+    }
+}
