@@ -1,0 +1,107 @@
+{
+    "extractors": {}, 
+    "id": "585b-4ea5-9962", 
+    "name": "os", 
+    "page_id": "", 
+    "page_type": "item", 
+    "plugins": {
+        "annotations-plugin": {
+            "extracts": [
+                {
+                    "annotations": {
+                        "#portia-content": "#dummy"
+                    }, 
+                    "container_id": null, 
+                    "id": "52e6-4f22-be89", 
+                    "item_container": true, 
+                    "repeated": false, 
+                    "required": [], 
+                    "schema_id": "3e45-4fcb-bb67", 
+                    "selector": ".contentCenterWide > .hero", 
+                    "siblings": 0, 
+                    "tagid": null, 
+                    "text-content": "#portia-content"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".contentCenterWide > .hero > .title"
+                    ], 
+                    "container_id": "52e6-4f22-be89", 
+                    "data": {
+                        "ab72-4c2f-b986": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "3086-4b84-b38e", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "d3a9-4303-80fd", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "auto", 
+                    "selector": ".contentCenterWide > .hero > .title", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" contentCenterWide \")]/*[contains(concat(\" \", @class, \" \"), \" hero \")]/*[contains(concat(\" \", @class, \" \"), \" title \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".region-content .content"
+                    ], 
+                    "container_id": "52e6-4f22-be89", 
+                    "data": {
+                        "f4ba-4ee5-90df": {
+                            "attribute": "content", 
+                            "extractors": {}, 
+                            "field": "6185-4a95-a2eb", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "c578-4899-bbe0", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": true, 
+                    "selection_mode": "css", 
+                    "selector": ".region-content .content", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" region-content .content \")]"
+                }, 
+                {
+                    "accept_selectors": [
+                        ".subMenu a:last-of-type"
+                    ], 
+                    "container_id": "52e6-4f22-be89", 
+                    "data": {
+                        "2024-4b79-94e2": {
+                            "attribute": "href", 
+                            "extractors": {}, 
+                            "field": "b1d3-41ba-997d", 
+                            "required": false
+                        }
+                    }, 
+                    "id": "7c1f-4740-9ab9", 
+                    "text-content": "content", 
+                    "post_text": null, 
+                    "pre_text": null, 
+                    "reject_selectors": [], 
+                    "required": [], 
+                    "repeated": false, 
+                    "selection_mode": "css", 
+                    "selector": ".subMenu a:last-of-type", 
+                    "tagid": null, 
+                    "xpath": "//*[contains(concat(\" \", @class, \" \"), \" subMenu a:last-of-type \")]"
+                }
+            ]
+        }
+    }, 
+    "scrapes": "3e45-4fcb-bb67", 
+    "spider": "www.stanct.org", 
+    "url": "https://www.stanct.org/online-services", 
+    "version": "0.13.3"
+}
