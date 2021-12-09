@@ -24,7 +24,7 @@ class NevadaCourtsCaGovSpider(CrawlSpider):
     def parse_item(self, response):
         item = TrialCourtNevadaItem()
         item['url'] = response.url
-        item['title'] = response.css('.hero .title::text, .hero4 .title::text,.hero .title .auto-style1::text,.hero .title .auto-style2::text').get().strip()
+        item['title'] = response.css('.hero .title .auto-style1::text,.hero .title .auto-style2::text,.hero .title::text, .hero4 .title::text').get().strip()
         item['body'] = response.css('.contentCenterWide,.contentCenterWrap .contentCenter,.contentCenterWrap .contentColumn').get().strip()
         item['parent'] = 'http://nccourt.net/' + response.css('.subMenu a:last-of-type::attr(href)').get().strip()
         yield item
